@@ -4,53 +4,58 @@ import logging
 from pathlib import Path
 from typing import Optional
 
-class MexoraExtractor:
-    """
-    Classe responsable de l'extraction des données brutes de Mexora.
-    Gère la lecture des fichiers CSV et JSON avec gestion des erreurs.
-    """
-    def __init__(self, data_folder: str = 'data'):
-        # Utilisation de Pathlib pour une meilleure gestion des chemins (Windows/Mac/Linux)
-        self.data_folder = Path(data_folder)
+# Configuration du logger (idéalement géré dans utils/logger.py)
+logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
 
-    def _safe_read_csv(self, filename: str) -> pd.DataFrame:
-        """Méthode interne (Encapsulation) pour lire les CSV en toute sécurité."""
-        filepath = self.data_folder / filename
-        try:
-            # dtype=str pour éviter les conversions implicites (Règle du prof)
-            df = pd.read_csv(filepath, encoding='utf-8', dtype=str)
-            logging.info(f"[EXTRACT] {filename} : {len(df)} lignes extraites avec succès.")
-            return df
-        except FileNotFoundError:
-            logging.error(f"[EXTRACT ERROR] Le fichier {filepath} est introuvable.")
-            return pd.DataFrame() # Retourne un DataFrame vide pour ne pas crasher le pipeline
-        except Exception as e:
-            logging.error(f"[EXTRACT ERROR] Erreur inattendue sur {filename}: {str(e)}")
-            return pd.DataFrame()
+def extract_csv(filepath: str | Path, source_name: str) -> Optional[pd.DataFrame]:
+    """Fonction générique pour extraire un fichier CSV de manière sécurisée."""
+    path = Path(filepath)
+    if not path.exists():
+        logging.error(f"[EXTRACT] Le fichier {source_name} est introuvable au chemin : {path}")
+        return None
+        
+    try:
+        # Forcer le type 'str' partout à l'extraction pour éviter les conversions implicites
+        df = pd.read_csv(path, encoding='utf-8', dtype=str)
+        logging.info(f"[EXTRACT] {source_name}: {len(df)} lignes extraites avec succès.")
+        return df
+    except Exception as e:
+        logging.error(f"[EXTRACT] Erreur lors de la lecture de {source_name} : {e}")
+        return None
 
-    def _safe_read_json(self, filename: str, root_key: str) -> pd.DataFrame:
-        """Méthode interne pour lire les JSON en toute sécurité."""
-        filepath = self.data_folder / filename
-        try:
-            with open(filepath, 'r', encoding='utf-8') as f:
-                data = json.load(f)
-            df = pd.DataFrame(data.get(root_key, []))
-            logging.info(f"[EXTRACT] {filename} : {len(df)} lignes extraites avec succès.")
-            return df
-        except FileNotFoundError:
-            logging.error(f"[EXTRACT ERROR] Le fichier {filepath} est introuvable.")
-            return pd.DataFrame()
+def extract_commandes(filepath: str | Path) -> Optional[pd.DataFrame]:
+    """Extrait les commandes depuis le fichier CSV source."""
+    return extract_csv(filepath, "Commandes")
 
-    # --- Méthodes publiques d'extraction ---
+def extract_clients(filepath: str | Path) -> Optional[pd.DataFrame]:
+    """Extrait les clients depuis le fichier CSV source."""
+    return extract_csv(filepath, "Clients")
 
-    def extract_commandes(self, filename: str = 'commandes_mexora.csv') -> pd.DataFrame:
-        return self._safe_read_csv(filename)
+def extract_regions(filepath: str | Path) -> Optional[pd.DataFrame]:
+    """Extrait le référentiel des régions depuis le fichier CSV source."""
+    return extract_csv(filepath, "Régions (Référentiel)")
 
-    def extract_produits(self, filename: str = 'produits_mexora.json') -> pd.DataFrame:
-        return self._safe_read_json(filename, root_key='produits')
-
-    def extract_clients(self, filename: str = 'clients_mexora.csv') -> pd.DataFrame:
-        return self._safe_read_csv(filename)
-
-    def extract_regions(self, filename: str = 'regions_maroc.csv') -> pd.DataFrame:
-        return self._safe_read_csv(filename)
+def extract_produits(filepath: str | Path) -> Optional[pd.DataFrame]:
+    """Extrait les produits depuis le fichier JSON de manière sécurisée."""
+    path = Path(filepath)
+    if not path.exists():
+        logging.error(f"[EXTRACT] Le fichier JSON Produits est introuvable : {path}")
+        return None
+        
+    try:
+        with open(path, 'r', encoding='utf-8') as f:
+            data = json.load(f)
+            
+        if 'produits' not in data:
+            logging.error("[EXTRACT] Clé 'produits' manquante dans le JSON.")
+            return None
+            
+        df = pd.DataFrame(data['produits'])
+        logging.info(f"[EXTRACT] Produits : {len(df)} lignes extraites avec succès.")
+        return df
+    except json.JSONDecodeError as e:
+        logging.error(f"[EXTRACT] Erreur de parsing JSON pour les produits : {e}")
+        return None
+    except Exception as e:
+        logging.error(f"[EXTRACT] Erreur inattendue lors de la lecture des produits : {e}")
+        return None
