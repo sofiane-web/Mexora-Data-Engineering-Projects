@@ -1,0 +1,21 @@
+code_ville,nom_ville_standard,province,region_admin,zone_geo,population,code_postal
+tanger,Tanger,Tanger-Assilah,Tanger-Tétouan-Al Hoceïma,Nord,947952,90000
+casablanca,Casablanca,Casablanca,Casablanca-Settat,Centre,3752000,20000
+rabat,Rabat,Rabat,Rabat-Salé-Kénitra,Centre,577827,10000
+marrakech,Marrakech,Marrakech,Marrakech-Safi,Sud,928850,40000
+fes,Fès,Fès,Fès-Meknès,Centre,1112072,30000
+agadir,Agadir,Agadir-Ida-Ou-Tanane,Souss-Massa,Sud,421844,80000
+meknes,Meknès,Meknès,Fès-Meknès,Centre,632079,50000
+oujda,Oujda,Oujda-Angad,Oriental,Est,405253,60000
+kenitra,Kénitra,Kénitra,Rabat-Salé-Kénitra,Centre,431282,14000
+tetouan,Tétouan,Tétouan,Tanger-Tétouan-Al Hoceïma,Nord,380787,93000
+safi,Safi,Safi,Marrakech-Safi,Sud,308508,46000
+elhajeb,El Hajeb,El Hajeb,Fès-Meknès,Centre,97210,33000
+beni_mellal,Beni Mellal,Beni Mellal,Béni Mellal-Khénifra,Centre,219847,23000
+nador,Nador,Nador,Oriental,Est,161726,62000
+settat,Settat,Settat,Casablanca-Settat,Centre,142250,26000
+larache,Larache,Larache,Tanger-Tétouan-Al Hoceïma,Nord,125008,92000
+khouribga,Khouribga,Khouribga,Béni Mellal-Khénifra,Centre,196196,25000
+berkane,Berkane,Berkane,Oriental,Est,109236,63300
+errachidia,Errachidia,Errachidia,Drâa-Tafilalet,Sud,92374,52000
+ouarzazate,Ouarzazate,Ouarzazate,Drâa-Tafilalet,Sud,71067,45000

@@ -1,0 +1,1261 @@
+id_client,nom,prenom,email,date_naissance,sexe,ville,telephone,date_inscription,canal_acquisition
+C00967,Cherkaoui,Amina,amina.cherkaoui84@gmail.com,1977-05-25,Femme,CASABLANCA,+212689731929,2022-04-04,social_media
+C00513,Benali,Hajar,hajar.benali12@yahoo.fr,2026-12-29,0,CASABLANCA,+212680280155,2021-11-27,referral
+C00142,El Mansouri,Mohammed,mohammed.elmansouri20@yahoo.fr,1997-12-21,m,meknes,+212650419829,2021-08-13,social_media
+C00948,Cherkaoui,Sara,sara.cherkaoui50@menara.ma,1993-07-19,f,Meknès,+212632447787,2020-05-11,referral
+C00038,El Fassi,Sara,sara.elfassi50@gmail.com,1963-12-25,f,marrakech,+212682269803,2020-01-04,paid_ads
+C00270,El Idrissi,Hassan,hassan.elidrissi31@iam.ma,1998-12-24,m,MARRAKECH,+212617385816,2023-06-07,paid_ads
+C00478,El Mansouri,Nisrine,nisrine.elmansouri85@iam.ma,1986-03-29,f,Rabat,+212678255127,2021-04-18,referral
+C00854,Berrada,Youssef,youssef.berrada18@hotmail.com,1997-12-03,M,Rabat,+212625197944,2020-12-15,email_campaign
+C00715,Tazi,Layla,layla.tazi44@outlook.fr,1999-10-02,f,CAS,+212632228439,2023-08-15,organic
+C00062,Hassani,Samir,samir.hassani92@iam.ma,1968-05-07,Homme,Casa,+212642655866,2022-04-08,marketplace
+C00332,Bouazza,Sara,sara.bouazza16@outlook.fr,1966-05-22,F,CASABLANCA,+212661226775,2022-10-21,organic
+C00727,Chraibi,Samir,samir.chraibi9@menara.ma,1971-01-12,1,Agadir,+212667977016,2023-02-13,email_campaign
+C00648,Sahraoui,Fatima,fatima.sahraoui95@gmail.com,1981-07-02,Femme,fes,+212695758290,2022-02-26,email_campaign
+C00020,Lahlou,Imane,imane.lahlou32@gmail.com,1972-07-29,F,casablanca,+212643528453,2021-07-24,referral
+C00917,Cherkaoui,Youssef,youssef.cherkaoui49@hotmail.com,1966-07-19,1,Rabat,+212699811868,2024-11-25,referral
+C00168,Kadiri,Hassan,hassan.kadiri54@menara.ma,1974-04-30,Homme,FES,+212635479101,2024-01-16,email_campaign
+C01116,El Amrani,Hajar,hajar.elamrani41@yahoo.fr,2000-10-16,f,Marrakesh,+212663915716,2023-09-01,marketplace
+C00275,Filali,Amine,amine.filali20@outlook.fr,1963-03-04,male,MEKNES,+212698007006,2024-01-02,marketplace
+C01083,Belkadi,Ahmed,ahmed.belkadi14@yahoo.fr,1983-08-03,male,Tnja,+212688828361,2020-09-16,paid_ads
+C01392,Sahraoui,Sara,sara.sahraoui18@iam.ma,2005-11-23,f,Fès,+212625302505,2020-09-04,email_campaign
+C01052,Berrada,Ibrahim,ibrahim.berrada29@iam.ma,2005-06-28,Homme,CAS,+212678832771,2022-07-17,marketplace
+C00410,El Fassi,Omar,omar.elfassi44@outlook.fr,1964-09-01,1,Rabat,+212622225702,2023-07-26,organic
+C01166,Ait Benhaddou,Nisrine,nisrine.aitbenhaddou99@outlook.fr,1978-02-21,0,agadir,+212649566968,2024-01-07,email_campaign
+C01026,Chraibi,Karim,karim.chraibi44@hotmail.com,1984-08-09,Homme,CAS,+212697648351,2023-09-12,email_campaign
+C00279,El Amrani,Youssef,youssef.elamrani4@outlook.fr,1960-11-10,Homme,tanger,+212660502752,2024-04-03,marketplace
+C00783,Benali,Amine,amine.benali67@iam.ma,1969-03-22,M,AGADIR,+212617035056,2021-09-23,referral
+C00136,Sahraoui,Amine,amine.sahraoui97@hotmail.com,1981-06-16,Homme,MEKNES,+212636040410,2024-05-25,referral
+C00875,Belkadi,Fatima,fatima.belkadi89@gmail.com,2004-05-30,f,fes,+212620064387,2024-11-17,paid_ads
+C00256,El Idrissi,Samira,samira.elidrissi64@yahoo.fr,1990-04-20,female,FES,+212675140950,2020-09-24,paid_ads
+C00302,El Amrani,Meryem,meryem.elamrani27@hotmail.com,1983-01-10,f,Agadir,+212661799600,2020-01-03,organic
+C00313,Hajji,Karim,karim.hajji6@yahoo.fr,1999-01-22,1,Meknès,+212689865944,2023-07-08,social_media
+C00071,Tazi,Zineb,zineb.tazi81@hotmail.com,1977-09-30,F,Tnja,+212696924061,2023-01-20,social_media
+C00008,Berrada,Khadija,khadija.berrada73@yahoo.fr,2004-10-14,F,Fez,+212645551614,2022-07-28,social_media
+C00985,Hajji,Houda,houda.hajji40@hotmail.com,2001-05-16,female,casablanca,+212622890579,2022-02-08,referral
+C00857,Bouazza,Amina,invalide-857,1991-10-22,f,Tnja,+212636513965,2022-06-01,referral
+C00065,Hajji,Zineb,zineb.hajji30@hotmail.com,1971-05-10,Femme,TNG,+212649209916,2020-04-21,paid_ads
+C00271,Benkirane,Nisrine,nisrine.benkirane2@gmail.com,1974-09-12,F,RABAT,+212644795538,2022-12-07,paid_ads
+C00779,El Amrani,Amine,amine.elamrani82@gmail.com,1994-03-12,Homme,Agadir,+212663240727,2022-03-28,social_media
+C00278,Hajji,Ibrahim,ibrahim.hajji73@hotmail.com,1981-10-05,M,RABAT,+212636229153,2023-04-26,referral
+C01416,El Amrani,Nabil,nabil.elamrani6@iam.ma,1984-01-05,1,Fez,+212611261132,2023-05-15,organic
+C00591,El Mansouri,Amine,amine.elmansouri24@hotmail.com,1988-06-07,Homme,Tanger,+212682459667,2022-02-02,referral
+C00266,Kadiri,Amine,amine.kadiri31@gmail.com,1961-01-30,Homme,rabat,+212686286724,2020-09-27,referral
+C00418,El Mansouri,Zineb,zineb.elmansouri49@gmail.com,1980-08-17,Femme,marrakech,+212681893982,2021-12-24,paid_ads
+C00658,Hajji,Samir,samir.hajji35@yahoo.fr,1971-09-06,M,CASABLANCA,+212647979220,2023-05-13,social_media
+C01172,Berrada,Karim,karim.berrada92@iam.ma,1992-05-28,M,Agadir,+212634714856,2024-12-16,social_media
+C01005,El Amrani,Soufiane,soufiane.elamrani53@hotmail.com,1990-07-26,1,agadir,+212696198970,2024-02-03,marketplace
+C00001,El Mansouri,Mohammed,mohammed.elmansouri29@yahoo.fr,1967-10-19,male,marrakech,+212622575562,2020-03-06,organic
+C00668,Benkirane,Nabil,nabil.benkirane66@iam.ma,1979-01-20,male,tanger,+212634235540,2022-12-13,paid_ads
+C00918,Bensouda,Ibrahim,ibrahim.bensouda83@outlook.fr,1969-10-15,m,casablanca,+212663277039,2024-02-07,organic
+C00225,Filali,Meryem,meryem.filali14@hotmail.com,2000-04-07,female,fes,+212623863742,2022-11-15,referral
+C00386,Filali,Amina,amina.filali86@yahoo.fr,1966-04-06,0,rabat,+212654069864,2022-09-22,referral
+C00737,Filali,Meryem,invalide-737,1984-12-07,F,fes,+212610692467,2022-07-08,email_campaign
+C00106,Filali,Meryem,meryem.filali76@menara.ma,1963-11-21,f,MEKNES,+212679987997,2024-11-10,marketplace
+C00024,Benali,Fatima,fatima.benali62@menara.ma,1974-02-14,f,Mrakch,+212619196777,2020-06-13,social_media
+C00363,Sahraoui,Khalid,khalid.sahraoui96@iam.ma,1988-02-29,h,Agadir,+212639171224,2023-02-07,marketplace
+C00890,Benkirane,Amine,amine.benkirane29@gmail.com,1992-01-21,m,Fès,+212658384619,2021-11-14,organic
+C00143,Tazi,Mohammed,mohammed.tazi82@outlook.fr,1969-12-11,M,Fès,+212694819556,2023-01-02,organic
+C01160,Bensouda,Nisrine,nisrine.bensouda97@gmail.com,1988-08-20,female,Marrakesh,+212633997481,2022-10-12,social_media
+C00181,Filali,Meryem,meryem.filali93@menara.ma,1994-01-23,F,Meknès,+212648983895,2021-12-07,social_media
+C00519,Benali,Rim,rim.benali50@gmail.com,1976-01-21,f,Fès,+212694486125,2024-12-30,paid_ads
+C00355,Kadiri,Ahmed,ahmed.kadiri5@outlook.fr,2027-02-20,male,Fez,+212685475000,2021-09-15,paid_ads
+C00681,Cherkaoui,Khalid,khalid.cherkaoui22@gmail.com,1996-05-05,h,Agadir,+212675326787,2023-05-17,marketplace
+C00402,Bensouda,Rim,rim.bensouda76@menara.ma,1971-11-11,f,tanger,+212677693989,2021-02-18,paid_ads
+C00436,Bouazza,Omar,omar.bouazza81@outlook.fr,1975-04-22,m,TNG,+212653647781,2023-09-20,email_campaign
+C00035,Cherkaoui,Karim,karim.cherkaoui5@outlook.fr,2001-04-18,Homme,Casablanca,+212639920292,2024-08-07,social_media
+C00622,Belkadi,Hajar,hajar.belkadi35@menara.ma,1995-11-27,Femme,Marrakesh,+212664283500,2023-09-27,paid_ads
+C00468,Benali,Karim,karim.benali45@hotmail.com,1970-10-24,1,Agadir,+212611534696,2023-08-29,paid_ads
+C01066,El Amrani,Khadija,khadija.elamrani81@yahoo.fr,1984-06-10,f,Tnja,+212697949650,2024-07-23,referral
+C00557,Hajji,Khalid,khalid.hajji90@hotmail.com,1992-03-25,M,TANGER,+212668785183,2024-12-17,marketplace
+C00604,Cherkaoui,Imane,imane.cherkaoui66@hotmail.com,2027-02-08,f,Tanger,+212628186152,2021-10-16,referral
+C00356,Bensouda,Rachid,rachid.bensouda47@hotmail.com,2000-10-08,Homme,fes,+212690524080,2024-04-20,paid_ads
+C00654,Sahraoui,Nabil,nabil.sahraoui53@iam.ma,2002-12-01,h,Tanger,+212689593852,2021-06-17,social_media
+C01164,Sahraoui,Nisrine,nisrine.sahraoui93@outlook.fr,2002-05-05,Femme,RABAT,+212654791430,2020-10-23,email_campaign
+C01045,Bensouda,Nisrine,nisrine.bensouda42@outlook.fr,1985-01-21,f,Casa,+212655783977,2021-08-31,referral
+C00413,Sahraoui,Karim,karim.sahraoui67@menara.ma,1963-03-27,Homme,Casa,+212631131878,2023-09-03,organic
+C00573,Hajji,Khadija,invalide-573,1972-03-30,f,MARRAKECH,+212632978251,2022-07-28,referral
+C00364,Sahraoui,Omar,omar.sahraoui38@iam.ma,1971-11-26,h,Fez,+212682811973,2020-12-30,paid_ads
+C00850,El Idrissi,Khadija,khadija.elidrissi92@menara.ma,1987-05-19,f,TANGER,+212651974837,2021-09-17,referral
+C00310,El Mansouri,Meryem,meryem.elmansouri35@yahoo.fr,1968-09-03,f,agadir,+212665564347,2021-12-05,paid_ads
+C00749,Belkadi,Salma,salma.belkadi43@menara.ma,1974-07-23,f,MARRAKECH,+212676562688,2024-11-29,organic
+C00031,Ait Benhaddou,Ibrahim,ibrahim.aitbenhaddou34@iam.ma,1998-05-15,male,tanger,+212630005727,2020-08-17,organic
+C01082,Hajji,Soufiane,soufiane.hajji37@hotmail.com,1987-06-06,Homme,Fès,+212644191883,2024-04-19,referral
+C01030,Cherkaoui,Omar,omar.cherkaoui5@iam.ma,1999-07-03,male,rabat,+212640595256,2020-03-26,paid_ads
+C00804,Benali,Amine,amine.benali81@hotmail.com,1884-05-20,M,agadir,+212643207452,2020-10-28,email_campaign
+C00682,Sahraoui,Sara,sara.sahraoui89@hotmail.com,1995-06-09,Femme,TANGER,+212611862394,2020-09-13,social_media
+C00709,El Idrissi,Nisrine,nisrine.elidrissi89@outlook.fr,1997-05-27,0,Tanger,+212675063976,2022-11-01,social_media
+C01109,Benkirane,Omar,omar.benkirane40@hotmail.com,1978-03-29,M,TANGER,+212630688043,2024-01-23,social_media
+C00522,Benkirane,Layla,layla.benkirane86@iam.ma,1989-02-18,F,Marrakesh,+212673798298,2020-03-02,organic
+C01140,Tazi,Meryem,meryem.tazi78@iam.ma,1975-11-13,F,Mrakch,+212691068419,2023-08-06,organic
+C00815,Bensouda,Ibrahim,ibrahim.bensouda88@menara.ma,1997-01-23,h,CASABLANCA,+212653242747,2020-01-07,marketplace
+C01056,Hassani,Zineb,zineb.hassani79@menara.ma,1997-07-07,f,CAS,+212694694927,2023-06-10,referral
+C00277,El Fassi,Omar,omar.elfassi52@gmail.com,1985-04-29,Homme,rabat,+212671303434,2020-06-25,paid_ads
+C00731,Kadiri,Ibrahim,ibrahim.kadiri46@menara.ma,1960-10-03,m,MARRAKECH,+212669670203,2022-01-28,social_media
+C00623,El Mansouri,Houda,houda.elmansouri99@yahoo.fr,2003-11-25,F,Casa,+212613989423,2023-07-10,social_media
+C00237,El Amrani,Ibrahim,ibrahim.elamrani14@outlook.fr,1967-09-14,m,Meknès,+212656751880,2024-02-04,social_media
+C01051,Cherkaoui,Rim,rim.cherkaoui91@iam.ma,1998-10-12,F,CAS,+212647373355,2020-06-26,social_media
+C00762,Berrada,Hassan,hassan.berrada11@hotmail.com,1967-01-05,Homme,Casa,+212619576257,2020-07-20,organic
+C00538,El Fassi,Meryem,meryem.elfassi74@outlook.fr,1986-06-07,Femme,casablanca,+212690213415,2020-03-13,marketplace
+C00030,El Mansouri,Rachid,rachid.elmansouri63@menara.ma,1964-07-22,m,Fez,+212615917225,2022-05-17,email_campaign
+C00114,El Idrissi,Karim,karim.elidrissi99@menara.ma,1962-05-10,male,agadir,+212645896226,2024-08-25,marketplace
+C00609,Bensouda,Khalid,khalid.bensouda15@gmail.com,2003-01-07,Homme,Casablanca,+212628658140,2023-11-16,email_campaign
+C00385,Chraibi,Nabil,nabil.chraibi83@outlook.fr,1966-01-16,Homme,Tnja,+212687926229,2021-02-08,marketplace
+C00286,Benali,Houda,houda.benali39@iam.ma,1962-10-15,F,MARRAKECH,+212683835976,2023-02-12,marketplace
+C01156,Hajji,Fatima,fatima.hajji32@yahoo.fr,2001-08-26,f,fes,+212652796441,2024-12-10,organic
+C00113,Belkadi,Zineb,zineb.belkadi28@menara.ma,1969-09-16,Femme,fes,+212647388792,2022-01-22,organic
+C00666,Benali,Youssef,youssef.benali24@,2001-11-28,M,Tnja,+212669259769,2022-10-10,organic
+C00003,El Idrissi,Samir,samir.elidrissi36@hotmail.com,1990-03-13,m,TANGER,+212658181396,2022-02-17,organic
+C00777,Benali,Khalid,khalid.benali21@yahoo.fr,1986-03-09,h,TANGER,+212639159454,2023-11-30,marketplace
+C00138,El Mansouri,Nabil,nabil.elmansouri83@gmail.com,1969-03-15,h,Mrakch,+212648260510,2024-10-09,organic
+C00733,Filali,Amine,amine.filali36@gmail.com,1978-10-04,m,CASABLANCA,+212663161787,2024-08-08,marketplace
+C00544,Hassani,Khadija,khadija.hassani97@iam.ma,1994-12-29,F,CAS,+212668349054,2020-10-24,paid_ads
+C00166,El Idrissi,Amine,amine.elidrissi60@outlook.fr,1988-01-16,h,rabat,+212663514837,2024-02-12,email_campaign
+C01173,Tazi,Meryem,meryem.tazi47@outlook.fr,1983-03-28,Femme,Fès,+212628826712,2024-03-11,organic
+C00249,Chraibi,Hajar,hajar.chraibi70@hotmail.com,1999-08-06,female,CASABLANCA,+212697734330,2022-05-20,organic
+C00438,Chraibi,Houda,houda.chraibi45@hotmail.com,1968-01-13,F,Casablanca,+212644870711,2022-01-19,referral
+C00370,Belkadi,Hajar,hajar.belkadi95@menara.ma,1977-05-11,Femme,MARRAKECH,+212619995059,2020-12-29,marketplace
+C00473,El Idrissi,Ahmed,ahmed.elidrissi47@outlook.fr,1962-03-04,Homme,casablanca,+212669352435,2021-12-17,paid_ads
+C00201,Sahraoui,Amine,amine.sahraoui91@iam.ma,1963-12-20,M,MARRAKECH,+212639161379,2021-04-24,paid_ads
+C00457,Benali,Ahmed,ahmed.benali83@menara.ma,1982-12-17,m,RABAT,+212619512542,2021-03-28,paid_ads
+C01478,El Idrissi,Samira,samira.elidrissi64@yahoo.fr,1990-04-20,female,FES,+212675140950,2020-10-18,paid_ads
+C00903,Tazi,Imane,imane.tazi21@outlook.fr,1993-11-14,0,Agadir,+212693086647,2021-03-09,referral
+C00900,Ait Benhaddou,Ibrahim,ibrahim.aitbenhaddou32@gmail.com,1997-05-13,1,meknes,+212628805567,2021-01-08,referral
+C00439,El Amrani,Hassan,hassan.elamrani67@gmail.com,1990-11-07,Homme,Marrakesh,+212676025948,2022-12-31,organic
+C01028,Filali,Fatima,fatima.filali82@outlook.fr,1965-04-03,female,TANGER,+212684014080,2021-07-20,paid_ads
+C00821,Lahlou,Karim,karim.lahlou74@yahoo.fr,1990-10-16,M,AGADIR,+212661224263,2024-03-01,marketplace
+C00851,Berrada,Rachid,rachid.berrada94@gmail.com,1965-02-24,m,Agadir,+212676149278,2021-08-08,paid_ads
+C00785,Berrada,Rachid,rachid.berrada13@yahoo.fr,1975-01-23,h,casablanca,+212678786599,2020-03-31,referral
+C01086,Hassani,Nisrine,nisrine.hassani39@hotmail.com,1995-04-12,F,meknes,+212673683359,2022-02-28,marketplace
+C00729,Sahraoui,Amine,amine.sahraoui3@hotmail.com,1960-03-08,male,Marrakesh,+212633291610,2020-01-09,organic
+C00287,Bensouda,Ahmed,ahmed.bensouda18@gmail.com,1979-12-10,1,CASABLANCA,+212659961172,2024-08-13,referral
+C00661,Cherkaoui,Zineb,zineb.cherkaoui8@menara.ma,2002-04-01,Femme,Fès,+212616108500,2023-10-05,paid_ads
+C01054,El Amrani,Rachid,rachid.elamrani18@yahoo.fr,1979-10-03,h,CASABLANCA,+212630325007,2021-06-27,referral
+C01196,El Amrani,Youssef,youssef.elamrani82yahoo.fr,1988-12-07,m,FES,+212656157714,2022-09-11,referral
+C00842,El Mansouri,Mehdi,mehdi.elmansouri49@hotmail.com,2000-11-30,m,CAS,+212629225877,2023-10-17,referral
+C00945,Berrada,Omar,omar.berrada89@iam.ma,2003-03-16,1,TANGER,+212684020689,2021-12-14,marketplace
+C00250,Benali,Hassan,hassan.benali34@outlook.fr,1999-05-23,m,meknes,+212638169370,2024-07-20,social_media
+C01080,Benkirane,Layla,layla.benkirane61@yahoo.fr,1987-12-23,f,CASABLANCA,+212622596044,2021-02-12,marketplace
+C00802,Belkadi,Nisrine,nisrine.belkadi53@gmail.com,1971-03-02,F,FES,+212668558918,2020-11-28,social_media
+C01031,El Mansouri,Samir,samir.elmansouri3@hotmail.com,1991-09-13,male,AGADIR,+212641500479,2020-04-01,paid_ads
+C00797,Hajji,Nadia,nadia.hajji55@yahoo.fr,1985-08-07,female,MARRAKECH,+212646488536,2023-07-25,social_media
+C00470,Sahraoui,Meryem,meryem.sahraoui65@menara.ma,1995-05-18,0,Tanger,+212673868130,2021-11-19,organic
+C00083,Lahlou,Fatima,fatima.lahlou61@iam.ma,1994-08-21,f,MEKNES,+212630415230,2024-08-07,marketplace
+C01060,Tazi,Nisrine,nisrine.tazi38@gmail.com,1996-09-10,f,fes,+212645112062,2024-04-29,email_campaign
+C01033,El Idrissi,Rachid,invalide-1033,1990-01-19,M,Fez,+212649468472,2022-02-06,referral
+C00485,Lahlou,Youssef,youssef.lahlou94@,1997-02-22,M,Casablanca,+212695476210,2022-06-26,marketplace
+C00904,Kadiri,Omar,omar.kadiri96@yahoo.fr,1966-12-04,h,MARRAKECH,+212697603904,2022-09-04,email_campaign
+C00352,Tazi,Khalid,khalid.tazi45@outlook.fr,1973-05-03,male,Fès,+212696355513,2020-04-21,organic
+C00495,Cherkaoui,Samir,samir.cherkaoui15@gmail.com,1967-08-27,male,AGADIR,+212678674708,2022-02-25,marketplace
+C00417,Bensouda,Imane,imane.bensouda73@outlook.fr,1990-06-22,F,agadir,+212613670948,2022-08-01,paid_ads
+C00242,Chraibi,Karim,karim.chraibi47@yahoo.fr,1983-07-15,h,Marrakesh,+212652064387,2022-12-16,marketplace
+C00528,Ait Benhaddou,Omar,omar.aitbenhaddou97@menara.ma,2026-07-02,M,fes,+212692620697,2021-08-19,referral
+C00868,Benali,Nisrine,nisrine.benali15@hotmail.com,1991-06-29,f,marrakech,+212616382911,2021-05-20,email_campaign
+C00204,Hassani,Houda,houda.hassani45@gmail.com,1988-08-05,f,marrakech,+212650250352,2022-04-16,social_media
+C01306,Benali,Mehdi,mehdi.benali67@outlook.fr,2002-08-07,male,Casa,+212620597167,2022-09-17,email_campaign
+C00876,El Fassi,Amine,amine.elfassi72@outlook.fr,1984-05-10,1,casablanca,+212686758847,2020-01-08,social_media
+C00141,Ait Benhaddou,Hajar,hajar.aitbenhaddou5@yahoo.fr,1972-06-13,f,Marrakesh,+212610704803,2022-07-07,paid_ads
+C00970,Benkirane,Samira,samira.benkirane45@yahoo.fr,1985-11-01,f,tanger,+212677543749,2020-07-12,social_media
+C00281,Filali,Imane,imane.filali96@outlook.fr,1971-12-23,f,Meknès,+212689442904,2022-03-18,organic
+C00167,Filali,Karim,karim.filali72@menara.ma,1970-12-28,Homme,MARRAKECH,+212622993840,2021-05-22,social_media
+C00828,Kadiri,Amina,amina.kadiri10@outlook.fr,1977-07-02,f,fes,+212627569192,2022-03-17,organic
+C01154,Benali,Karim,karim.benali73@outlook.fr,1976-05-22,h,Fez,+212640647266,2024-10-22,social_media
+C00051,Bensouda,Nabil,nabil.bensouda80@yahoo.fr,1962-06-07,m,Fez,+212671968116,2022-05-27,social_media
+C00768,Filali,Amine,amine.filali29@hotmail.com,1996-03-09,h,fes,+212688779778,2021-09-05,email_campaign
+C01084,Belkadi,Amina,amina.belkadi78@menara.ma,2002-06-21,0,casablanca,+212639050549,2020-01-06,social_media
+C00580,El Amrani,Imane,imane.elamrani10@iam.ma,1962-12-07,Femme,marrakech,+212692208524,2024-03-21,email_campaign
+C00121,Benali,Khalid,khalid.benali3@outlook.fr,1988-02-01,male,marrakech,+212695918360,2023-03-20,referral
+C00930,Bouazza,Nisrine,nisrine.bouazza80@iam.ma,1968-11-25,f,MEKNES,+212622031000,2024-09-10,organic
+C01046,El Fassi,Tariq,tariq.elfassi75@menara.ma,1985-08-04,Homme,Rabat,+212629219517,2021-10-14,social_media
+C01692,El Fassi,Hassan,hassan.elfassi82@,1972-09-15,Homme,Marrakesh,+212687522039,2020-03-18,social_media
+C00056,Hajji,Layla,layla.hajji76@gmail.com,1969-02-21,f,meknes,+212690585882,2021-09-09,marketplace
+C00048,Kadiri,Omar,omar.kadiri20@iam.ma,1996-07-26,Homme,fes,+212618357162,2022-08-12,referral
+C01139,Tazi,Amina,amina.tazi61@yahoo.fr,1988-12-14,0,Casablanca,+212637784045,2020-05-12,organic
+C00882,Bensouda,Nabil,nabil.bensouda42@yahoo.fr,1995-06-24,1,MARRAKECH,+212668237550,2021-04-19,marketplace
+C00321,Bensouda,Mohammed,mohammed.bensouda47@gmail.com,2001-08-24,male,Rabat,+212614102122,2023-07-25,organic
+C00312,Benali,Rim,rim.benali74@menara.ma,1973-03-24,f,meknes,+212632436477,2022-07-08,social_media
+C00673,Hajji,Mohammed,mohammed.hajji50@yahoo.fr,1973-10-29,m,Casablanca,+212651621092,2022-10-02,referral
+C00830,Hajji,Omar,invalide-830,1969-02-22,h,MEKNES,+212660540462,2024-10-24,social_media
+C00574,Bouazza,Samira,samira.bouazza21@menara.ma,1975-03-31,female,fes,+212621606388,2024-10-17,social_media
+C00307,Belkadi,Khalid,khalid.belkadi63@menara.ma,1998-05-12,m,Casablanca,+212693898287,2024-08-14,marketplace
+C01064,Hajji,Mehdi,mehdi.hajji69@hotmail.com,1995-06-26,h,Casa,+212660181317,2021-08-17,social_media
+C01545,Chraibi,Meryem,meryem.chraibi45@outlook.fr,1994-11-04,Femme,casablanca,+212690143600,2020-03-03,email_campaign
+C00992,Berrada,Ahmed,ahmed.berrada20@gmail.com,1968-09-09,1,CASABLANCA,+212613309323,2020-07-31,referral
+C00349,Ait Benhaddou,Ahmed,ahmed.aitbenhaddou93@iam.ma,1974-04-20,m,marrakech,+212686362294,2023-04-24,referral
+C00524,Berrada,Houda,houda.berrada69@hotmail.com,1981-05-27,female,Casa,+212674743230,2023-01-27,social_media
+C00760,Berrada,Houda,houda.berrada97@yahoo.fr,1991-07-17,0,FES,+212678754653,2020-03-25,referral
+C00847,Cherkaoui,Sara,sara.cherkaoui22@gmail.com,1976-03-17,Femme,MEKNES,+212681361168,2024-02-27,marketplace
+C00323,Kadiri,Fatima,fatima.kadiri21@gmail.com,1979-03-24,0,Fez,+212637746963,2021-04-06,marketplace
+C00316,El Idrissi,Rim,rim.elidrissi50@hotmail.com,2002-06-09,f,casablanca,+212629307578,2021-07-18,referral
+C00630,Filali,Youssef,youssef.filali95@hotmail.com,1990-08-13,M,Tnja,+212657964863,2022-05-26,email_campaign
+C00217,Kadiri,Hajar,hajar.kadiri48@gmail.com,1981-10-26,f,Casa,+212620820219,2021-09-06,marketplace
+C00743,Cherkaoui,Layla,layla.cherkaoui97@menara.ma,1960-12-13,F,Rabat,+212693243271,2022-08-08,referral
+C00933,Kadiri,Rim,rim.kadiri48@gmail.com,1984-01-04,f,CAS,+212642420888,2021-09-21,referral
+C01104,El Amrani,Salma,salma.elamrani54@yahoo.fr,1968-12-27,0,RABAT,+212672658369,2021-09-19,social_media
+C00269,Berrada,Hassan,hassan.berrada11@hotmail.com,1973-12-09,male,rabat,+212695133532,2022-03-11,paid_ads
+C00799,Kadiri,Karim,karim.kadiri11@outlook.fr,1973-09-15,male,Agadir,+212661063166,2020-12-25,email_campaign
+C00434,El Mansouri,Rachid,rachid.elmansouri90@iam.ma,1995-08-15,m,Tnja,+212683609531,2020-05-10,referral
+C00105,El Amrani,Youssef,youssef.elamrani31@hotmail.com,2026-06-20,h,marrakech,+212618530615,2022-12-13,organic
+C00529,Hajji,Samira,samira.hajji41@iam.ma,1987-04-28,F,AGADIR,+212688212291,2021-12-06,organic
+C01181,Tazi,Rim,rim.tazi27@iam.ma,1984-04-26,0,CASABLANCA,+212613663666,2024-04-30,email_campaign
+C00430,Belkadi,Tariq,tariq.belkadi84@iam.ma,1985-07-14,Homme,rabat,+212675430302,2023-10-10,paid_ads
+C00954,Kadiri,Sara,sara.kadiri74yahoo.fr,1960-06-01,F,Casablanca,+212614967155,2020-09-25,referral
+C00379,Lahlou,Amine,amine.lahlou12@gmail.com,1982-08-07,male,TANGER,+212644715141,2023-03-23,social_media
+C00553,Bensouda,Soufiane,soufiane.bensouda34@iam.ma,1982-06-25,M,tanger,+212697626101,2022-10-16,social_media
+C01194,Sahraoui,Khadija,khadija.sahraoui32@gmail.com,1987-01-05,Femme,AGADIR,+212689293774,2022-08-04,marketplace
+C00262,Ait Benhaddou,Hajar,hajar.aitbenhaddou87@iam.ma,1960-10-04,female,Fez,+212657135617,2020-12-02,referral
+C00906,Tazi,Fatima,fatima.tazi21@hotmail.com,1960-12-25,Femme,CASABLANCA,+212695683115,2023-02-03,social_media
+C00081,El Idrissi,Hassan,hassan.elidrissi65@hotmail.com,1898-10-22,M,Tanger,+212675007200,2022-07-03,paid_ads
+C00126,Lahlou,Salma,salma.lahlou57@yahoo.fr,1987-03-02,Femme,FES,+212678093604,2020-04-25,email_campaign
+C00239,Cherkaoui,Fatima,fatima.cherkaoui44@gmail.com,1974-09-29,f,Casa,+212684076145,2022-11-22,social_media
+C01176,Benkirane,Mehdi,mehdi.benkirane12@menara.ma,1977-02-15,m,meknes,+212647160179,2023-11-01,referral
+C00570,El Amrani,Youssef,youssef.elamrani66@outlook.fr,1999-11-27,male,FES,+212636675960,2021-10-29,referral
+C01029,Bensouda,Zineb,zineb.bensouda34@yahoo.fr,2004-05-26,0,Casa,+212629716823,2023-07-14,social_media
+C00993,Benali,Layla,layla.benali39@gmail.com,1981-01-28,female,CAS,+212668939010,2024-08-09,paid_ads
+C01183,Kadiri,Omar,omar.kadiri16@menara.ma,1970-12-01,1,meknes,+212675647021,2021-03-05,organic
+C00873,Ait Benhaddou,Mohammed,mohammed.aitbenhaddou54@yahoo.fr,1991-02-28,Homme,MARRAKECH,+212625761044,2023-07-13,marketplace
+C01032,Berrada,Zineb,zineb.berrada57@menara.ma,1978-04-22,Femme,FES,+212665830504,2022-01-30,marketplace
+C00116,El Amrani,Youssef,youssef.elamrani96@gmail.com,2000-09-12,Homme,casablanca,+212653537934,2022-01-27,email_campaign
+C00238,Bensouda,Amina,amina.bensouda67@yahoo.fr,1999-04-23,f,AGADIR,+212619015987,2022-07-15,email_campaign
+C01091,El Mansouri,Rachid,rachid.elmansouri62@iam.ma,1982-09-13,Homme,Fez,+212614083774,2020-04-27,paid_ads
+C00981,Hajji,Fatima,fatima.hajji76@hotmail.com,1960-06-15,F,RABAT,+212616697739,2023-09-14,organic
+C00976,El Fassi,Hassan,hassan.elfassi82@,1972-09-15,Homme,Marrakesh,+212687522039,2020-03-04,social_media
+C00771,Sahraoui,Mohammed,mohammed.sahraoui4@outlook.fr,1994-08-14,Homme,CASABLANCA,+212698525972,2021-04-22,email_campaign
+C00341,Chraibi,Zineb,zineb.chraibi61@hotmail.com,1960-10-31,Femme,marrakech,+212698916958,2023-09-17,organic
+C00486,Hajji,Nadia,nadia.hajji17@gmail.com,1983-12-10,female,FES,+212690042177,2023-06-08,social_media
+C00479,Lahlou,Soufiane,soufiane.lahlou77@outlook.fr,2004-11-30,M,fes,+212615335477,2023-12-30,organic
+C00490,Kadiri,Khalid,khalid.kadiri78@gmail.com,1988-01-27,M,Fès,+212689699265,2024-02-29,paid_ads
+C00593,Bouazza,Nisrine,nisrine.bouazza38@outlook.fr,1973-03-12,female,Agadir,+212625074747,2022-06-24,email_campaign
+C01017,Chraibi,Hassan,hassan.chraibi64@yahoo.fr,1979-10-06,M,AGADIR,+212684008439,2021-09-11,email_campaign
+C00924,El Idrissi,Samir,samir.elidrissi89@hotmail.com,1977-10-24,m,Agadir,+212692746890,2023-09-29,paid_ads
+C00151,Berrada,Hajar,hajar.berrada55@iam.ma,1976-03-10,female,Casablanca,+212620746667,2021-10-19,organic
+C00487,El Amrani,Omar,omar.elamrani11@hotmail.com,2005-01-24,male,Marrakesh,+212660191981,2023-12-29,marketplace
+C00023,Chraibi,Imane,imane.chraibi92@iam.ma,1979-07-13,f,FES,+212618181586,2024-02-15,paid_ads
+C01184,Lahlou,Imane,imane.lahlou25@outlook.fr,2005-06-23,Femme,Marrakesh,+212625031359,2021-06-06,paid_ads
+C00801,El Amrani,Mohammed,mohammed.elamrani94@menara.ma,1997-04-21,M,Agadir,+212675706438,2022-02-03,referral
+C00258,Ait Benhaddou,Samira,samira.aitbenhaddou39@iam.ma,1984-08-01,f,Fez,+212621062296,2022-01-08,email_campaign
+C00640,Bouazza,Youssef,youssef.bouazza53@outlook.fr,1965-10-12,h,CASABLANCA,+212645827376,2024-09-28,referral
+C00184,Hassani,Imane,imane.hassani88@gmail.com,1885-07-21,F,Marrakesh,+212648553376,2023-08-25,social_media
+C00374,Tazi,Ibrahim,ibrahim.tazi85@yahoo.fr,1979-08-07,male,Mrakch,+212697147586,2022-08-30,paid_ads
+C00509,Bensouda,Nadia,nadia.bensouda43@menara.ma,1965-01-09,female,Casablanca,+212652346074,2023-03-03,marketplace
+C00878,Tazi,Youssef,youssef.tazi69@gmail.com,1973-04-16,Homme,Tanger,+212696223229,2021-07-07,organic
+C00376,El Mansouri,Khalid,khalid.elmansouri93@menara.ma,1993-08-21,male,MEKNES,+212675337822,2022-11-07,referral
+C00934,El Idrissi,Soufiane,soufiane.elidrissi2@,1988-06-24,Homme,casablanca,+212642458022,2023-03-17,referral
+C00465,Chraibi,Rim,rim.chraibi72@menara.ma,1968-06-16,f,MARRAKECH,+212628576833,2021-12-29,social_media
+C00255,Filali,Imane,imane.filali63@outlook.fr,1882-12-15,f,agadir,+212618500100,2023-11-29,email_campaign
+C00980,Ait Benhaddou,Nisrine,nisrine.aitbenhaddou38@menara.ma,1987-03-29,F,Casablanca,+212612092776,2020-05-12,email_campaign
+C01198,Benkirane,Amina,amina.benkirane44@hotmail.com,2000-12-08,f,Tnja,+212679668788,2023-09-30,email_campaign
+C01079,Bensouda,Meryem,meryem.bensouda43@yahoo.fr,1972-02-21,0,Mrakch,+212611318177,2024-01-04,referral
+C00232,Chraibi,Rachid,rachid.chraibi94@gmail.com,1999-05-03,Homme,Meknès,+212664914054,2023-11-19,organic
+C00708,El Idrissi,Mohammed,mohammed.elidrissi61@yahoo.fr,1996-02-18,male,fes,+212645392370,2022-11-28,referral
+C00127,Bensouda,Hassan,hassan.bensouda5@outlook.fr,1966-11-19,h,TANGER,+212678057490,2023-06-13,paid_ads
+C00769,Benali,Tariq,tariq.benali20@yahoo.fr,1995-01-25,M,CASABLANCA,+212681738111,2022-03-11,organic
+C01143,Kadiri,Hajar,hajar.kadiri99@,2005-11-22,f,Fez,+212626650628,2022-06-20,referral
+C01042,El Fassi,Mehdi,mehdi.elfassi55@outlook.fr,1981-08-29,h,Casablanca,+212655183120,2020-08-31,email_campaign
+C00306,Cherkaoui,Mohammed,mohammed.cherkaoui27@hotmail.com,1983-10-19,h,Casablanca,+212622873617,2021-09-01,social_media
+C01065,Hajji,Layla,layla.hajji94@menara.ma,1896-02-17,F,MEKNES,+212631064869,2022-09-20,organic
+C00767,El Idrissi,Hajar,hajar.elidrissi57@yahoo.fr,1993-08-13,0,FES,+212651013170,2024-11-24,social_media
+C00565,Benkirane,Hajar,hajar.benkirane63@gmail.com,1900-10-10,F,AGADIR,+212627031212,2024-07-11,referral
+C00282,Ait Benhaddou,Khalid,khalid.aitbenhaddou38@yahoo.fr,1995-04-03,h,Meknès,+212652688984,2024-02-15,email_campaign
+C00938,Chraibi,Tariq,tariq.chraibi74@gmail.com,1971-09-17,M,Fez,+212635039011,2023-07-17,email_campaign
+C00752,El Amrani,Fatima,fatima.elamrani26@yahoo.fr,1983-07-04,f,casablanca,+212643012764,2021-11-26,paid_ads
+C00616,Belkadi,Imane,imane.belkadi57@yahoo.fr,1991-10-31,F,marrakech,+212640541809,2021-03-14,paid_ads
+C01587,Cherkaoui,Khadija,khadija.cherkaoui3@outlook.fr,2001-04-11,f,RABAT,+212624208709,2020-07-13,referral
+C00547,Lahlou,Mehdi,mehdi.lahlou89@iam.ma,1960-12-12,h,tanger,+212611605433,2024-08-30,organic
+C00629,El Mansouri,Khalid,khalid.elmansouri76@outlook.fr,1991-08-25,Homme,rabat,+212689250658,2020-05-05,organic
+C00527,Berrada,Layla,layla.berrada14@menara.ma,1993-12-29,Femme,Marrakesh,+212618252004,2023-08-13,marketplace
+C00532,Benkirane,Rachid,rachid.benkirane18@outlook.fr,1992-04-27,M,Tanger,+212626850922,2021-08-13,marketplace
+C00152,Bouazza,Nisrine,nisrine.bouazza58@hotmail.com,1999-10-28,Femme,MARRAKECH,+212657319709,2020-03-27,marketplace
+C00526,Berrada,Rachid,rachid.berrada92@iam.ma,2001-07-12,Homme,fes,+212633645674,2020-07-18,referral
+C00780,El Mansouri,Mohammed,mohammed.elmansouri91@gmail.com,2001-08-25,M,MARRAKECH,+212683608832,2020-05-19,organic
+C00117,Benali,Soufiane,soufiane.benali21@yahoo.fr,1967-04-27,Homme,MARRAKECH,+212675184410,2023-09-17,referral
+C00647,Cherkaoui,Imane,imane.cherkaoui70@hotmail.com,1984-11-30,0,RABAT,+212659357131,2022-08-31,marketplace
+C00289,Benali,Amine,amine.benali74@yahoo.fr,2004-07-05,m,Rabat,+212633193791,2023-10-31,referral
+C01099,Ait Benhaddou,Samir,samir.aitbenhaddou7@hotmail.com,1985-01-10,1,FES,+212640327888,2021-10-08,referral
+C00366,El Amrani,Hajar,hajar.elamrani14menara.ma,1965-01-28,0,CAS,+212648468887,2024-03-16,social_media
+C00064,Cherkaoui,Samira,samira.cherkaoui25@iam.ma,1976-08-10,0,CASABLANCA,+212647111151,2024-02-21,referral
+C01003,Bensouda,Zineb,zineb.bensouda18@outlook.fr,1977-12-01,0,CAS,+212648398260,2022-10-02,referral
+C00074,Belkadi,Omar,omar.belkadi3@menara.ma,1984-03-06,male,TNG,+212673149551,2024-04-11,social_media
+C00689,Lahlou,Tariq,tariq.lahlou92@menara.ma,1986-04-27,h,AGADIR,+212697577092,2022-03-10,referral
+C00427,Kadiri,Salma,salma.kadiri19@yahoo.fr,2002-06-07,f,casablanca,+212628048483,2022-05-13,referral
+C01169,Sahraoui,Hassan,hassan.sahraoui49@menara.ma,1990-09-29,Homme,fes,+212648149420,2022-01-26,referral
+C00297,Ait Benhaddou,Karim,karim.aitbenhaddou92@hotmail.com,1989-01-11,m,tanger,+212629012298,2020-10-29,paid_ads
+C01059,Benkirane,Zineb,zineb.benkirane41@outlook.fr,1995-09-18,f,Tanger,+212675655873,2024-05-03,referral
+C01108,Benali,Hajar,hajar.benali40@gmail.com,1991-01-19,F,Rabat,+212610113173,2020-12-04,referral
+C00095,Chraibi,Karim,karim.chraibi68@hotmail.com,1974-10-05,Homme,Meknès,+212655461591,2022-09-13,email_campaign
+C00800,Bensouda,Khadija,khadija.bensouda49@hotmail.com,1989-11-23,0,AGADIR,+212630766764,2022-08-19,social_media
+C01531,Cherkaoui,Khadija,khadija.cherkaoui9@outlook.fr,1989-03-03,Femme,CAS,+212697438349,2023-09-19,marketplace
+C00763,Chraibi,Fatima,fatima.chraibi43@yahoo.fr,1987-02-27,f,Meknès,+212646838009,2024-04-22,marketplace
+C01113,El Fassi,Amina,amina.elfassi79@gmail.com,1966-12-06,f,Casa,+212635228980,2020-10-09,referral
+C00305,Berrada,Mehdi,mehdi.berrada77@hotmail.com,1962-10-12,M,Fez,+212668277389,2020-12-03,paid_ads
+C01598,Berrada,Ibrahim,ibrahim.berrada69@iam.ma,2004-08-20,male,Tanger,+212653298644,2023-06-10,email_campaign
+C01470,Chraibi,Rim,rim.chraibi6@,1985-12-13,f,casablanca,+212674717944,2020-01-22,organic
+C00484,El Fassi,Imane,imane.elfassi56@yahoo.fr,1973-01-08,f,FES,+212619101846,2020-11-19,email_campaign
+C00342,Sahraoui,Sara,sara.sahraoui18@iam.ma,2005-11-23,f,Fès,+212625302505,2020-08-29,email_campaign
+C00272,Ait Benhaddou,Ibrahim,ibrahim.aitbenhaddou35@iam.ma,1962-08-19,Homme,MEKNES,+212680310522,2022-05-29,email_campaign
+C00564,Ait Benhaddou,Hassan,hassan.aitbenhaddou22@outlook.fr,1999-05-10,1,FES,+212623417457,2020-03-24,social_media
+C00357,Filali,Imane,imane.filali58@iam.ma,1979-11-23,f,rabat,+212649189370,2021-12-28,marketplace
+C00041,Chraibi,Layla,layla.chraibi39@gmail.com,1988-11-28,F,MARRAKECH,+212638682516,2022-06-24,marketplace
+C00796,Berrada,Youssef,youssef.berrada76@yahoo.fr,1978-05-02,1,Mrakch,+212672689644,2020-06-09,referral
+C00108,Ait Benhaddou,Sara,sara.aitbenhaddou17@gmail.com,1989-03-04,F,Fès,+212670896652,2022-12-22,email_campaign
+C01177,Ait Benhaddou,Meryem,meryem.aitbenhaddou43@iam.ma,1990-06-26,F,Mrakch,+212668035365,2024-05-18,marketplace
+C00378,El Idrissi,Nabil,nabil.elidrissi27@gmail.com,1999-01-17,h,Meknès,+212630636590,2020-05-27,marketplace
+C01118,Benkirane,Zineb,zineb.benkirane69@outlook.fr,1967-03-06,0,tanger,+212689208997,2021-11-21,marketplace
+C00304,Bensouda,Youssef,youssef.bensouda5@gmail.com,1969-05-24,m,rabat,+212631596235,2020-12-14,referral
+C00505,Hassani,Houda,houda.hassani24@outlook.fr,1986-01-22,0,tanger,+212672395893,2020-08-30,organic
+C00096,Berrada,Amine,amine.berrada97@yahoo.fr,1995-08-27,male,RABAT,+212611868130,2020-07-03,referral
+C01570,El Amrani,Youssef,youssef.elamrani4@outlook.fr,1960-11-10,Homme,tanger,+212660502752,2024-04-13,marketplace
+C01011,Berrada,Ibrahim,ibrahim.berrada77@outlook.fr,2002-12-14,1,CAS,+212623966860,2024-01-21,organic
+C00651,El Idrissi,Imane,imane.elidrissi92@hotmail.com,1969-01-02,0,AGADIR,+212618907659,2021-06-18,paid_ads
+C00823,Lahlou,Nadia,nadia.lahlou74@outlook.fr,1977-01-12,F,marrakech,+212626952687,2021-10-16,email_campaign
+C00997,Filali,Fatima,fatima.filali60@yahoo.fr,1960-10-25,0,RABAT,+212638290431,2022-10-22,paid_ads
+C00632,El Amrani,Nadia,invalide-632,1997-10-13,Femme,tanger,+212688918579,2023-11-26,referral
+C00507,Berrada,Hajar,hajar.berrada39@hotmail.com,1960-07-19,f,agadir,+212663156840,2021-11-13,email_campaign
+C00236,El Idrissi,Hajar,hajar.elidrissi2@gmail.com,1979-10-30,F,RABAT,+212688999206,2022-03-12,referral
+C01279,El Idrissi,Tariq,tariq.elidrissi64@gmail.com,1968-12-11,h,MARRAKECH,+212614380267,2022-10-30,paid_ads
+C00080,El Mansouri,Houda,houda.elmansouri62@outlook.fr,1972-12-22,F,CASABLANCA,+212628321839,2023-05-12,paid_ads
+C01068,Belkadi,Ahmed,ahmed.belkadi25@outlook.fr,1989-01-15,M,Mrakch,+212650554420,2024-03-02,organic
+C00175,El Fassi,Houda,houda.elfassi63@menara.ma,1961-06-29,Femme,rabat,+212665907088,2023-10-11,organic
+C00626,Lahlou,Houda,houda.lahlou70menara.ma,1970-09-08,F,MARRAKECH,+212669398880,2021-10-06,referral
+C00865,El Mansouri,Nabil,nabil.elmansouri32@iam.ma,2002-07-07,h,MEKNES,+212677422120,2024-07-16,organic
+C00798,Filali,Zineb,zineb.filali49@outlook.fr,2005-05-01,female,Agadir,+212674693042,2022-06-06,social_media
+C01058,Filali,Sara,sara.filali62@menara.ma,1985-10-09,F,MARRAKECH,+212698908264,2021-10-28,social_media
+C00122,Cherkaoui,Khadija,khadija.cherkaoui3@outlook.fr,2001-04-11,f,RABAT,+212624208709,2020-06-29,referral
+C00765,Belkadi,Layla,layla.belkadi2@iam.ma,1973-05-23,F,Casa,+212638168948,2021-04-09,marketplace
+C00079,Benkirane,Samir,samir.benkirane71@,1970-03-06,M,Tnja,+212676890827,2023-08-19,social_media
+C00493,El Fassi,Samir,samir.elfassi60@yahoo.fr,2004-11-30,m,casablanca,+212683337520,2024-05-13,paid_ads
+C01153,Benali,Ibrahim,ibrahim.benali81@outlook.fr,1966-01-10,Homme,fes,+212682172776,2022-12-31,marketplace
+C00979,Sahraoui,Salma,salma.sahraoui56@gmail.com,1991-02-17,Femme,Tnja,+212629747600,2020-01-18,referral
+C00696,Ait Benhaddou,Amina,amina.aitbenhaddou26@gmail.com,1960-08-03,0,Meknès,+212655811204,2024-07-15,referral
+C00125,Ait Benhaddou,Tariq,tariq.aitbenhaddou10@iam.ma,2004-04-30,M,meknes,+212670251043,2023-02-28,paid_ads
+C00055,Sahraoui,Nadia,nadia.sahraoui96@menara.ma,1974-09-10,Femme,Tnja,+212651870192,2023-03-31,organic
+C00667,Chraibi,Imane,imane.chraibi59@outlook.fr,1973-04-13,f,RABAT,+212648133464,2020-07-10,social_media
+C00012,El Amrani,Amine,amine.elamrani93@iam.ma,1976-01-11,male,Tnja,+212650056581,2024-11-17,marketplace
+C00534,Sahraoui,Rim,rim.sahraoui80@outlook.fr,2000-05-17,F,RABAT,+212667011913,2021-04-07,social_media
+C00261,Ait Benhaddou,Imane,imane.aitbenhaddou10@outlook.fr,1969-03-10,f,rabat,+212628405182,2022-01-22,email_campaign
+C00687,Benali,Samira,samira.benali3@menara.ma,1965-09-12,Femme,Fez,+212625695520,2022-05-04,referral
+C00751,Benkirane,Khalid,khalid.benkirane47@,1970-05-02,1,Casablanca,+212694736292,2022-06-20,social_media
+C00871,El Mansouri,Samira,samira.elmansouri75@yahoo.fr,1971-09-15,f,Agadir,+212615508152,2023-05-17,organic
+C00874,Hassani,Zineb,zineb.hassani68@outlook.fr,1961-12-17,0,Fès,+212627305260,2021-07-15,marketplace
+C00563,Cherkaoui,Amina,amina.cherkaoui74@iam.ma,1979-02-17,f,FES,+212618485498,2020-12-21,email_campaign
+C00968,Sahraoui,Houda,houda.sahraoui67@outlook.fr,1982-05-02,f,Casa,+212614789956,2020-08-23,organic
+C00388,Filali,Khadija,khadija.filali87@yahoo.fr,2001-07-10,F,RABAT,+212675360192,2024-05-05,email_campaign
+C01021,Kadiri,Sara,sara.kadiri11@hotmail.com,1994-06-11,F,tanger,+212661628627,2024-11-01,referral
+C00597,Filali,Layla,layla.filali37@gmail.com,1999-12-22,female,TANGER,+212669622247,2021-03-17,marketplace
+C00949,El Mansouri,Mehdi,mehdi.elmansouri53@menara.ma,1991-08-08,M,tanger,+212653309532,2020-08-22,social_media
+C01151,Kadiri,Amine,amine.kadiri86@gmail.com,1987-10-01,1,Casa,+212691690443,2020-11-03,email_campaign
+C00909,El Fassi,Rim,rim.elfassi65@gmail.com,1994-04-13,F,FES,+212648939164,2024-11-14,organic
+C00176,El Amrani,Hajar,hajar.elamrani61@menara.ma,1980-05-31,f,TNG,+212632885741,2023-04-10,referral
+C00795,Lahlou,Houda,houda.lahlou57@yahoo.fr,2004-02-09,f,CASABLANCA,+212628996104,2020-04-16,marketplace
+C00218,Kadiri,Ahmed,ahmed.kadiri49@outlook.fr,1960-11-05,h,casablanca,+212668238367,2020-06-18,referral
+C00392,El Fassi,Amina,amina.elfassi85@gmail.com,1974-11-17,female,Tanger,+212634044459,2022-07-02,social_media
+C01592,El Mansouri,Khadija,khadija.elmansouri52@outlook.fr,1977-01-14,Femme,Agadir,+212681757508,2024-01-26,social_media
+C00723,Tazi,Khalid,khalid.tazi35@gmail.com,1969-02-08,1,meknes,+212626853900,2023-02-10,marketplace
+C01111,Tazi,Imane,imane.tazi50@gmail.com,1971-12-24,F,meknes,+212666987832,2021-10-31,email_campaign
+C01087,El Fassi,Khadija,khadija.elfassi68@hotmail.com,1979-03-11,0,Fez,+212629177565,2024-09-03,email_campaign
+C00345,Berrada,Nadia,nadia.berrada10@menara.ma,1982-12-16,f,Casa,+212645450260,2022-07-24,email_campaign
+C00019,El Idrissi,Ahmed,ahmed.elidrissi55@hotmail.com,1964-11-10,h,Fez,+212618135295,2023-08-16,organic
+C00199,Bensouda,Hassan,hassan.bensouda93@iam.ma,1980-08-08,1,MARRAKECH,+212646997080,2021-12-09,social_media
+C00971,Bouazza,Imane,imane.bouazza31@iam.ma,1974-12-13,0,rabat,+212611709239,2022-07-21,social_media
+C00738,Lahlou,Samira,samira.lahlou74@gmail.com,1980-03-29,f,marrakech,+212636424359,2020-06-01,social_media
+C01061,Kadiri,Layla,layla.kadiri55@outlook.fr,1984-01-27,F,Agadir,+212695398202,2021-03-24,email_campaign
+C00444,El Amrani,Imane,imane.elamrani12@yahoo.fr,1990-09-03,F,Casablanca,+212659848072,2024-05-28,referral
+C00525,Lahlou,Zineb,zineb.lahlou89@yahoo.fr,1999-01-21,female,MEKNES,+212641696096,2021-12-01,paid_ads
+C00010,Benali,Karim,karim.benali20@gmail.com,1997-11-15,male,TANGER,+212689978790,2022-02-27,referral
+C00594,Benali,Rim,rim.benali87@yahoo.fr,1996-01-12,female,Meknès,+212657968550,2021-03-27,referral
+C00006,Filali,Nadia,nadia.filali27@hotmail.com,1966-05-28,female,Fez,+212642857966,2020-12-16,paid_ads
+C01097,Belkadi,Meryem,meryem.belkadi12@iam.ma,1970-06-06,f,casablanca,+212634918714,2024-02-03,organic
+C00515,Bouazza,Mohammed,mohammed.bouazza88@gmail.com,1989-11-25,M,TNG,+212698447373,2020-07-30,paid_ads
+C00017,Berrada,Mohammed,mohammed.berrada81@iam.ma,1962-10-26,Homme,TANGER,+212647376585,2022-11-18,social_media
+C00669,Berrada,Rim,rim.berrada99@yahoo.fr,1989-06-26,f,Casablanca,+212626373347,2023-10-27,marketplace
+C00171,El Mansouri,Soufiane,soufiane.elmansouri47@iam.ma,1995-12-09,m,FES,+212658657117,2023-02-24,social_media
+C00042,Benkirane,Hajar,hajar.benkirane11@iam.ma,1990-01-26,f,Meknès,+212651663795,2024-03-18,social_media
+C00338,El Fassi,Meryem,meryem.elfassi68@menara.ma,1972-01-02,Femme,Marrakesh,+212632130289,2022-01-05,social_media
+C00764,Sahraoui,Samir,samir.sahraoui97@yahoo.fr,1983-06-05,m,meknes,+212656524207,2021-09-05,email_campaign
+C00337,Filali,Samir,samir.filali17@hotmail.com,1987-06-18,1,TANGER,+212650024028,2024-08-14,organic
+C00140,Benali,Khalid,khalid.benali65@outlook.fr,1967-04-28,Homme,Casa,+212623298711,2020-02-27,email_campaign
+C00448,Hassani,Hassan,hassan.hassani39@iam.ma,1979-07-16,m,Casa,+212653555463,2023-07-20,referral
+C00991,Tazi,Nadia,nadia.tazi82@iam.ma,1987-11-22,f,tanger,+212693706754,2024-07-07,referral
+C00222,Berrada,Samira,samira.berrada78@hotmail.com,1995-08-04,Femme,tanger,+212670471823,2023-07-22,email_campaign
+C00494,El Idrissi,Khalid,khalid.elidrissi58@,1978-02-11,M,TANGER,+212697050454,2021-05-27,email_campaign
+C00135,Benkirane,Nadia,nadia.benkirane89@yahoo.fr,1974-11-07,f,MARRAKECH,+212658895439,2020-03-30,referral
+C00600,El Mansouri,Khalid,khalid.elmansouri23@outlook.fr,1972-04-13,1,casablanca,+212648851088,2024-08-31,referral
+C00866,Belkadi,Omar,omar.belkadi82@iam.ma,1996-01-01,m,CAS,+212667217417,2021-01-28,social_media
+C00619,El Idrissi,Khadija,khadija.elidrissi9@yahoo.fr,1992-12-18,0,tanger,+212624115931,2023-10-12,referral
+C00333,Benali,Layla,layla.benali18@yahoo.fr,2001-01-18,0,rabat,+212634207075,2024-11-01,marketplace
+C00027,Berrada,Rim,rim.berrada59@gmail.com,1968-12-20,f,fes,+212645594597,2021-03-12,paid_ads
+C00693,Lahlou,Khadija,invalide-693,1973-07-24,f,Mrakch,+212623977705,2023-05-22,marketplace
+C00164,Belkadi,Salma,salma.belkadi4@gmail.com,1983-09-29,f,CASABLANCA,+212665913331,2024-04-19,paid_ads
+C00251,Sahraoui,Salma,salma.sahraoui55@iam.ma,1978-07-15,0,MEKNES,+212657085656,2020-05-01,paid_ads
+C00989,Benali,Salma,salma.benali8@gmail.com,1969-08-08,Femme,Fès,+212685892528,2020-07-18,email_campaign
+C01015,Chraibi,Khalid,khalid.chraibi6@menara.ma,1881-02-02,1,MARRAKECH,+212615867922,2021-01-04,email_campaign
+C00458,Hajji,Soufiane,soufiane.hajji63@iam.ma,2001-12-28,h,TNG,+212665828293,2022-01-09,paid_ads
+C01386,Bensouda,Sara,sara.bensouda23@outlook.fr,1969-04-27,f,RABAT,+212630561048,2020-03-18,paid_ads
+C00099,Ait Benhaddou,Zineb,zineb.aitbenhaddou5@gmail.com,1968-09-19,0,fes,+212670887034,2020-10-04,referral
+C00130,Filali,Ibrahim,ibrahim.filali50@hotmail.com,1964-09-11,h,Fez,+212654250344,2021-11-16,organic
+C00969,Berrada,Samira,samira.berrada13@menara.ma,1996-04-17,F,Rabat,+212646006180,2020-07-26,social_media
+C01419,Lahlou,Mehdi,mehdi.lahlou79@,2000-10-12,M,Fez,+212692943469,2020-09-24,email_campaign
+C00576,El Idrissi,Ibrahim,ibrahim.elidrissi29@menara.ma,1973-05-13,male,tanger,+212615376584,2022-05-05,organic
+C01073,Belkadi,Houda,houda.belkadi8@yahoo.fr,1987-12-10,f,rabat,+212614900250,2024-09-04,social_media
+C00319,Berrada,Sara,sara.berrada57@yahoo.fr,2003-06-18,female,RABAT,+212679158328,2024-08-08,organic
+C01018,Tazi,Salma,salma.tazi35@menara.ma,1969-05-13,f,RABAT,+212693466217,2022-04-21,marketplace
+C00254,Belkadi,Nadia,nadia.belkadi35@iam.ma,1966-10-10,f,MEKNES,+212664069715,2024-12-07,organic
+C00309,El Mansouri,Rim,rim.elmansouri83@gmail.com,1994-03-22,Femme,casablanca,+212645338986,2022-07-01,organic
+C00778,Chraibi,Layla,layla.chraibi48@gmail.com,1989-03-31,F,MARRAKECH,+212637833011,2020-12-03,email_campaign
+C00683,El Amrani,Ahmed,ahmed.elamrani25@iam.ma,1973-01-08,h,Casa,+212682287324,2022-06-11,marketplace
+C00598,Bensouda,Hajar,hajar.bensouda21@hotmail.com,1998-01-09,f,marrakech,+212690253572,2020-10-12,paid_ads
+C00406,Sahraoui,Hassan,hassan.sahraoui53@menara.ma,1880-10-17,m,Mrakch,+212697851693,2020-01-15,referral
+C01157,Hassani,Omar,omar.hassani57@gmail.com,1979-04-15,male,Marrakesh,+212611288822,2021-09-06,paid_ads
+C00150,Kadiri,Rim,rim.kadiri57@iam.ma,1976-10-04,F,AGADIR,+212679696025,2022-10-15,email_campaign
+C00590,Chraibi,Samir,samir.chraibi24@hotmail.com,1973-10-08,1,Casa,+212652496800,2020-08-27,organic
+C00523,Hassani,Ibrahim,ibrahim.hassani22@outlook.fr,1971-06-06,male,Tnja,+212624358786,2022-04-10,marketplace
+C00101,Benali,Khadija,khadija.benali48@iam.ma,1981-03-07,Femme,Tnja,+212683076970,2023-11-05,email_campaign
+C00343,Hajji,Amine,amine.hajji26@menara.ma,1978-02-03,Homme,AGADIR,+212631524980,2022-04-19,email_campaign
+C00742,Bensouda,Mohammed,mohammed.bensouda39@gmail.com,1969-02-18,h,TNG,+212649583058,2023-02-19,organic
+C00946,Hassani,Meryem,meryem.hassani66@outlook.fr,1982-06-09,0,CASABLANCA,+212647726289,2023-11-08,marketplace
+C01274,Belkadi,Tariq,tariq.belkadi10hotmail.com,1999-10-13,1,TANGER,+212626445384,2024-10-17,email_campaign
+C01442,Bouazza,Khadija,khadija.bouazza99@iam.ma,1976-03-18,f,Tanger,+212693558632,2021-03-25,organic
+C00908,Bouazza,Ibrahim,ibrahim.bouazza65@outlook.fr,1991-12-04,1,AGADIR,+212654468774,2023-10-13,organic
+C00154,Berrada,Youssef,youssef.berrada83@yahoo.fr,1962-11-27,male,Tanger,+212659790013,2023-10-22,referral
+C00497,Bouazza,Khadija,khadija.bouazza99@iam.ma,1976-03-18,f,Tanger,+212693558632,2021-02-19,organic
+C00690,Hassani,Hajar,hajar.hassani80@yahoo.fr,1967-09-25,f,Marrakesh,+212636774319,2020-09-21,social_media
+C00091,Kadiri,Omar,omar.kadiri46@menara.ma,1986-06-27,m,Meknès,+212646840133,2023-09-10,referral
+C00036,Hajji,Rachid,rachid.hajji43@outlook.fr,1985-01-15,Homme,Fez,+212681969657,2022-11-09,referral
+C00190,Tazi,Layla,layla.tazi97@outlook.fr,1961-01-09,Femme,Fez,+212641715995,2022-01-06,marketplace
+C01089,Filali,Hajar,hajar.filali55@iam.ma,1977-02-18,F,RABAT,+212611432428,2021-01-01,marketplace
+C00483,Sahraoui,Rim,rim.sahraoui58@hotmail.com,1972-06-06,female,fes,+212628536762,2023-11-01,social_media
+C00811,Lahlou,Zineb,zineb.lahlou75@gmail.com,1969-01-16,f,TNG,+212699298044,2021-06-28,organic
+C00291,Berrada,Fatima,fatima.berrada50@hotmail.com,1982-05-09,f,MEKNES,+212661338023,2023-01-18,organic
+C00655,Bouazza,Hajar,hajar.bouazza11@yahoo.fr,1993-11-07,female,Casa,+212684964625,2020-02-12,organic
+C00809,Benkirane,Amine,amine.benkirane15@menara.ma,1976-08-26,1,TNG,+212635754346,2024-03-15,social_media
+C00440,El Amrani,Khadija,khadija.elamrani38@outlook.fr,1993-07-09,0,marrakech,+212668667423,2024-12-11,paid_ads
+C00596,Kadiri,Mehdi,mehdi.kadiri63@yahoo.fr,1965-01-10,h,RABAT,+212667396933,2022-03-25,social_media
+C01106,Lahlou,Sara,sara.lahlou87@outlook.fr,1981-01-07,female,Tnja,+212646153018,2022-05-12,referral
+C00293,El Mansouri,Mohammed,mohammed.elmansouri61@gmail.com,1980-11-18,1,Tnja,+212642366980,2021-05-22,marketplace
+C00863,El Fassi,Ibrahim,ibrahim.elfassi99@gmail.com,1990-09-11,M,Fès,+212668294586,2024-02-19,organic
+C00226,Filali,Ahmed,ahmed.filali12@menara.ma,1994-07-24,m,Casablanca,+212621368176,2022-04-27,referral
+C00895,Tazi,Nadia,nadia.tazi54@outlook.fr,2004-03-11,female,fes,+212661623796,2024-08-09,social_media
+C00554,Benali,Soufiane,soufiane.benali50@iam.ma,1995-02-09,male,tanger,+212675857881,2022-11-21,marketplace
+C01192,Sahraoui,Nadia,nadia.sahraoui1@iam.ma,1983-01-16,0,rabat,+212659067682,2023-09-06,paid_ads
+C00301,Belkadi,Rachid,rachid.belkadi64@gmail.com,1981-05-08,Homme,rabat,+212621908603,2020-12-09,marketplace
+C00744,El Amrani,Ibrahim,ibrahim.elamrani67@outlook.fr,1969-03-18,m,Fès,+212689575878,2023-12-31,organic
+C00393,Hassani,Samir,samir.hassani6@hotmail.com,1965-08-21,Homme,RABAT,+212699736040,2021-04-24,organic
+C00514,Lahlou,Hajar,hajar.lahlou99@yahoo.fr,1971-11-27,0,Agadir,+212662021209,2020-03-15,referral
+C01038,Filali,Zineb,zineb.filali65@menara.ma,2003-06-08,female,Casa,+212640838308,2022-07-08,referral
+C00748,Hajji,Amina,amina.hajji82@yahoo.fr,1990-08-22,0,agadir,+212672733686,2022-09-01,marketplace
+C00243,Kadiri,Sara,sara.kadiri15@menara.ma,1975-06-24,f,AGADIR,+212692474715,2024-06-27,email_campaign
+C00558,Benali,Youssef,youssef.benali4@yahoo.fr,2003-11-22,M,TANGER,+212696356711,2024-06-11,paid_ads
+C00692,Benkirane,Amina,amina.benkirane65yahoo.fr,1970-03-23,female,Casa,+212640077607,2020-09-04,paid_ads
+C00613,El Amrani,Nisrine,nisrine.elamrani16@gmail.com,1977-12-11,0,agadir,+212622184193,2021-12-20,organic
+C00750,El Amrani,Soufiane,soufiane.elamrani29@iam.ma,1979-02-14,1,Marrakesh,+212660454028,2024-02-13,email_campaign
+C00825,Benali,Nadia,nadia.benali41@menara.ma,1971-01-28,Femme,AGADIR,+212694701730,2023-03-21,referral
+C00228,El Idrissi,Khadija,khadija.elidrissi62@hotmail.com,1982-02-14,f,Fez,+212692767884,2022-10-12,paid_ads
+C01004,Benkirane,Omar,omar.benkirane68@outlook.fr,1962-03-05,h,agadir,+212614461288,2020-07-16,social_media
+C00340,El Mansouri,Khalid,khalid.elmansouri80menara.ma,1961-10-08,m,AGADIR,+212669634854,2020-08-25,referral
+C01180,Benkirane,Hassan,hassan.benkirane4@gmail.com,1963-07-16,1,fes,+212653951077,2021-12-14,organic
+C00128,Belkadi,Meryem,meryem.belkadi95@menara.ma,1976-11-20,Femme,Fès,+212630248230,2022-09-01,paid_ads
+C00435,Kadiri,Mohammed,mohammed.kadiri98@menara.ma,1973-12-06,m,Fez,+212651523026,2024-12-18,referral
+C00603,El Mansouri,Karim,karim.elmansouri9@outlook.fr,2003-02-08,male,marrakech,+212694288202,2024-11-13,email_campaign
+C00144,Ait Benhaddou,Samir,samir.aitbenhaddou55@,1997-05-16,1,agadir,+212680260907,2023-09-30,organic
+C00758,Filali,Imane,imane.filali89@menara.ma,2002-07-03,Femme,FES,+212688380820,2022-04-01,marketplace
+C01206,Benali,Ibrahim,ibrahim.benali80@iam.ma,1971-08-08,1,TNG,+212647977444,2024-07-20,marketplace
+C00937,Chraibi,Salma,salma.chraibi42@yahoo.fr,1999-03-30,f,Fez,+212630541837,2024-04-26,paid_ads
+C00283,Tazi,Khadija,khadija.tazi26@gmail.com,1969-10-10,0,Tnja,+212672552858,2020-12-02,referral
+C00476,Chraibi,Omar,omar.chraibi97@menara.ma,1972-09-05,h,AGADIR,+212660547291,2023-09-30,organic
+C00620,El Fassi,Meryem,meryem.elfassi87@iam.ma,1995-12-10,f,FES,+212632645646,2020-07-27,marketplace
+C01105,El Amrani,Karim,karim.elamrani79@outlook.fr,1999-01-09,h,Rabat,+212643900011,2022-08-27,social_media
+C00317,Kadiri,Fatima,fatima.kadiri89@hotmail.com,1984-02-04,Femme,tanger,+212651734908,2021-11-22,email_campaign
+C01090,Filali,Amine,amine.filali25@,1993-02-03,Homme,Mrakch,+212646645175,2020-01-27,paid_ads
+C01197,Belkadi,Rachid,rachid.belkadi58@outlook.fr,1983-07-30,male,MARRAKECH,+212647487708,2020-08-29,marketplace
+C00896,El Idrissi,Tariq,tariq.elidrissi74@menara.ma,1979-09-05,h,TANGER,+212610384682,2021-04-26,email_campaign
+C01142,El Idrissi,Zineb,zineb.elidrissi92@hotmail.com,1962-02-16,F,Marrakesh,+212618024377,2024-08-22,marketplace
+C01007,Berrada,Tariq,tariq.berrada67@yahoo.fr,1980-09-07,m,Fès,+212613025600,2023-01-12,email_campaign
+C01383,Bouazza,Mohammed,mohammed.bouazza88@gmail.com,1989-11-25,M,TNG,+212698447373,2020-08-02,paid_ads
+C00451,Chraibi,Samir,samir.chraibi17@gmail.com,1991-02-27,M,Agadir,+212660703288,2021-01-30,organic
+C00502,Bouazza,Karim,karim.bouazza48@hotmail.com,1998-05-03,male,TANGER,+212628058430,2021-08-22,referral
+C01316,El Fassi,Zineb,zineb.elfassi65@menara.ma,1961-10-28,F,Marrakesh,+212661926331,2020-04-08,marketplace
+C00288,Belkadi,Tariq,tariq.belkadi10hotmail.com,1999-10-13,1,TANGER,+212626445384,2024-10-01,email_campaign
+C00411,Sahraoui,Amine,amine.sahraoui12@outlook.fr,1967-03-07,male,TNG,+212663773642,2024-01-23,referral
+C00052,El Mansouri,Mohammed,mohammed.elmansouri42@outlook.fr,1994-01-05,Homme,meknes,+212643859311,2024-08-30,referral
+C01155,Benali,Nadia,nadia.benali35@menara.ma,1977-01-17,f,Meknès,+212680136507,2020-05-10,social_media
+C00149,Benali,Khadija,khadija.benali25@iam.ma,1964-04-15,f,rabat,+212659394697,2021-07-13,organic
+C00090,Bensouda,Ahmed,ahmed.bensouda76@hotmail.com,1982-06-09,M,Casablanca,+212674855088,2021-02-11,referral
+C00818,Hassani,Youssef,youssef.hassani39@gmail.com,2001-11-17,1,MARRAKECH,+212698938318,2020-08-24,referral
+C00633,Kadiri,Ibrahim,ibrahim.kadiri50@menara.ma,2003-10-24,m,AGADIR,+212655092789,2023-10-14,social_media
+C00888,Chraibi,Mohammed,mohammed.chraibi35@iam.ma,1963-12-30,m,fes,+212678658060,2021-08-30,organic
+C01050,Hassani,Mohammed,mohammed.hassani48@gmail.com,1998-04-06,h,MARRAKECH,+212670914632,2022-12-02,social_media
+C00425,El Mansouri,Mehdi,mehdi.elmansouri35@yahoo.fr,1992-10-29,1,Marrakesh,+212666249702,2022-05-18,social_media
+C00546,El Mansouri,Amina,amina.elmansouri13@hotmail.com,2001-05-14,f,Agadir,+212689017236,2021-05-10,marketplace
+C01167,Lahlou,Fatima,fatima.lahlou49@outlook.fr,1977-11-22,0,Fès,+212646770694,2022-10-27,referral
+C00162,Benkirane,Hassan,hassan.benkirane42@yahoo.fr,1985-06-25,m,CAS,+212683932683,2021-02-06,marketplace
+C01226,Cherkaoui,Samira,samira.cherkaoui30@hotmail.com,1977-12-09,F,Casa,+212688529753,2020-06-12,referral
+C01643,El Idrissi,Mehdi,mehdi.elidrissi14@yahoo.fr,1981-08-14,1,Fès,+212657572279,2023-01-08,email_campaign
+C01152,Hajji,Rachid,rachid.hajji64@hotmail.com,1961-02-03,h,Meknès,+212640651479,2024-05-22,paid_ads
+C00034,El Idrissi,Soufiane,soufiane.elidrissi23@gmail.com,1996-12-08,h,Agadir,+212645810056,2024-07-18,social_media
+C00431,Berrada,Rim,rim.berrada79@outlook.fr,1972-12-29,0,Fez,+212666615250,2024-07-12,email_campaign
+C01100,Hajji,Hassan,hassan.hajji38@yahoo.fr,1968-04-16,M,RABAT,+212656823088,2023-03-31,email_campaign
+C00110,Bensouda,Salma,salma.bensouda54@outlook.fr,1988-01-14,f,CAS,+212673655158,2022-02-05,social_media
+C00601,Bouazza,Fatima,fatima.bouazza39@menara.ma,1980-02-22,f,MEKNES,+212645255913,2020-01-06,social_media
+C00078,Benali,Hajar,hajar.benali35@yahoo.fr,1999-04-22,f,Marrakesh,+212694560158,2020-09-05,organic
+C00775,Lahlou,Mehdi,mehdi.lahlou63@menara.ma,1968-03-04,Homme,Fez,+212656544270,2024-12-09,referral
+C00104,Sahraoui,Karim,karim.sahraoui36@gmail.com,1971-08-30,male,CAS,+212624754064,2024-06-23,social_media
+C00810,El Idrissi,Rim,rim.elidrissi81@outlook.fr,1974-11-26,f,Casablanca,+212626734478,2020-06-24,referral
+C00462,Sahraoui,Mehdi,mehdi.sahraoui46@outlook.fr,1989-02-15,Homme,marrakech,+212667792552,2024-04-14,marketplace
+C01057,Filali,Rachid,rachid.filali68@outlook.fr,1986-12-03,1,Casablanca,+212675796479,2023-09-30,referral
+C01369,Chraibi,Khadija,khadija.chraibi61@iam.ma,1963-01-21,F,tanger,+212619799868,2023-11-28,social_media
+C00788,Berrada,Fatima,fatima.berrada53@yahoo.fr,1969-02-18,f,fes,+212633012852,2024-06-08,paid_ads
+C00861,Lahlou,Imane,imane.lahlou21@gmail.com,1983-11-05,f,marrakech,+212676513956,2022-09-28,paid_ads
+C00170,Benali,Fatima,fatima.benali64@hotmail.com,2002-03-21,Femme,fes,+212667838146,2020-01-17,organic
+C00028,Filali,Soufiane,soufiane.filali32@gmail.com,1987-02-20,male,MEKNES,+212611049999,2023-09-01,paid_ads
+C00859,Filali,Khadija,khadija.filali24@outlook.fr,1999-05-07,f,Meknès,+212628773624,2022-06-18,social_media
+C00442,Chraibi,Khadija,khadija.chraibi53@hotmail.com,1972-04-03,Femme,Tnja,+212692910238,2023-07-28,referral
+C00572,El Idrissi,Fatima,fatima.elidrissi28@yahoo.fr,1994-10-01,Femme,Tanger,+212636059032,2022-07-26,marketplace
+C00009,Chraibi,Omar,omar.chraibi34@menara.ma,1995-10-31,Homme,Casa,+212676238574,2020-10-10,paid_ads
+C00958,Benali,Soufiane,soufiane.benali6@hotmail.com,1966-09-24,Homme,rabat,+212660943206,2023-11-09,paid_ads
+C00088,El Idrissi,Mehdi,mehdi.elidrissi88@menara.ma,1967-01-31,male,Rabat,+212642323627,2023-06-23,marketplace
+C00639,Chraibi,Rim,rim.chraibi99@menara.ma,1965-05-16,female,CASABLANCA,+212629829822,2022-01-16,referral
+C00965,Cherkaoui,Samir,samir.cherkaoui3@yahoo.fr,1962-07-25,M,agadir,+212657238845,2022-12-23,referral
+C01008,Bouazza,Nabil,nabil.bouazza50@hotmail.com,1974-02-28,Homme,TANGER,+212642399944,2022-12-30,paid_ads
+C00324,El Idrissi,Nisrine,nisrine.elidrissi3@menara.ma,1960-10-18,F,Tanger,+212690683906,2023-08-18,social_media
+C00499,Sahraoui,Tariq,tariq.sahraoui32@gmail.com,1978-08-17,m,casablanca,+212697681338,2020-10-30,organic
+C01070,Bouazza,Meryem,meryem.bouazza69@iam.ma,2004-08-03,f,Rabat,+212624536356,2022-02-02,paid_ads
+C00872,Bensouda,Omar,omar.bensouda10@gmail.com,1987-01-17,h,Marrakesh,+212681612882,2024-04-07,social_media
+C00480,El Fassi,Soufiane,soufiane.elfassi43@hotmail.com,1961-08-25,Homme,agadir,+212693917080,2021-12-21,email_campaign
+C00325,El Mansouri,Omar,omar.elmansouri40@menara.ma,1984-09-14,M,Rabat,+212671605671,2024-10-10,email_campaign
+C00422,Chraibi,Karim,karim.chraibi62@gmail.com,1984-08-24,M,casablanca,+212647616749,2024-04-14,paid_ads
+C00155,Berrada,Meryem,meryem.berrada18@menara.ma,1985-01-01,0,Tnja,+212634970946,2020-02-23,marketplace
+C00893,Kadiri,Nadia,nadia.kadiri93@outlook.fr,1966-01-14,f,FES,+212647376435,2022-05-25,marketplace
+C00579,Belkadi,Salma,salma.belkadi75@,1972-06-08,f,Rabat,+212694129142,2021-01-13,email_campaign
+C00772,Benali,Amine,amine.benali67@,1996-11-10,M,casablanca,+212682001505,2020-08-14,social_media
+C00756,Ait Benhaddou,Hajar,hajar.aitbenhaddou32@hotmail.com,1971-05-06,female,FES,+212638083391,2024-12-19,referral
+C00974,Ait Benhaddou,Karim,karim.aitbenhaddou13@gmail.com,2000-08-09,M,Agadir,+212644539524,2021-12-19,paid_ads
+C00610,Sahraoui,Rim,rim.sahraoui98@menara.ma,1987-05-02,f,Agadir,+212639844365,2024-07-26,organic
+C01110,Hassani,Fatima,fatima.hassani45@yahoo.fr,1995-05-09,f,CASABLANCA,+212660505000,2022-08-25,marketplace
+C00855,Tazi,Rim,rim.tazi99@menara.ma,2003-05-06,Femme,CAS,+212694715069,2021-03-12,organic
+C01632,Bouazza,Samira,samira.bouazza21@menara.ma,1975-03-31,female,fes,+212621606388,2024-11-10,social_media
+C00931,El Idrissi,Tariq,tariq.elidrissi64@gmail.com,1968-12-11,h,MARRAKECH,+212614380267,2022-10-27,paid_ads
+C00587,Chraibi,Layla,layla.chraibi61@yahoo.fr,1961-12-04,Femme,CASABLANCA,+212641182544,2020-05-08,organic
+C00530,El Fassi,Tariq,tariq.elfassi17@outlook.fr,1964-10-06,m,AGADIR,+212624723458,2023-02-20,email_campaign
+C00984,Belkadi,Nadia,nadia.belkadi87@outlook.fr,1972-06-26,f,meknes,+212628212104,2021-02-12,email_campaign
+C00161,Chraibi,Soufiane,soufiane.chraibi76@iam.ma,1998-10-24,male,TNG,+212679538491,2024-08-29,organic
+C01069,Hajji,Meryem,meryem.hajji34@gmail.com,1993-10-13,Femme,marrakech,+212664536785,2020-07-09,social_media
+C00745,Belkadi,Soufiane,soufiane.belkadi82@yahoo.fr,2003-03-10,h,Fès,+212642635373,2022-06-29,social_media
+C00205,Chraibi,Nadia,nadia.chraibi31@outlook.fr,1972-12-13,F,TNG,+212665902739,2023-02-25,referral
+C01673,Hassani,Hajar,hajar.hassani33@hotmail.com,1995-09-28,f,AGADIR,+212638919534,2020-12-24,organic
+C00423,Belkadi,Samira,samira.belkadi7@yahoo.fr,1962-12-03,female,RABAT,+212633461307,2022-03-17,marketplace
+C00611,Ait Benhaddou,Nabil,nabil.aitbenhaddou30@iam.ma,1967-01-19,M,AGADIR,+212620433455,2024-04-11,organic
+C00646,Ait Benhaddou,Samira,samira.aitbenhaddou23@gmail.com,1996-08-20,Femme,FES,+212681601127,2020-04-24,referral
+C00699,El Amrani,Nadia,nadia.elamrani67@iam.ma,1988-03-29,F,meknes,+212618250139,2020-12-02,referral
+C00482,Ait Benhaddou,Nisrine,nisrine.aitbenhaddou94@gmail.com,1980-05-27,F,Casa,+212667239162,2023-03-19,social_media
+C00905,Kadiri,Salma,salma.kadiri7@yahoo.fr,1977-06-20,Femme,Tnja,+212658680988,2020-08-01,organic
+C00403,Ait Benhaddou,Salma,salma.aitbenhaddou13@menara.ma,1963-07-03,female,Mrakch,+212622507745,2024-03-20,organic
+C00219,Cherkaoui,Sara,sara.cherkaoui6@menara.ma,2002-08-29,Femme,TNG,+212647631028,2020-06-01,marketplace
+C00947,Belkadi,Zineb,zineb.belkadi40@menara.ma,2003-10-07,F,MARRAKECH,+212646463456,2022-05-17,paid_ads
+C00959,Benkirane,Imane,imane.benkirane75@yahoo.fr,1973-04-11,female,marrakech,+212699689017,2023-07-28,referral
+C00419,El Mansouri,Samir,samir.elmansouri37@yahoo.fr,1990-09-06,m,fes,+212652127291,2020-12-31,referral
+C00940,El Amrani,Rachid,rachid.elamrani75@iam.ma,1971-01-03,m,Tanger,+212634243439,2021-08-01,email_campaign
+C01489,Benali,Mehdi,mehdi.benali67@outlook.fr,2002-08-07,male,Casa,+212620597167,2022-09-30,email_campaign
+C00951,El Amrani,Imane,imane.elamrani43@iam.ma,1988-11-05,0,fes,+212648066060,2020-05-15,referral
+C00196,El Mansouri,Khalid,khalid.elmansouri96@gmail.com,1998-01-04,Homme,AGADIR,+212618087373,2020-05-10,paid_ads
+C00223,Filali,Samira,samira.filali49@menara.ma,1994-02-05,f,meknes,+212643077929,2023-06-20,email_campaign
+C00650,Benkirane,Nabil,nabil.benkirane81@outlook.fr,1996-06-13,m,CAS,+212675993764,2024-11-09,organic
+C00786,Lahlou,Nabil,nabil.lahlou72@hotmail.com,1995-06-11,M,Tnja,+212624211686,2021-04-20,social_media
+C01401,Bouazza,Khadija,khadija.bouazza99@iam.ma,1976-03-18,f,Tanger,+212693558632,2021-03-17,organic
+C00137,Belkadi,Nisrine,nisrine.belkadi60@outlook.fr,2005-02-12,female,marrakech,+212691156554,2020-11-27,social_media
+C00409,Filali,Sara,sara.filali51@iam.ma,1970-09-07,f,Casa,+212631715773,2022-07-03,marketplace
+C00334,Lahlou,Amine,amine.lahlou23@iam.ma,2000-07-21,Homme,CASABLANCA,+212687346846,2024-04-07,social_media
+C00920,Benali,Meryem,meryem.benali20@menara.ma,1979-02-24,Femme,FES,+212661040965,2020-03-05,paid_ads
+C00373,Lahlou,Karim,karim.lahlou29@menara.ma,2005-04-26,1,marrakech,+212664145722,2023-01-17,paid_ads
+C00475,Bouazza,Nabil,nabil.bouazza44@gmail.com,2000-05-17,M,tanger,+212682209870,2021-11-10,social_media
+C00592,Bouazza,Mehdi,mehdi.bouazza4@gmail.com,1973-01-15,M,rabat,+212683302419,2020-11-15,organic
+C00455,Berrada,Ibrahim,ibrahim.berrada69@iam.ma,2004-08-20,male,Tanger,+212653298644,2023-06-09,email_campaign
+C00464,Sahraoui,Hassan,hassan.sahraoui67@gmail.com,1960-08-03,Homme,Casa,+212612912708,2021-03-15,email_campaign
+C00472,Belkadi,Nisrine,nisrine.belkadi72@yahoo.fr,1982-02-02,0,TANGER,+212653407575,2021-06-29,referral
+C00428,Hassani,Hajar,hajar.hassani33@hotmail.com,1995-09-28,f,AGADIR,+212638919534,2020-11-30,organic
+C00432,Berrada,Salma,salma.berrada21@gmail.com,1986-02-20,f,CAS,+212663077115,2023-05-24,marketplace
+C00416,Benkirane,Hassan,hassan.benkirane65@outlook.fr,1986-05-26,Homme,Tnja,+212644587020,2024-07-02,paid_ads
+C00214,Tazi,Nabil,nabil.tazi91@gmail.com,2000-11-28,Homme,TNG,+212699490304,2023-06-19,marketplace
+C00362,Kadiri,Houda,houda.kadiri78@outlook.fr,1984-07-18,F,rabat,+212627900864,2021-08-25,referral
+C00129,Cherkaoui,Amine,amine.cherkaoui92@hotmail.com,1963-07-06,1,AGADIR,+212680339290,2022-06-15,referral
+C00774,Hajji,Sara,sara.hajji92@menara.ma,1960-08-31,0,MARRAKECH,+212691181404,2020-05-11,referral
+C01012,El Fassi,Amine,amine.elfassi84@yahoo.fr,1980-06-07,m,TNG,+212681697212,2020-02-23,social_media
+C00555,Kadiri,Layla,layla.kadiri9@iam.ma,1895-02-19,female,RABAT,+212650644896,2021-11-13,marketplace
+C00421,Tazi,Samira,samira.tazi32@yahoo.fr,1969-07-27,f,TANGER,+212676124358,2023-10-16,marketplace
+C00471,Kadiri,Mehdi,mehdi.kadiri11@hotmail.com,1971-09-12,1,Marrakesh,+212675479608,2023-02-19,social_media
+C00044,Kadiri,Samir,samir.kadiri52@outlook.fr,1960-06-30,m,meknes,+212633607110,2022-05-20,social_media
+C00595,Benali,Ibrahim,ibrahim.benali83@menara.ma,1984-12-07,1,tanger,+212669788371,2020-06-20,paid_ads
+C00308,Cherkaoui,Samira,samira.cherkaoui27@gmail.com,1967-05-08,F,Tnja,+212673209094,2021-09-23,referral
+C01124,Bouazza,Ibrahim,invalide-1124,1967-02-10,M,Tnja,+212686624246,2024-06-13,social_media
+C00022,Hassani,Meryem,meryem.hassani52@yahoo.fr,1960-03-11,F,CAS,+212648285503,2024-05-24,referral
+C00377,Hajji,Hassan,hassan.hajji66@hotmail.com,1960-08-28,h,TANGER,+212694492003,2021-03-07,marketplace
+C01053,Lahlou,Samir,samir.lahlou56@gmail.com,1988-06-26,1,Meknès,+212694031142,2023-02-17,marketplace
+C01001,Cherkaoui,Ahmed,ahmed.cherkaoui87@outlook.fr,1981-03-24,m,casablanca,+212666378982,2024-01-31,referral
+C00695,Hajji,Nabil,nabil.hajji21@hotmail.com,2005-05-21,M,Agadir,+212630709222,2024-11-17,organic
+C00179,Hassani,Nisrine,nisrine.hassani49@menara.ma,1990-09-17,female,RABAT,+212696343485,2023-10-16,marketplace
+C01114,Bouazza,Omar,omar.bouazza12@outlook.fr,1998-03-11,1,Casablanca,+212674512027,2021-09-29,referral
+C00148,Bensouda,Samir,samir.bensouda38@gmail.com,1963-10-05,Homme,Casablanca,+212682884346,2022-11-21,referral
+C00923,Benali,Nabil,nabil.benali55@gmail.com,1974-10-05,1,RABAT,+212673820451,2022-05-08,referral
+C00369,Lahlou,Hajar,hajar.lahlou7@,1999-10-01,0,Fez,+212696923747,2023-12-14,marketplace
+C00717,Hassani,Karim,karim.hassani3@menara.ma,1976-02-15,m,CAS,+212642921822,2024-05-30,social_media
+C00833,Bensouda,Karim,karim.bensouda49@iam.ma,1992-12-14,m,Tnja,+212626381483,2020-08-26,organic
+C01009,Sahraoui,Layla,layla.sahraoui70@gmail.com,2002-04-03,Femme,Fez,+212655371664,2020-03-02,organic
+C00932,El Idrissi,Salma,salma.elidrissi29@yahoo.fr,1970-04-09,0,Marrakesh,+212672269929,2020-09-11,email_campaign
+C01077,El Fassi,Rachid,rachid.elfassi18@outlook.fr,1995-10-31,m,Casablanca,+212649490030,2020-08-28,referral
+C00966,Chraibi,Zineb,zineb.chraibi46@gmail.com,2005-01-19,F,Mrakch,+212669235732,2021-11-14,organic
+C00672,Benali,Hajar,hajar.benali10@iam.ma,1968-04-20,F,CAS,+212663541768,2020-12-30,social_media
+C00856,Bouazza,Samira,samira.bouazza66@iam.ma,2001-07-17,female,Marrakesh,+212610790690,2020-04-27,email_campaign
+C00244,Ait Benhaddou,Rachid,rachid.aitbenhaddou16@hotmail.com,1993-06-28,h,Tanger,+212666135102,2022-11-12,referral
+C01138,Berrada,Nisrine,nisrine.berrada3@hotmail.com,1994-12-05,female,Mrakch,+212631659959,2024-11-03,social_media
+C00998,El Fassi,Rim,rim.elfassi66@outlook.fr,1991-07-26,f,Agadir,+212671670595,2023-02-27,email_campaign
+C00886,El Amrani,Nabil,nabil.elamrani6@iam.ma,1984-01-05,1,Fez,+212611261132,2023-05-13,organic
+C00396,Tazi,Layla,layla.tazi52@menara.ma,2003-09-05,F,Fès,+212628652010,2020-01-14,paid_ads
+C00586,Berrada,Hassan,hassan.berrada22@gmail.com,2004-07-11,1,CASABLANCA,+212613045436,2022-12-02,marketplace
+C00488,Kadiri,Nabil,nabil.kadiri61@outlook.fr,1962-11-22,M,meknes,+212665437830,2020-01-31,email_campaign
+C01643,Cherkaoui,Khadija,khadija.cherkaoui9@outlook.fr,1989-03-03,Femme,CAS,+212697438349,2023-10-01,marketplace
+C00076,Benkirane,Nabil,nabil.benkirane53@hotmail.com,1995-12-05,male,TNG,+212652213778,2022-07-20,organic
+C00559,Chraibi,Meryem,meryem.chraibi3outlook.fr,1963-11-03,F,Tnja,+212699565693,2021-03-09,marketplace
+C00578,El Idrissi,Samir,samir.elidrissi17@yahoo.fr,1968-02-21,m,Marrakesh,+212631716808,2023-10-02,email_campaign
+C00702,Filali,Imane,imane.filali52@iam.ma,1967-07-24,f,fes,+212626912191,2021-11-16,referral
+C00230,Lahlou,Hassan,hassan.lahlou89@menara.ma,1995-09-23,Homme,Casablanca,+212694946730,2024-02-14,marketplace
+C00711,Cherkaoui,Zineb,zineb.cherkaoui74@hotmail.com,1970-07-25,Femme,Casablanca,+212649457501,2022-02-05,email_campaign
+C00581,Berrada,Karim,karim.berrada43@menara.ma,1992-08-27,m,Tnja,+212672458605,2022-02-23,email_campaign
+C00397,Tazi,Nadia,nadia.tazi66@gmail.com,1976-10-07,0,RABAT,+212625882013,2023-05-17,marketplace
+C00060,Bensouda,Samira,samira.bensouda79@menara.ma,2004-05-06,Femme,casablanca,+212657623800,2022-09-25,social_media
+C00879,Hajji,Nabil,nabil.hajji15@,1993-02-11,Homme,TANGER,+212645438604,2023-12-15,paid_ads
+C00004,El Mansouri,Sara,sara.elmansouri94@gmail.com,1993-12-16,f,fes,+212693016315,2021-08-23,marketplace
+C00787,Benkirane,Amina,amina.benkirane52@gmail.com,2026-08-07,f,agadir,+212697234140,2024-07-27,email_campaign
+C00007,Kadiri,Amine,amine.kadiri82@hotmail.com,1989-02-03,m,Casa,+212652339391,2024-08-10,organic
+C00240,Chraibi,Ibrahim,ibrahim.chraibi60@outlook.fr,1976-07-19,1,Fez,+212663094168,2023-09-08,referral
+C00853,Chraibi,Imane,imane.chraibi45@iam.ma,1963-10-19,female,MARRAKECH,+212680265183,2020-12-11,marketplace
+C00644,Berrada,Nisrine,nisrine.berrada93@outlook.fr,2004-11-17,f,Mrakch,+212680499222,2023-09-22,paid_ads
+C00942,El Idrissi,Rachid,rachid.elidrissi41@outlook.fr,1974-06-15,1,Casablanca,+212698538924,2020-01-21,social_media
+C00688,Filali,Sara,sara.filali90@outlook.fr,1977-03-30,F,RABAT,+212678133743,2022-06-16,social_media
+C00916,El Idrissi,Zineb,zineb.elidrissi58@menara.ma,1963-10-30,female,Fez,+212642858752,2020-04-26,marketplace
+C00174,Sahraoui,Nadia,nadia.sahraoui18@menara.ma,1974-07-30,F,Fès,+212689688374,2024-02-23,email_campaign
+C00634,Lahlou,Houda,houda.lahlou79@yahoo.fr,1978-02-06,F,Fez,+212681918425,2024-10-01,organic
+C00018,Chraibi,Samira,samira.chraibi93@yahoo.fr,2002-05-28,0,MEKNES,+212635556386,2022-08-26,referral
+C00824,Kadiri,Ahmed,ahmed.kadiri69@gmail.com,1986-08-18,1,Marrakesh,+212629787096,2023-10-24,referral
+C00703,Berrada,Samira,samira.berrada71@menara.ma,1974-05-10,f,tanger,+212689524487,2024-12-28,paid_ads
+C01631,Berrada,Fatima,fatima.berrada50@hotmail.com,1982-05-09,f,MEKNES,+212661338023,2023-02-09,organic
+C00067,Berrada,Nabil,nabil.berrada63@outlook.fr,1964-10-22,1,Tanger,+212650780112,2024-07-19,paid_ads
+C01188,Sahraoui,Amina,amina.sahraoui21@outlook.fr,1973-07-31,f,MEKNES,+212634375911,2024-07-17,marketplace
+C01477,Benali,Rim,rim.benali74@menara.ma,1973-03-24,f,meknes,+212632436477,2022-07-28,social_media
+C00678,Bensouda,Zineb,zineb.bensouda93@iam.ma,1982-11-12,female,TANGER,+212612183547,2024-04-23,paid_ads
+C01132,El Idrissi,Sara,sara.elidrissi98@,2004-01-11,0,Rabat,+212660791859,2023-01-05,social_media
+C00686,Hassani,Layla,layla.hassani75@iam.ma,1986-02-01,f,Marrakesh,+212678901438,2022-03-29,referral
+C00165,Chraibi,Amine,amine.chraibi83@hotmail.com,1996-06-06,Homme,MARRAKECH,+212618041391,2020-05-29,marketplace
+C00996,El Idrissi,Amine,amine.elidrissi19@,1994-12-08,m,FES,+212696585062,2021-09-12,organic
+C00843,El Mansouri,Ahmed,ahmed.elmansouri90@iam.ma,2005-11-18,male,casablanca,+212652461165,2022-05-09,social_media
+C00988,Sahraoui,Nadia,nadia.sahraoui73@menara.ma,1995-03-24,0,Rabat,+212672117013,2023-10-04,organic
+C00617,Lahlou,Zineb,zineb.lahlou60@gmail.com,1992-05-29,f,Casablanca,+212615450389,2023-02-15,marketplace
+C00252,Chraibi,Sara,sara.chraibi42@yahoo.fr,1983-12-26,female,agadir,+212628198434,2024-07-27,organic
+C01093,Ait Benhaddou,Nabil,nabil.aitbenhaddou54@gmail.com,1999-10-11,h,AGADIR,+212623082934,2020-05-07,email_campaign
+C00955,El Amrani,Ibrahim,ibrahim.elamrani61@gmail.com,1987-01-02,Homme,rabat,+212663733308,2024-03-23,email_campaign
+C01122,Berrada,Youssef,youssef.berrada13@menara.ma,2004-04-08,M,CAS,+212692844702,2021-12-08,referral
+C00450,Berrada,Ibrahim,ibrahim.berrada21@yahoo.fr,1990-05-12,h,TNG,+212696513378,2020-05-02,email_campaign
+C00344,Hassani,Mehdi,mehdi.hassani89@yahoo.fr,1960-03-30,m,agadir,+212687061479,2020-07-01,organic
+C00200,Cherkaoui,Soufiane,soufiane.cherkaoui85@gmail.com,1961-05-27,1,CASABLANCA,+212689717834,2020-05-17,organic
+C01589,El Fassi,Rim,rim.elfassi66@outlook.fr,1991-07-26,f,Agadir,+212671670595,2023-03-09,email_campaign
+C00694,Bensouda,Soufiane,soufiane.bensouda97@outlook.fr,1969-02-20,male,TNG,+212632420574,2022-11-04,organic
+C00231,Tazi,Sara,sara.tazi49@hotmail.com,1992-09-29,f,FES,+212683233096,2021-02-13,paid_ads
+C00066,Hassani,Rachid,rachid.hassani2@gmail.com,1999-07-08,Homme,casablanca,+212674119726,2020-04-15,email_campaign
+C00518,Bouazza,Nadia,nadia.bouazza32@menara.ma,1990-05-22,female,MARRAKECH,+212613891332,2020-04-13,social_media
+C00962,Benali,Amine,amine.benali2@yahoo.fr,1994-07-18,1,Marrakesh,+212638006066,2020-08-02,email_campaign
+C01698,Hajji,Meryem,meryem.hajji34@gmail.com,1993-10-13,Femme,marrakech,+212664536785,2020-07-23,social_media
+C00390,El Amrani,Soufiane,invalide-390,1979-02-01,m,fes,+212682434236,2021-06-17,paid_ads
+C00401,Tazi,Nadia,nadia.tazi77@outlook.fr,1976-04-25,female,agadir,+212632511225,2022-11-12,email_campaign
+C00058,El Idrissi,Zineb,zineb.elidrissi82@hotmail.com,1973-09-22,F,casablanca,+212697302916,2024-02-11,paid_ads
+C01195,Ait Benhaddou,Hajar,hajar.aitbenhaddou55@hotmail.com,1963-01-26,f,MEKNES,+212616444924,2022-02-27,marketplace
+C01556,Belkadi,Nisrine,nisrine.belkadi72@yahoo.fr,1982-02-02,0,TANGER,+212653407575,2021-07-16,referral
+C00474,Benali,Amine,amine.benali26@yahoo.fr,1967-09-12,m,Agadir,+212693349536,2020-04-21,social_media
+C00359,Kadiri,Soufiane,soufiane.kadiri59@yahoo.fr,1990-04-26,m,meknes,+212694992096,2022-04-28,organic
+C00180,Hassani,Sara,sara.hassani32@yahoo.fr,1986-09-13,Femme,AGADIR,+212675632882,2021-02-28,marketplace
+C00257,Benali,Rim,rim.benali13@gmail.com,1961-06-17,f,casablanca,+212610090721,2022-06-22,referral
+C00350,Sahraoui,Nadia,nadia.sahraoui46@outlook.fr,1971-09-21,F,Marrakesh,+212669148126,2020-08-19,referral
+C00157,Ait Benhaddou,Ahmed,ahmed.aitbenhaddou58@gmail.com,1967-11-16,h,rabat,+212618715975,2023-09-29,email_campaign
+C00015,Hassani,Youssef,youssef.hassani22@menara.ma,1997-12-17,1,fes,+212636998038,2024-03-26,marketplace
+C00583,Belkadi,Imane,imane.belkadi27@iam.ma,1988-09-30,Femme,CAS,+212666764586,2022-10-28,marketplace
+C00045,Chraibi,Fatima,fatima.chraibi16@yahoo.fr,1988-06-19,F,Fès,+212677750178,2024-07-27,marketplace
+C00326,Bensouda,Samira,samira.bensouda87@hotmail.com,1969-03-06,f,Mrakch,+212685357498,2023-09-18,email_campaign
+C00216,El Idrissi,Mehdi,mehdi.elidrissi14@yahoo.fr,1981-08-14,1,Fès,+212657572279,2022-12-14,email_campaign
+C00973,Belkadi,Meryem,meryem.belkadi63@gmail.com,1964-01-20,f,FES,+212640640252,2023-10-24,email_campaign
+C00516,Belkadi,Fatima,fatima.belkadi82@hotmail.com,1977-04-10,Femme,CAS,+212669205536,2022-12-26,email_campaign
+C00736,El Idrissi,Fatima,fatima.elidrissi87@iam.ma,1988-12-23,F,marrakech,+212679564413,2021-07-15,organic
+C00740,Hassani,Ahmed,ahmed.hassani44@yahoo.fr,1981-03-28,m,meknes,+212668858430,2023-05-13,paid_ads
+C00612,Hassani,Karim,karim.hassani6@outlook.fr,1965-04-26,M,Tnja,+212618891570,2021-06-02,organic
+C00453,Filali,Mehdi,mehdi.filali94@hotmail.com,1974-05-21,m,Mrakch,+212649684512,2020-11-13,referral
+C00147,Chraibi,Ibrahim,ibrahim.chraibi83@hotmail.com,2001-09-06,h,Marrakesh,+212628099607,2023-07-17,social_media
+C01128,Sahraoui,Ahmed,ahmed.sahraoui94@hotmail.com,1997-09-30,h,Fès,+212662215999,2021-11-04,paid_ads
+C00808,Berrada,Ahmed,ahmed.berrada54@iam.ma,1998-08-30,1,casablanca,+212628029744,2022-02-06,social_media
+C00631,Benali,Amina,amina.benali32@iam.ma,1967-08-15,f,TANGER,+212625364077,2024-11-14,email_campaign
+C00447,Cherkaoui,Amine,amine.cherkaoui86@menara.ma,1988-01-01,Homme,casablanca,+212615662097,2023-07-12,marketplace
+C00248,Tazi,Hassan,hassan.tazi37@menara.ma,2004-06-08,male,Mrakch,+212625328557,2020-08-19,paid_ads
+C00070,Benkirane,Omar,omar.benkirane10@menara.ma,2002-02-27,Homme,TNG,+212647945817,2021-04-19,email_campaign
+C00086,Hassani,Amina,amina.hassani5@menara.ma,1985-10-12,0,Agadir,+212623212812,2020-07-04,referral
+C01016,Sahraoui,Amina,amina.sahraoui32@iam.ma,1995-09-09,F,agadir,+212620308436,2020-09-07,marketplace
+C00398,Lahlou,Khalid,khalid.lahlou15@iam.ma,1978-11-26,male,casablanca,+212613012656,2023-08-18,referral
+C00039,El Idrissi,Ibrahim,ibrahim.elidrissi86@gmail.com,1971-03-07,h,Casablanca,+212699508850,2022-11-04,email_campaign
+C00235,Tazi,Ahmed,ahmed.tazi86@iam.ma,1963-12-22,male,Fez,+212663635785,2023-10-19,marketplace
+C00115,El Mansouri,Youssef,youssef.elmansouri98@iam.ma,1960-07-19,1,Tanger,+212663792364,2023-03-05,marketplace
+C00877,El Amrani,Tariq,tariq.elamrani59@menara.ma,1983-03-22,Homme,Casa,+212646039426,2021-08-29,marketplace
+C00491,Cherkaoui,Mehdi,mehdi.cherkaoui59@outlook.fr,1982-01-16,male,fes,+212615268263,2022-03-21,marketplace
+C01158,Cherkaoui,Salma,salma.cherkaoui57@iam.ma,2000-12-06,f,CAS,+212690712387,2024-03-25,referral
+C00037,Cherkaoui,Fatima,fatima.cherkaoui23@hotmail.com,1963-06-07,f,Fès,+212652101056,2022-06-08,email_campaign
+C00929,Benkirane,Zineb,zineb.benkirane55@outlook.fr,1974-08-04,female,marrakech,+212698530765,2022-02-20,email_campaign
+C01047,Hajji,Nabil,nabil.hajji67@outlook.fr,1988-03-15,m,RABAT,+212625911656,2021-08-06,social_media
+C00870,Filali,Meryem,meryem.filali39@hotmail.com,1971-09-09,Femme,RABAT,+212689042306,2024-02-27,email_campaign
+C00846,El Fassi,Youssef,youssef.elfassi40@iam.ma,1968-07-27,male,RABAT,+212647848959,2023-12-05,paid_ads
+C00569,Filali,Rachid,rachid.filali27@hotmail.com,2000-08-26,m,Tnja,+212682123324,2024-02-25,organic
+C00089,Belkadi,Rim,rim.belkadi30@yahoo.fr,1982-11-27,f,tanger,+212648605268,2024-07-05,referral
+C00207,Kadiri,Hassan,hassan.kadiri78@iam.ma,1976-11-17,male,Agadir,+212639127464,2023-10-07,paid_ads
+C01170,Ait Benhaddou,Amine,amine.aitbenhaddou10@iam.ma,1997-02-13,1,Tanger,+212687052803,2023-04-22,email_campaign
+C00123,Belkadi,Khalid,khalid.belkadi68@outlook.fr,1990-06-17,1,rabat,+212620251466,2024-05-14,social_media
+C00112,Cherkaoui,Nisrine,nisrine.cherkaoui46@outlook.fr,1997-12-10,f,TNG,+212651936181,2021-08-12,paid_ads
+C00268,Benali,Mohammed,mohammed.benali65@outlook.fr,1997-04-08,M,AGADIR,+212695971459,2022-04-03,organic
+C00584,Berrada,Fatima,fatima.berrada45@hotmail.com,1971-01-03,F,AGADIR,+212681518649,2022-12-25,marketplace
+C00718,Chraibi,Zineb,zineb.chraibi42@menara.ma,1962-02-01,Femme,marrakech,+212613228867,2021-01-04,referral
+C00294,Benali,Houda,houda.benali74@yahoo.fr,1991-10-31,0,casablanca,+212652681823,2021-04-29,paid_ads
+C00891,Benali,Soufiane,soufiane.benali20@menara.ma,1976-04-08,h,marrakech,+212650475203,2020-11-03,marketplace
+C00292,Chraibi,Meryem,meryem.chraibi45@outlook.fr,1994-11-04,Femme,casablanca,+212690143600,2020-02-23,email_campaign
+C00408,Kadiri,Nisrine,nisrine.kadiri53@yahoo.fr,1976-01-13,Femme,fes,+212644061458,2023-02-10,referral
+C01075,Tazi,Nisrine,nisrine.tazi60@hotmail.com,1967-04-22,f,marrakech,+212660423728,2023-12-03,organic
+C01658,Belkadi,Tariq,tariq.belkadi10hotmail.com,1999-10-13,1,TANGER,+212626445384,2024-10-14,email_campaign
+C00263,Ait Benhaddou,Rachid,rachid.aitbenhaddou79@outlook.fr,1967-10-11,m,Tanger,+212689131271,2024-03-21,organic
+C00928,Cherkaoui,Houda,houda.cherkaoui64@iam.ma,1996-10-25,Femme,RABAT,+212667156511,2024-08-23,paid_ads
+C00336,Filali,Samir,samir.filali42@gmail.com,1961-08-10,h,tanger,+212643396474,2023-07-07,marketplace
+C00550,Cherkaoui,Soufiane,soufiane.cherkaoui24@iam.ma,1966-10-17,h,MARRAKECH,+212699600963,2021-07-20,referral
+C00188,Bensouda,Nadia,nadia.bensouda33@iam.ma,2026-09-15,female,agadir,+212633554528,2024-03-30,social_media
+C00069,Belkadi,Khadija,khadija.belkadi8@menara.ma,1978-08-22,f,CASABLANCA,+212620896797,2021-06-25,marketplace
+C00501,Bouazza,Rachid,rachid.bouazza85@menara.ma,1975-12-01,M,Agadir,+212614810369,2023-03-31,email_campaign
+C00163,Bouazza,Nadia,nadia.bouazza69@menara.ma,1973-10-31,0,agadir,+212691220369,2023-07-02,marketplace
+C00119,Tazi,Fatima,fatima.tazi77@outlook.fr,1978-12-13,0,meknes,+212654039837,2021-06-07,email_campaign
+C01076,El Amrani,Karim,karim.elamrani67@yahoo.fr,1999-04-05,m,TNG,+212676462542,2024-12-18,referral
+C00653,Ait Benhaddou,Hajar,hajar.aitbenhaddou52@gmail.com,1967-05-18,f,casablanca,+212697131540,2021-05-26,paid_ads
+C00073,El Fassi,Khadija,khadija.elfassi64@menara.ma,1998-10-04,f,rabat,+212613471527,2023-05-21,email_campaign
+C01165,Lahlou,Salma,salma.lahlou40@outlook.fr,1997-06-03,f,meknes,+212664866566,2022-04-07,organic
+C00754,Filali,Ibrahim,ibrahim.filali22@iam.ma,1998-11-29,h,TANGER,+212627554964,2020-08-30,social_media
+C00679,Bensouda,Samir,samir.bensouda24@yahoo.fr,1997-05-05,h,Casablanca,+212671068817,2021-10-04,paid_ads
+C00132,Kadiri,Khadija,khadija.kadiri77@yahoo.fr,1993-10-17,f,MEKNES,+212699941500,2021-11-03,social_media
+C01129,Chraibi,Rim,rim.chraibi44@gmail.com,1999-11-13,0,MARRAKECH,+212676971243,2024-10-15,marketplace
+C00713,Chraibi,Ahmed,ahmed.chraibi9@hotmail.com,1987-10-14,male,MARRAKECH,+212673783961,2021-11-22,referral
+C00837,Hajji,Karim,karim.hajji16@iam.ma,1976-02-22,m,fes,+212626514861,2022-07-04,email_campaign
+C00405,Hassani,Samira,samira.hassani45@outlook.fr,1968-10-06,F,Tanger,+212641207351,2021-06-05,referral
+C00710,El Fassi,Nadia,nadia.elfassi16@menara.ma,1962-12-04,f,casablanca,+212625940510,2023-02-18,email_campaign
+C00761,Bensouda,Layla,layla.bensouda56@outlook.fr,1988-06-10,Femme,Rabat,+212669282426,2020-02-20,social_media
+C00753,El Amrani,Omar,omar.elamrani34@yahoo.fr,1892-11-26,m,rabat,+212671230621,2021-03-06,email_campaign
+C00960,El Fassi,Mehdi,mehdi.elfassi74@yahoo.fr,1985-03-02,Homme,meknes,+212640310459,2024-02-05,referral
+C00260,Hassani,Omar,omar.hassani17@gmail.com,1999-12-05,m,tanger,+212626185823,2023-11-25,email_campaign
+C01120,Sahraoui,Fatima,fatima.sahraoui48@iam.ma,1986-07-27,f,fes,+212649357964,2021-07-01,social_media
+C01467,Sahraoui,Samir,samir.sahraoui58@yahoo.fr,1979-04-09,1,CAS,+212618397164,2024-03-30,marketplace
+C00285,Bouazza,Karim,karim.bouazza90@iam.ma,1989-05-29,1,TANGER,+212657746984,2023-12-27,social_media
+C00858,El Fassi,Mehdi,mehdi.elfassi53@yahoo.fr,1973-12-17,h,CAS,+212663064163,2021-04-08,referral
+C00424,El Fassi,Zineb,zineb.elfassi41@outlook.fr,2027-02-08,f,rabat,+212644856447,2022-01-10,paid_ads
+C00426,Kadiri,Amina,amina.kadiri58@hotmail.com,1980-07-03,f,Agadir,+212684536479,2021-07-06,social_media
+C00011,El Mansouri,Houda,houda.elmansouri2@menara.ma,1983-12-09,f,rabat,+212668353204,2020-08-16,email_campaign
+C00707,El Fassi,Ibrahim,ibrahim.elfassi25@menara.ma,1968-10-15,1,AGADIR,+212620998762,2022-05-21,referral
+C00420,Belkadi,Samira,samira.belkadi24@hotmail.com,1977-01-22,F,Agadir,+212642488275,2021-02-12,social_media
+C00280,Hajji,Zineb,zineb.hajji31@menara.ma,1972-10-09,f,CAS,+212641067722,2020-07-09,organic
+C00755,Chraibi,Omar,omar.chraibi89@outlook.fr,1981-12-09,m,meknes,+212635380862,2023-06-15,paid_ads
+C00670,Belkadi,Amina,amina.belkadi42@gmail.com,2003-01-18,F,Fez,+212698316111,2021-07-05,paid_ads
+C00210,Hassani,Zineb,zineb.hassani27@hotmail.com,1979-11-07,f,Tanger,+212684264220,2020-02-03,email_campaign
+C01133,Kadiri,Ahmed,ahmed.kadiri28@yahoo.fr,1976-01-10,1,meknes,+212663836946,2024-05-11,marketplace
+C00862,Kadiri,Ibrahim,ibrahim.kadiri93@menara.ma,1994-11-19,1,Tnja,+212626928020,2020-08-08,organic
+C01191,Cherkaoui,Youssef,youssef.cherkaoui45@gmail.com,1965-12-13,m,Marrakesh,+212682038305,2022-08-09,referral
+C00792,Bouazza,Meryem,meryem.bouazza20@yahoo.fr,1981-05-10,f,Fès,+212654116005,2022-06-27,marketplace
+C01161,El Idrissi,Karim,karim.elidrissi39@iam.ma,1990-09-20,h,agadir,+212635983948,2023-01-08,social_media
+C00433,Bensouda,Rim,rim.bensouda96@hotmail.com,1997-02-20,0,casablanca,+212626782572,2024-10-15,organic
+C00265,El Amrani,Hajar,hajar.elamrani39@iam.ma,1976-12-03,f,Rabat,+212617324144,2021-08-28,marketplace
+C00911,Ait Benhaddou,Meryem,meryem.aitbenhaddou38@hotmail.com,1998-08-28,f,AGADIR,+212662027391,2024-05-04,marketplace
+C00637,Bouazza,Houda,houda.bouazza85@outlook.fr,1996-02-03,Femme,Fès,+212683492593,2022-11-21,referral
+C01137,Sahraoui,Youssef,youssef.sahraoui65@menara.ma,1996-09-02,m,rabat,+212632341731,2023-06-02,social_media
+C00614,El Mansouri,Nabil,nabil.elmansouri45@menara.ma,1981-09-11,male,FES,+212687595788,2020-05-19,organic
+C01048,Hassani,Khadija,khadija.hassani29@outlook.fr,1983-04-10,female,meknes,+212699447205,2020-08-05,social_media
+C00160,El Idrissi,Houda,houda.elidrissi74@outlook.fr,1966-08-27,F,MARRAKECH,+212656239991,2023-10-24,paid_ads
+C00805,Cherkaoui,Mohammed,mohammed.cherkaoui83@gmail.com,1967-03-17,male,CASABLANCA,+212632256467,2024-11-29,referral
+C01039,Chraibi,Soufiane,soufiane.chraibi53@yahoo.fr,1983-05-08,Homme,rabat,+212620939544,2021-10-04,organic
+C00381,Berrada,Samir,samir.berrada65@hotmail.com,1987-01-13,male,TANGER,+212661192463,2021-07-30,referral
+C00234,El Fassi,Houda,houda.elfassi54@iam.ma,1992-04-03,f,MEKNES,+212695655118,2023-01-04,paid_ads
+C00400,Kadiri,Mehdi,mehdi.kadiri73@menara.ma,1985-06-06,m,CASABLANCA,+212673272042,2022-07-08,paid_ads
+C00950,Benkirane,Hajar,hajar.benkirane32@hotmail.com,1993-05-15,0,meknes,+212611292919,2021-10-05,organic
+C00339,Tazi,Fatima,fatima.tazi94@yahoo.fr,1961-12-19,female,Mrakch,+212659203071,2020-12-12,organic
+C00892,Cherkaoui,Amina,amina.cherkaoui64@hotmail.com,1966-11-07,f,Tanger,+212629674854,2024-05-11,marketplace
+C00247,Hassani,Layla,layla.hassani91@outlook.fr,1967-06-01,female,tanger,+212649203644,2024-06-17,social_media
+C00986,Bensouda,Mehdi,mehdi.bensouda41@iam.ma,1992-01-29,M,RABAT,+212666439314,2022-05-25,referral
+C01134,Hajji,Amina,amina.hajji77@outlook.fr,1969-06-23,f,agadir,+212652651051,2023-07-20,marketplace
+C00912,Sahraoui,Omar,omar.sahraoui10@menara.ma,2004-08-19,m,MEKNES,+212651546065,2020-01-31,social_media
+C00706,Bouazza,Ibrahim,ibrahim.bouazza86@hotmail.com,1972-07-22,h,Rabat,+212643236783,2022-11-30,marketplace
+C00211,Ait Benhaddou,Khadija,khadija.aitbenhaddou43@yahoo.fr,1982-01-17,F,fes,+212655307111,2023-09-02,marketplace
+C00391,Ait Benhaddou,Nisrine,nisrine.aitbenhaddou51@hotmail.com,1986-02-08,0,MARRAKECH,+212622153955,2022-10-23,paid_ads
+C00047,Tazi,Nisrine,nisrine.tazi57@hotmail.com,1984-05-17,Femme,rabat,+212628572252,2023-01-11,organic
+C00016,Filali,Layla,layla.filali67@outlook.fr,1965-09-29,Femme,tanger,+212640885476,2023-04-19,paid_ads
+C00921,Filali,Soufiane,soufiane.filali61@outlook.fr,1962-01-21,h,marrakech,+212695320504,2021-07-06,email_campaign
+C01102,El Fassi,Ibrahim,ibrahim.elfassi96@menara.ma,1978-11-26,Homme,CASABLANCA,+212614220885,2022-08-15,email_campaign
+C00964,Kadiri,Karim,karim.kadiri9@yahoo.fr,1987-07-22,male,Fez,+212671868214,2020-07-28,social_media
+C00212,Hassani,Hajar,hajar.hassani83@iam.ma,1991-08-06,0,Tanger,+212675540707,2024-01-15,paid_ads
+C00508,Benkirane,Nabil,nabil.benkirane43@yahoo.fr,2002-12-25,M,MEKNES,+212628220579,2020-03-13,marketplace
+C00209,Tazi,Khalid,khalid.tazi42@menara.ma,1992-03-25,Homme,CAS,+212676743428,2022-01-06,paid_ads
+C01101,Benkirane,Salma,salma.benkirane75@gmail.com,1978-11-24,f,marrakech,+212648747182,2021-12-11,marketplace
+C00075,El Mansouri,Rim,rim.elmansouri75@yahoo.fr,1968-03-08,F,RABAT,+212653091709,2022-04-16,email_campaign
+C00328,Ait Benhaddou,Samira,samira.aitbenhaddou98@menara.ma,1996-04-02,f,rabat,+212613416548,2023-10-26,social_media
+C00730,Hassani,Houda,houda.hassani69@outlook.fr,1966-12-15,female,tanger,+212669750614,2024-08-31,marketplace
+C00227,El Fassi,Tariq,tariq.elfassi88@yahoo.fr,1987-01-06,Homme,Marrakesh,+212632442197,2020-10-25,organic
+C00191,Cherkaoui,Rachid,rachid.cherkaoui40@outlook.fr,1987-11-25,h,Tnja,+212659330907,2023-08-01,email_campaign
+C00469,Bouazza,Fatima,fatima.bouazza6@menara.ma,1989-04-27,female,AGADIR,+212616780654,2021-03-28,social_media
+C00887,Lahlou,Mehdi,mehdi.lahlou11@iam.ma,1999-11-11,1,Casablanca,+212630738427,2021-11-10,referral
+C00220,Lahlou,Youssef,youssef.lahlou27@gmail.com,1995-09-25,m,Casablanca,+212642275631,2020-11-28,paid_ads
+C01078,Lahlou,Houda,houda.lahlou48@menara.ma,1986-01-13,female,agadir,+212659828775,2021-02-22,paid_ads
+C00840,Lahlou,Imane,imane.lahlou46@menara.ma,1968-11-18,f,Meknès,+212614930347,2020-04-01,social_media
+C00698,Tazi,Hajar,hajar.tazi55@yahoo.fr,2001-02-26,female,MEKNES,+212613994712,2023-10-29,email_campaign
+C00380,Bensouda,Layla,layla.bensouda52@iam.ma,1897-01-21,f,Fès,+212688598977,2020-05-09,marketplace
+C01112,Berrada,Houda,houda.berrada63@hotmail.com,1962-05-31,0,Fès,+212659544134,2020-12-30,social_media
+C01036,Cherkaoui,Houda,houda.cherkaoui7@menara.ma,1999-07-26,Femme,CAS,+212649334559,2021-02-03,paid_ads
+C01002,Sahraoui,Mohammed,invalide-1002,1993-07-31,male,Fez,+212633362909,2024-09-17,organic
+C00521,Bouazza,Amine,amine.bouazza83@iam.ma,1980-10-14,1,Tanger,+212644635255,2024-10-29,paid_ads
+C00826,Bouazza,Amine,amine.bouazza49@iam.ma,1973-09-12,h,CASABLANCA,+212640208616,2024-10-02,marketplace
+C00445,Benali,Imane,imane.benali11@hotmail.com,1965-01-10,Femme,meknes,+212682905989,2022-03-14,organic
+C00841,Bouazza,Youssef,youssef.bouazza18@yahoo.fr,1992-03-18,Homme,Tanger,+212666641896,2024-02-02,paid_ads
+C01131,El Fassi,Samir,samir.elfassi39@hotmail.com,2001-12-06,m,Tanger,+212632378699,2023-07-03,paid_ads
+C00941,Hassani,Ahmed,ahmed.hassani27@hotmail.com,1961-12-20,M,TANGER,+212620242515,2022-09-23,marketplace
+C00361,Belkadi,Salma,salma.belkadi66@outlook.fr,1975-07-31,f,Meknès,+212661996696,2020-09-19,organic
+C00836,El Amrani,Salma,salma.elamrani72@outlook.fr,2003-10-31,f,Mrakch,+212682340910,2024-09-10,paid_ads
+C00395,El Mansouri,Salma,salma.elmansouri70@menara.ma,1993-12-16,Femme,FES,+212679345320,2023-08-31,organic
+C00311,Benali,Mehdi,mehdi.benali67@outlook.fr,2002-08-07,male,Casa,+212620597167,2022-09-02,email_campaign
+C00049,El Idrissi,Nabil,nabil.elidrissi99@outlook.fr,1994-02-15,M,tanger,+212662343121,2021-12-21,email_campaign
+C00982,Filali,Nadia,nadia.filali65@hotmail.com,1973-11-28,f,AGADIR,+212636404306,2021-07-08,social_media
+C00548,El Fassi,Zineb,zineb.elfassi88@gmail.com,1985-06-01,Femme,CASABLANCA,+212693134088,2020-03-10,organic
+C01440,El Fassi,Hassan,hassan.elfassi82@,1972-09-15,Homme,Marrakesh,+212687522039,2020-03-15,social_media
+C00757,Hassani,Karim,karim.hassani79@iam.ma,2005-09-05,Homme,Marrakesh,+212634024774,2022-11-28,referral
+C00322,Hassani,Ibrahim,ibrahim.hassani58@menara.ma,1991-05-18,Homme,casablanca,+212622132198,2024-09-11,email_campaign
+C00657,Filali,Ahmed,ahmed.filali73@yahoo.fr,1999-01-15,M,Meknès,+212625906458,2023-10-11,referral
+C00178,El Fassi,Khalid,khalid.elfassi61@menara.ma,1965-08-02,h,Tanger,+212685280948,2022-11-28,social_media
+C00556,Berrada,Fatima,fatima.berrada69@hotmail.com,2001-03-27,Femme,Fez,+212684420438,2021-02-19,social_media
+C00585,Sahraoui,Meryem,meryem.sahraoui87@hotmail.com,1965-11-20,0,MARRAKECH,+212662436517,2020-06-27,organic
+C00766,El Fassi,Samira,samira.elfassi71@menara.ma,2001-05-24,Femme,MEKNES,+212635212337,2020-06-24,email_campaign
+C01141,Benkirane,Salma,salma.benkirane60@yahoo.fr,1962-11-25,f,agadir,+212673110413,2022-04-12,paid_ads
+C00315,El Idrissi,Zineb,zineb.elidrissi19@yahoo.fr,1968-12-27,f,FES,+212648398732,2024-05-15,organic
+C00092,Benali,Tariq,tariq.benali96@menara.ma,1985-09-04,1,Fès,+212639394291,2024-06-30,email_campaign
+C00952,Hajji,Mehdi,mehdi.hajji72@gmail.com,1966-09-17,male,Fez,+212668412302,2022-05-13,marketplace
+C00898,Chraibi,Nadia,nadia.chraibi32@outlook.fr,1972-05-12,f,AGADIR,+212660661928,2023-12-12,social_media
+C00541,Cherkaoui,Fatima,fatima.cherkaoui23@menara.ma,2000-01-26,Femme,MEKNES,+212641701674,2020-12-25,email_campaign
+C01067,El Mansouri,Nadia,nadia.elmansouri10@gmail.com,1997-04-07,f,tanger,+212691184526,2024-02-29,paid_ads
+C00716,Bouazza,Tariq,tariq.bouazza83@menara.ma,1977-04-06,male,fes,+212686536905,2023-03-27,organic
+C00701,Lahlou,Imane,imane.lahlou2@hotmail.com,1973-03-05,f,Rabat,+212637532561,2022-07-02,marketplace
+C00844,El Amrani,Layla,layla.elamrani32@menara.ma,1969-11-13,f,fes,+212654205616,2022-04-13,organic
+C00295,Belkadi,Rim,rim.belkadi91@gmail.com,1972-09-30,female,CASABLANCA,+212682762732,2024-09-09,referral
+C00790,Lahlou,Zineb,zineb.lahlou78@gmail.com,2005-11-05,f,Agadir,+212688848693,2021-04-21,paid_ads
+C00806,Bouazza,Khadija,khadija.bouazza69@menara.ma,1987-08-18,f,marrakech,+212621928391,2024-03-21,marketplace
+C00925,Lahlou,Ibrahim,ibrahim.lahlou20@gmail.com,2004-10-21,Homme,Tnja,+212664544291,2024-06-10,marketplace
+C00983,Berrada,Sara,sara.berrada29@,1994-08-26,F,Rabat,+212650536794,2020-07-19,email_campaign
+C00915,Bouazza,Ibrahim,ibrahim.bouazza53@outlook.fr,1971-07-28,M,RABAT,+212652096774,2022-11-15,paid_ads
+C00625,Berrada,Karim,karim.berrada97@iam.ma,2001-10-22,1,Casablanca,+212675800289,2023-09-17,referral
+C00496,Chraibi,Khalid,khalid.chraibi6@outlook.fr,1973-06-19,1,Tanger,+212616886777,2021-01-01,marketplace
+C00575,El Fassi,Salma,salma.elfassi28@outlook.fr,1985-01-16,f,Agadir,+212643105363,2022-05-26,marketplace
+C00330,Filali,Rim,rim.filali39@menara.ma,1976-04-01,Femme,Tnja,+212644715663,2022-08-22,social_media
+C00107,El Amrani,Meryem,meryem.elamrani62@gmail.com,1969-09-07,F,AGADIR,+212620843514,2022-06-27,organic
+C01135,Kadiri,Samira,samira.kadiri97@outlook.fr,2000-04-27,0,casablanca,+212610447935,2022-03-30,email_campaign
+C00025,Tazi,Rachid,rachid.tazi16@outlook.fr,1963-07-26,male,TANGER,+212688339168,2022-05-08,marketplace
+C01125,Sahraoui,Khadija,khadija.sahraoui70@menara.ma,1964-05-19,Femme,FES,+212668645850,2022-08-26,social_media
+C00085,Ait Benhaddou,Salma,salma.aitbenhaddou61@gmail.com,1995-08-29,f,TANGER,+212681621574,2024-10-10,email_campaign
+C00387,Belkadi,Imane,imane.belkadi73@yahoo.fr,1998-06-04,0,tanger,+212639732676,2021-10-03,social_media
+C00446,Hajji,Nadia,nadia.hajji49@hotmail.com,1982-05-02,F,meknes,+212614497675,2022-06-26,social_media
+C01117,Benali,Hajar,hajar.benali55@hotmail.com,2000-05-24,female,RABAT,+212654971462,2024-05-18,referral
+C00437,Chraibi,Meryem,meryem.chraibi71@hotmail.com,1975-11-19,female,Fès,+212695342494,2022-07-24,marketplace
+C00642,Chraibi,Meryem,meryem.chraibi55@outlook.fr,1974-04-18,Femme,Tanger,+212647281925,2020-02-29,email_campaign
+C00300,Bouazza,Imane,imane.bouazza23@yahoo.fr,1995-02-17,female,TNG,+212652710350,2021-01-07,paid_ads
+C01400,Benkirane,Amina,amina.benkirane28@gmail.com,1976-11-26,female,Fès,+212681416669,2023-12-12,paid_ads
+C00782,Kadiri,Mehdi,mehdi.kadiri10@yahoo.fr,2026-11-28,Homme,casablanca,+212614623108,2021-03-19,marketplace
+C00956,Lahlou,Mehdi,mehdi.lahlou79@,2000-10-12,M,Fez,+212692943469,2020-09-05,email_campaign
+C00139,Benkirane,Karim,karim.benkirane58@hotmail.com,1999-04-01,m,Casa,+212656920514,2024-07-30,referral
+C00881,Chraibi,Fatima,fatima.chraibi75@iam.ma,1994-04-08,f,CAS,+212695135048,2024-11-16,marketplace
+C00290,Benkirane,Samira,samira.benkirane36@hotmail.com,1982-01-18,f,Casablanca,+212683912181,2022-10-18,referral
+C01130,Benkirane,Mehdi,mehdi.benkirane50@iam.ma,1967-01-19,h,Marrakesh,+212621152419,2023-02-23,email_campaign
+C01098,El Amrani,Sara,sara.elamrani2@yahoo.fr,1967-04-17,f,Casa,+212696210380,2021-09-22,marketplace
+C00560,Chraibi,Nisrine,nisrine.chraibi95@yahoo.fr,1963-04-23,f,Tanger,+212612558593,2022-09-28,marketplace
+C00776,Sahraoui,Layla,layla.sahraoui54@yahoo.fr,1998-10-06,F,Rabat,+212686318249,2023-09-11,social_media
+C00404,Ait Benhaddou,Nisrine,nisrine.aitbenhaddou70@menara.ma,1998-09-17,female,marrakech,+212681110769,2022-01-28,organic
+C00535,Hassani,Tariq,tariq.hassani31@iam.ma,1992-12-02,m,TNG,+212659469782,2023-03-09,referral
+C01629,El Amrani,Nisrine,nisrine.elamrani62@menara.ma,1971-03-27,F,AGADIR,+212628491234,2022-06-16,paid_ads
+C00720,Benkirane,Layla,layla.benkirane79@gmail.com,1965-03-31,Femme,Rabat,+212629120731,2020-07-21,email_campaign
+C00589,El Mansouri,Karim,karim.elmansouri62@yahoo.fr,1964-03-30,1,RABAT,+212632328873,2021-08-05,referral
+C00978,Filali,Hassan,hassan.filali51@hotmail.com,1984-10-13,Homme,CASABLANCA,+212679803651,2020-03-25,paid_ads
+C01107,El Amrani,Sara,sara.elamrani66@yahoo.fr,1977-10-21,female,meknes,+212699040902,2020-10-12,social_media
+C01199,Filali,Zineb,invalide-1199,1980-05-17,F,Meknès,+212683882130,2020-08-15,organic
+C00671,Benali,Ibrahim,ibrahim.benali80@iam.ma,1971-08-08,1,TNG,+212647977444,2024-06-29,marketplace
+C01239,El Mansouri,Mohammed,mohammed.elmansouri29@yahoo.fr,1967-10-19,male,marrakech,+212622575562,2020-03-15,organic
+C00094,Bensouda,Hajar,hajar.bensouda75@gmail.com,1986-06-23,Femme,Agadir,+212636950221,2022-04-30,social_media
+C00533,Berrada,Mohammed,mohammed.berrada3@iam.ma,1999-03-07,1,TANGER,+212665815175,2020-10-08,marketplace
+C00869,El Amrani,Mohammed,mohammed.elamrani85@gmail.com,2002-05-08,Homme,Fès,+212634808805,2020-07-25,referral
+C00102,Kadiri,Fatima,fatima.kadiri25@hotmail.com,2000-10-17,f,agadir,+212695831286,2021-03-10,marketplace
+C00606,Hajji,Mehdi,mehdi.hajji24@iam.ma,1974-12-29,male,rabat,+212650409241,2024-11-21,email_campaign
+C00860,El Idrissi,Imane,imane.elidrissi46@gmail.com,1969-12-05,0,Casablanca,+212662955068,2020-03-23,social_media
+C00773,Berrada,Meryem,meryem.berrada27@outlook.fr,1998-10-10,f,agadir,+212691028510,2022-08-30,social_media
+C01022,Tazi,Fatima,fatima.tazi49@yahoo.fr,1964-09-08,f,Casablanca,+212656681534,2020-03-05,paid_ads
+C00676,Hassani,Soufiane,soufiane.hassani81@menara.ma,2002-01-02,M,TANGER,+212650318100,2024-06-29,referral
+C01572,Benali,Rim,rim.benali84@hotmail.com,1982-05-26,0,AGADIR,+212662707402,2021-11-14,social_media
+C00831,Benkirane,Nisrine,nisrine.benkirane13@gmail.com,1964-09-15,f,Mrakch,+212689643778,2023-08-24,email_campaign
+C00492,Benali,Houda,houda.benali38@yahoo.fr,1985-08-25,F,casablanca,+212692293489,2022-05-15,email_campaign
+C01174,El Idrissi,Rachid,rachid.elidrissi51@outlook.fr,1965-05-29,male,RABAT,+212668680918,2020-02-03,paid_ads
+C00367,Benali,Nadia,nadia.benali38@iam.ma,1992-03-06,F,Tnja,+212685414925,2023-06-15,marketplace
+C01119,El Fassi,Samira,samira.elfassi94@menara.ma,2001-09-11,Femme,TNG,+212671773805,2020-09-05,referral
+C00414,Kadiri,Hassan,hassan.kadiri86@hotmail.com,1961-05-18,h,AGADIR,+212683765077,2020-05-20,organic
+C00814,Lahlou,Salma,salma.lahlou1@gmail.com,1972-06-16,f,Fès,+212647509496,2020-09-08,paid_ads
+C01035,Kadiri,Samira,samira.kadiri5@menara.ma,1967-01-14,f,Casa,+212687099930,2023-03-03,paid_ads
+C01127,El Idrissi,Mohammed,mohammed.elidrissi17@iam.ma,1988-07-17,m,Casa,+212653568260,2021-04-05,organic
+C00838,Belkadi,Youssef,youssef.belkadi84@yahoo.fr,1963-02-21,m,Tnja,+212658796148,2022-11-02,email_campaign
+C01049,Cherkaoui,Nadia,nadia.cherkaoui71@yahoo.fr,1962-06-15,female,TNG,+212682197852,2024-12-29,paid_ads
+C00145,El Fassi,Zineb,zineb.elfassi65@menara.ma,1961-10-28,F,Marrakesh,+212661926331,2020-03-30,marketplace
+C01027,Bouazza,Ahmed,ahmed.bouazza85@menara.ma,1976-01-15,M,MARRAKECH,+212611190605,2020-02-05,referral
+C00253,Benali,Rim,rim.benali84@hotmail.com,1982-05-26,0,AGADIR,+212662707402,2021-10-21,social_media
+C00347,Ait Benhaddou,Nabil,nabil.aitbenhaddou83@iam.ma,1999-04-09,male,CAS,+212622475714,2024-12-04,marketplace
+C00068,Cherkaoui,Omar,omar.cherkaoui98@menara.ma,1980-03-31,male,Rabat,+212649910061,2022-07-11,referral
+C00568,Hajji,Amine,amine.hajji7@hotmail.com,2002-07-24,M,casablanca,+212615786878,2020-11-23,marketplace
+C00685,Bensouda,Nabil,nabil.bensouda32@menara.ma,1995-02-22,m,rabat,+212694612181,2020-01-17,organic
+C00120,Hassani,Mohammed,mohammed.hassani56@iam.ma,1980-08-23,male,fes,+212657535513,2024-09-02,marketplace
+C01088,Bensouda,Houda,houda.bensouda89@outlook.fr,1999-01-23,f,RABAT,+212659081701,2020-12-30,organic
+C00803,Filali,Hajar,hajar.filali91@menara.ma,1965-03-05,f,Rabat,+212643123836,2022-05-18,marketplace
+C01044,Ait Benhaddou,Imane,imane.aitbenhaddou24@iam.ma,2005-09-12,f,Tanger,+212689597592,2020-01-16,paid_ads
+C00852,El Fassi,Khalid,khalid.elfassi18@iam.ma,1971-03-09,M,tanger,+212610978481,2023-06-16,social_media
+C00562,Belkadi,Nabil,nabil.belkadi14@gmail.com,1979-10-15,m,MEKNES,+212655277425,2021-02-19,referral
+C00675,El Idrissi,Karim,karim.elidrissi79@hotmail.com,1968-05-03,m,Mrakch,+212640095669,2021-11-30,referral
+C00466,Belkadi,Amina,amina.belkadi30@yahoo.fr,1995-11-13,female,CASABLANCA,+212653579429,2024-02-12,organic
+C01168,Tazi,Ahmed,ahmed.tazi42@yahoo.fr,2002-02-25,m,meknes,+212675369583,2023-09-12,referral
+C00628,Cherkaoui,Hajar,hajar.cherkaoui87@menara.ma,2002-02-24,F,fes,+212678006116,2024-10-15,social_media
+C00961,Bouazza,Hassan,hassan.bouazza11@iam.ma,1981-09-29,h,Fez,+212620471228,2024-02-14,social_media
+C00618,Hassani,Ibrahim,ibrahim.hassani50@gmail.com,1987-12-28,h,Meknès,+212684345332,2022-06-28,social_media
+C01095,Kadiri,Rachid,rachid.kadiri86@outlook.fr,2004-12-28,1,Agadir,+212633163997,2021-06-30,organic
+C01043,Benali,Samir,samir.benali95@gmail.com,1996-09-06,h,MARRAKECH,+212648827999,2024-02-25,referral
+C00103,Lahlou,Mohammed,mohammed.lahlou17@yahoo.fr,1978-08-02,male,CASABLANCA,+212654098516,2024-07-23,social_media
+C00922,Ait Benhaddou,Ahmed,ahmed.aitbenhaddou36@gmail.com,2000-07-01,M,Mrakch,+212644822417,2021-03-14,marketplace
+C00172,Kadiri,Zineb,zineb.kadiri58@menara.ma,1970-08-29,0,Tnja,+212655511258,2022-03-17,email_campaign
+C00531,El Amrani,Salma,salma.elamrani56@yahoo.fr,1988-07-16,f,Rabat,+212668410219,2022-04-11,referral
+C00605,Benali,Nadia,nadia.benali47@hotmail.com,1991-12-08,f,Casablanca,+212695757950,2021-08-20,paid_ads
+C00185,Benali,Khadija,khadija.benali84@gmail.com,1963-05-07,0,marrakech,+212614877451,2024-12-11,social_media
+C00963,Bouazza,Hajar,hajar.bouazza59@iam.ma,1969-06-24,0,Casa,+212670724380,2022-01-14,referral
+C00358,Cherkaoui,Imane,imane.cherkaoui22@gmail.com,1996-09-17,f,CAS,+212635171649,2023-06-05,social_media
+C00111,Berrada,Ahmed,ahmed.berrada56@gmail.com,1971-09-03,male,TNG,+212685387867,2023-04-16,paid_ads
+C01575,Berrada,Hassan,hassan.berrada57@hotmail.com,1979-03-13,1,Meknès,+212685432781,2023-01-28,email_campaign
+C00320,Bouazza,Ahmed,ahmed.bouazza65@iam.ma,1962-08-06,1,CASABLANCA,+212617734634,2024-11-27,social_media
+C01034,Filali,Youssef,youssef.filali38@gmail.com,1962-04-16,m,Fès,+212678557897,2021-03-09,email_campaign
+C00124,El Fassi,Mehdi,mehdi.elfassi45@yahoo.fr,1973-04-01,1,Tnja,+212636477373,2020-10-26,email_campaign
+C01145,El Mansouri,Samira,samira.elmansouri43@gmail.com,2004-02-06,0,meknes,+212649633430,2021-06-16,email_campaign
+C00910,Bensouda,Youssef,youssef.bensouda81@gmail.com,1979-05-07,h,Fez,+212631615365,2020-10-15,marketplace
+C00551,Benkirane,Khadija,khadija.benkirane36@gmail.com,1989-11-04,f,CAS,+212633881291,2024-07-22,email_campaign
+C00040,Kadiri,Amina,amina.kadiri38@iam.ma,1994-01-05,f,Agadir,+212686384014,2020-12-22,paid_ads
+C01025,Kadiri,Nadia,nadia.kadiri96@outlook.fr,1961-05-12,Femme,MEKNES,+212621480563,2023-10-29,email_campaign
+C00032,Filali,Nabil,nabil.filali71@menara.ma,1987-08-28,Homme,MEKNES,+212658024342,2024-10-28,organic
+C00456,Lahlou,Nisrine,nisrine.lahlou13@gmail.com,1971-08-23,0,TNG,+212675145297,2021-02-17,organic
+C00839,El Amrani,Khalid,invalide-839,1986-04-28,h,fes,+212687453221,2022-06-30,social_media
+C01055,Benkirane,Salma,salma.benkirane64@iam.ma,1967-12-16,female,Agadir,+212610429189,2024-03-14,social_media
+C00153,Benali,Khadija,khadija.benali86@gmail.com,1974-05-09,f,Tanger,+212668810561,2024-10-04,paid_ads
+C01353,Chraibi,Nadia,nadia.chraibi32@outlook.fr,1972-05-12,f,AGADIR,+212660661928,2024-01-08,social_media
+C00957,Tazi,Mohammed,mohammed.tazi2@gmail.com,1999-02-01,1,casablanca,+212659510172,2020-06-29,social_media
+C00791,El Amrani,Omar,omar.elamrani98@menara.ma,1998-06-11,1,Fès,+212628462384,2020-06-11,organic
+C00999,Bouazza,Hassan,hassan.bouazza9@outlook.fr,1993-10-11,M,Fès,+212687314639,2023-09-11,social_media
+C00867,Hajji,Tariq,tariq.hajji7@gmail.com,1980-10-05,1,rabat,+212618234220,2022-05-22,referral
+C00724,El Idrissi,Sara,sara.elidrissi11@outlook.fr,1972-10-09,Femme,fes,+212682146810,2020-12-10,social_media
+C00452,Ait Benhaddou,Imane,imane.aitbenhaddou6@hotmail.com,1986-06-10,female,AGADIR,+212686061419,2022-09-30,social_media
+C00913,Cherkaoui,Amine,amine.cherkaoui41@outlook.fr,1966-02-11,Homme,FES,+212621976146,2022-01-14,email_campaign
+C01023,Sahraoui,Soufiane,soufiane.sahraoui34@hotmail.com,1962-06-15,Homme,Agadir,+212668260695,2024-08-25,paid_ads
+C00588,Belkadi,Layla,layla.belkadi84@hotmail.com,1999-12-12,F,Casablanca,+212651137063,2023-03-07,social_media
+C01074,Belkadi,Imane,imane.belkadi53@menara.ma,1978-10-08,female,MEKNES,+212677084096,2022-09-27,paid_ads
+C00615,Hajji,Mehdi,mehdi.hajji25@iam.ma,1960-05-21,h,Tnja,+212673715236,2021-03-14,paid_ads
+C00159,Hassani,Omar,omar.hassani47@gmail.com,1971-08-23,male,TANGER,+212663440127,2020-05-14,email_campaign
+C00935,Sahraoui,Samira,samira.sahraoui51@iam.ma,1998-06-30,0,Fez,+212633315937,2022-03-10,marketplace
+C00994,Ait Benhaddou,Khalid,khalid.aitbenhaddou3@iam.ma,1981-08-04,1,Mrakch,+212683374285,2024-02-27,marketplace
+C01081,Cherkaoui,Amina,amina.cherkaoui80@gmail.com,1991-06-10,f,fes,+212656299404,2024-12-14,social_media
+C00100,Chraibi,Nisrine,nisrine.chraibi76@outlook.fr,1997-03-21,f,Tnja,+212692631441,2024-09-03,referral
+C00354,Tazi,Layla,layla.tazi59@gmail.com,1967-11-24,F,MARRAKECH,+212676756320,2021-10-09,organic
+C00224,El Mansouri,Ahmed,ahmed.elmansouri49@yahoo.fr,1994-12-15,Homme,RABAT,+212610697290,2020-08-06,organic
+C00549,Sahraoui,Mohammed,mohammed.sahraoui28@iam.ma,1970-10-06,m,Fès,+212698099795,2020-09-23,referral
+C00187,Bensouda,Khadija,khadija.bensouda70@iam.ma,1972-01-15,female,MARRAKECH,+212625119192,2021-07-12,social_media
+C00511,Chraibi,Nisrine,nisrine.chraibi74@yahoo.fr,1970-06-25,Femme,AGADIR,+212614245067,2024-10-22,email_campaign
+C01163,Benkirane,Ibrahim,ibrahim.benkirane99@yahoo.fr,1974-03-03,male,agadir,+212679318932,2020-11-17,email_campaign
+C00652,Sahraoui,Layla,layla.sahraoui71@iam.ma,1962-06-15,f,Fez,+212694578152,2023-08-06,social_media
+C00194,Chraibi,Mohammed,mohammed.chraibi26@menara.ma,1989-06-08,male,MARRAKECH,+212637568520,2020-08-26,marketplace
+C00177,Tazi,Nadia,nadia.tazi74@gmail.com,1961-09-12,F,rabat,+212665426567,2022-05-07,social_media
+C00072,El Mansouri,Soufiane,soufiane.elmansouri10@yahoo.fr,1985-11-22,M,Tnja,+212650814428,2022-08-17,marketplace
+C00880,Sahraoui,Khalid,khalid.sahraoui42@hotmail.com,1960-12-07,Homme,Casa,+212633721002,2024-02-05,email_campaign
+C00384,El Fassi,Khalid,khalid.elfassi21@yahoo.fr,1982-09-03,1,Tnja,+212686140729,2021-01-06,marketplace
+C00577,El Fassi,Imane,imane.elfassi55@gmail.com,1968-10-16,F,Marrakesh,+212684958851,2021-05-07,organic
+C00582,Filali,Ibrahim,ibrahim.filali83@yahoo.fr,1978-05-14,1,rabat,+212625241453,2021-05-03,paid_ads
+C00927,Kadiri,Tariq,tariq.kadiri45@yahoo.fr,1961-04-15,Homme,Meknès,+212650526300,2022-01-15,organic
+C00820,El Mansouri,Hajar,hajar.elmansouri93@yahoo.fr,1971-01-16,f,Tanger,+212676029590,2022-12-30,marketplace
+C00029,Cherkaoui,Rim,rim.cherkaoui34@yahoo.fr,1973-12-11,Femme,Casablanca,+212656020613,2023-05-23,social_media
+C00314,Berrada,Amina,amina.berrada50@gmail.com,1984-10-11,female,MARRAKECH,+212693625419,2024-11-23,organic
+C01115,El Idrissi,Hassan,hassan.elidrissi21@yahoo.fr,1969-07-19,M,MEKNES,+212623610361,2020-06-18,email_campaign
+C00335,Berrada,Amine,amine.berrada79@yahoo.fr,1998-06-28,M,Rabat,+212681643088,2020-01-10,organic
+C00005,Hajji,Sara,sara.hajji9iam.ma,1967-02-27,0,Tnja,+212670855700,2022-02-17,email_campaign
+C00013,Filali,Youssef,youssef.filali70@yahoo.fr,1960-01-19,male,rabat,+212625014631,2022-09-27,organic
+C00542,El Fassi,Nadia,nadia.elfassi44@gmail.com,1973-10-30,F,meknes,+212641936764,2022-04-25,referral
+C00987,El Amrani,Meryem,meryem.elamrani4@menara.ma,1972-08-11,female,Casablanca,+212687889556,2024-05-30,social_media
+C00002,El Fassi,Omar,omar.elfassi4@menara.ma,1997-08-20,1,MARRAKECH,+212610872248,2023-04-21,email_campaign
+C00173,Ait Benhaddou,Hajar,hajar.aitbenhaddou78@yahoo.fr,1964-01-24,f,Tanger,+212673584863,2024-01-01,email_campaign
+C01576,Lahlou,Samir,samir.lahlou47@outlook.fr,1982-10-03,Homme,fes,+212659075919,2022-06-10,paid_ads
+C00383,Chraibi,Fatima,fatima.chraibi19@menara.ma,1897-09-03,Femme,CASABLANCA,+212656150987,2024-03-12,marketplace
+C00700,Benali,Hajar,hajar.benali83@iam.ma,1986-07-13,F,Rabat,+212684304333,2024-12-19,marketplace
+C01094,Hajji,Salma,salma.hajji79@iam.ma,1988-05-23,f,casablanca,+212659158124,2023-04-16,marketplace
+C00571,Cherkaoui,Samira,samira.cherkaoui30@hotmail.com,1977-12-09,F,Casa,+212688529753,2020-05-30,referral
+C00063,Belkadi,Nisrine,nisrine.belkadi61@hotmail.com,1989-09-04,Femme,AGADIR,+212651154241,2022-07-18,email_campaign
+C00621,Hajji,Ibrahim,ibrahim.hajji26@hotmail.com,1971-01-05,1,Meknès,+212676989425,2022-05-19,marketplace
+C01020,Tazi,Mohammed,mohammed.tazi57@iam.ma,1970-04-01,m,Marrakesh,+212646278860,2024-09-08,organic
+C00021,Chraibi,Amine,amine.chraibi7@gmail.com,1961-04-28,m,meknes,+212632321899,2024-10-04,social_media
+C01096,El Mansouri,Fatima,fatima.elmansouri26@menara.ma,1960-04-15,Femme,CAS,+212625799382,2023-02-22,email_campaign
+C00537,Hassani,Omar,omar.hassani95@iam.ma,1988-01-13,male,TNG,+212611447323,2021-12-04,paid_ads
+C00097,Cherkaoui,Houda,houda.cherkaoui48@outlook.fr,1994-03-08,f,RABAT,+212641383044,2020-08-09,marketplace
+C01649,Berrada,Nadia,nadia.berrada10@menara.ma,1982-12-16,f,Casa,+212645450260,2022-08-16,email_campaign
+C01126,Benkirane,Imane,imane.benkirane65@hotmail.com,1976-04-05,f,Casablanca,+212664651149,2021-07-12,organic
+C00348,Lahlou,Salma,salma.lahlou15@yahoo.fr,1984-05-21,F,AGADIR,+212666604960,2024-10-08,referral
+C01136,Bensouda,Hajar,hajar.bensouda23@iam.ma,1997-07-05,F,marrakech,+212613897816,2021-01-21,marketplace
+C01185,El Amrani,Fatima,fatima.elamrani54@outlook.fr,1991-10-27,Femme,Casablanca,+212668270476,2024-09-09,organic
+C00663,El Fassi,Nadia,nadia.elfassi44@outlook.fr,1988-06-19,f,Mrakch,+212644951103,2022-06-05,social_media
+C01010,Hajji,Khadija,khadija.hajji98@hotmail.com,1989-07-27,f,TNG,+212619786069,2021-04-27,referral
+C00360,Bensouda,Karim,karim.bensouda85@outlook.fr,2004-10-01,m,Mrakch,+212684252780,2024-02-16,organic
+C00233,Bouazza,Nadia,nadia.bouazza33@yahoo.fr,1993-10-27,f,MARRAKECH,+212688147469,2023-05-09,referral
+C00206,Tazi,Khalid,khalid.tazi27@hotmail.com,2000-05-08,Homme,TANGER,+212635566010,2023-01-01,marketplace
+C00412,Sahraoui,Imane,imane.sahraoui23@gmail.com,1978-02-04,f,MEKNES,+212636138432,2022-11-27,email_campaign
+C00267,Chraibi,Amina,amina.chraibi23@iam.ma,1966-07-19,f,FES,+212645189912,2020-05-18,organic
+C00189,El Idrissi,Salma,salma.elidrissi42@menara.ma,1976-07-29,0,Marrakesh,+212610916723,2021-10-24,social_media
+C00093,El Mansouri,Tariq,tariq.elmansouri97@iam.ma,1972-04-08,h,Tnja,+212615291208,2023-07-09,marketplace
+C00512,Berrada,Layla,layla.berrada31@outlook.fr,1987-02-24,0,Mrakch,+212625063426,2021-09-11,social_media
+C00259,Benkirane,Nisrine,nisrine.benkirane51@gmail.com,1981-01-02,F,Fez,+212622775337,2020-07-05,marketplace
+C00901,El Idrissi,Meryem,meryem.elidrissi44@iam.ma,1961-03-08,Femme,Tnja,+212696228754,2020-11-15,organic
+C01062,Bensouda,Hassan,hassan.bensouda29@outlook.fr,1978-07-01,h,Tnja,+212654249461,2023-06-10,paid_ads
+C01146,Bensouda,Amina,amina.bensouda34@iam.ma,1972-07-24,0,Mrakch,+212639665008,2021-08-13,organic
+C00182,Berrada,Hassan,hassan.berrada57@hotmail.com,1979-03-13,1,Meknès,+212685432781,2023-01-08,email_campaign
+C00728,El Fassi,Tariq,tariq.elfassi88@hotmail.com,2000-08-12,Homme,Casa,+212655852776,2023-09-18,email_campaign
+C00638,El Amrani,Soufiane,soufiane.elamrani91@iam.ma,2004-10-13,1,agadir,+212672719315,2024-08-14,marketplace
+C00197,Hassani,Soufiane,soufiane.hassani37@gmail.com,1997-09-17,Homme,Rabat,+212660418290,2022-07-07,referral
+C00375,Filali,Ahmed,ahmed.filali31@outlook.fr,1981-11-15,m,agadir,+212661186964,2024-12-18,email_campaign
+C00704,Bouazza,Samira,samira.bouazza55@iam.ma,1965-05-18,Femme,CAS,+212657576607,2023-07-08,paid_ads
+C00284,Cherkaoui,Layla,layla.cherkaoui46@menara.ma,1987-08-29,F,CAS,+212622136086,2024-10-11,organic
+C00972,Lahlou,Layla,layla.lahlou23@gmail.com,1975-04-26,f,meknes,+212689726022,2024-10-13,organic
+C00781,Bensouda,Samir,samir.bensouda61@yahoo.fr,1975-04-21,m,Fès,+212649479427,2020-07-24,social_media
+C00835,Hassani,Khalid,khalid.hassani90@iam.ma,1968-12-02,Homme,TANGER,+212634815495,2024-01-01,paid_ads
+C00794,Hajji,Samira,samira.hajji7@menara.ma,1982-04-12,f,AGADIR,+212691612860,2024-01-13,social_media
+C00827,Benkirane,Soufiane,soufiane.benkirane94@outlook.fr,1974-04-13,m,fes,+212666698597,2022-03-14,email_campaign
+C00193,Tazi,Karim,karim.tazi97@iam.ma,2000-01-30,male,AGADIR,+212685721444,2022-01-10,organic
+C01190,Hassani,Fatima,fatima.hassani95@gmail.com,1964-03-03,female,Rabat,+212680491768,2024-04-10,paid_ads
+C00680,El Mansouri,Sara,sara.elmansouri24@hotmail.com,1983-04-07,f,Tnja,+212612404540,2022-06-07,paid_ads
+C00245,Kadiri,Tariq,tariq.kadiri24@outlook.fr,1975-07-17,male,casablanca,+212628830282,2022-09-29,email_campaign
+C01664,Benkirane,Hajar,hajar.benkirane63@gmail.com,1900-10-10,F,AGADIR,+212627031212,2024-07-20,referral
+C00061,El Mansouri,Amina,amina.elmansouri90@menara.ma,1977-02-20,f,Casa,+212675575808,2024-01-14,referral
+C00372,Ait Benhaddou,Meryem,meryem.aitbenhaddou20@gmail.com,1987-01-07,F,MEKNES,+212658061434,2023-03-18,paid_ads
+C00368,Chraibi,Samir,samir.chraibi31@outlook.fr,1985-10-21,h,agadir,+212662016704,2020-04-06,referral
+C01469,El Fassi,Khadija,khadija.elfassi68@hotmail.com,1979-03-11,0,Fez,+212629177565,2024-09-05,email_campaign
+C00399,Ait Benhaddou,Mohammed,mohammed.aitbenhaddou76@menara.ma,1963-07-08,male,Tanger,+212644663022,2020-04-24,social_media
+C00331,Lahlou,Rachid,rachid.lahlou12@iam.ma,1987-07-20,M,MEKNES,+212659886371,2024-12-21,email_campaign
+C00848,Belkadi,Meryem,invalide-848,1971-05-03,0,Rabat,+212645885781,2023-03-08,marketplace
+C01072,Berrada,Karim,karim.berrada72@gmail.com,2003-12-11,male,Casa,+212664115926,2020-06-20,social_media
+C00146,El Amrani,Khadija,khadija.elamrani9@hotmail.com,1969-04-19,female,Agadir,+212627905932,2024-03-29,email_campaign
+C00246,Bensouda,Ibrahim,ibrahim.bensouda7@menara.ma,2003-06-23,1,CASABLANCA,+212685374270,2024-07-27,referral
+C00734,El Mansouri,Nabil,nabil.elmansouri65@menara.ma,1975-09-30,m,FES,+212618730772,2020-09-19,marketplace
+C01085,Sahraoui,Soufiane,soufiane.sahraoui19@yahoo.fr,1989-01-03,m,TNG,+212669014061,2020-10-07,paid_ads
+C00014,Bouazza,Rim,rim.bouazza8@yahoo.fr,1967-01-24,f,Agadir,+212681498611,2022-09-22,organic
+C00645,Berrada,Meryem,meryem.berrada77@yahoo.fr,1989-07-17,female,Agadir,+212641667072,2022-03-09,marketplace
+C00296,Hassani,Nadia,nadia.hassani12@gmail.com,1961-10-15,female,Marrakesh,+212692427773,2020-01-02,email_campaign
+C00834,El Fassi,Nisrine,nisrine.elfassi3@yahoo.fr,2003-01-07,Femme,AGADIR,+212689574873,2024-03-06,organic
+C01041,Chraibi,Khadija,khadija.chraibi61@iam.ma,1963-01-21,F,tanger,+212619799868,2023-11-14,social_media
+C00477,Benkirane,Hassan,hassan.benkirane37@gmail.com,1984-05-03,m,MARRAKECH,+212618938604,2023-09-02,organic
+C00677,Bouazza,Youssef,youssef.bouazza67@yahoo.fr,1966-11-12,m,Mrakch,+212667030927,2020-08-08,paid_ads
+C00624,Benali,Samir,samir.benali64@gmail.com,1994-04-30,male,agadir,+212650634767,2021-10-31,social_media
+C00635,El Mansouri,Hassan,hassan.elmansouri39@gmail.com,1980-04-06,male,Agadir,+212687603784,2020-07-07,marketplace
+C00926,El Amrani,Houda,houda.elamrani17@outlook.fr,1968-09-28,f,CASABLANCA,+212666395082,2024-03-07,social_media
+C00441,Benkirane,Samira,samira.benkirane95@iam.ma,1979-10-16,Femme,TANGER,+212642153442,2022-05-14,marketplace
+C00812,Hajji,Ahmed,ahmed.hajji1@menara.ma,1983-11-06,M,Marrakesh,+212691117376,2024-03-30,email_campaign
+C00274,Cherkaoui,Hajar,hajar.cherkaoui87@menara.ma,2005-08-25,f,TNG,+212642823140,2024-10-24,organic
+C00883,Hassani,Nadia,nadia.hassani64@gmail.com,1975-10-19,0,FES,+212634213769,2022-10-01,marketplace
+C01006,Hajji,Samira,samira.hajji61@menara.ma,1972-05-14,f,MARRAKECH,+212660481733,2022-05-25,marketplace
+C00057,Belkadi,Karim,karim.belkadi45@gmail.com,1966-03-09,male,Fez,+212666379329,2021-11-29,organic
+C00517,Ait Benhaddou,Hassan,hassan.aitbenhaddou36@yahoo.fr,1969-03-08,1,fes,+212652746321,2021-12-18,paid_ads
+C00566,El Mansouri,Youssef,youssef.elmansouri58@menara.ma,1963-05-17,male,casablanca,+212692147935,2024-01-08,referral
+C00134,Berrada,Youssef,youssef.berrada13@hotmail.com,1963-05-21,h,rabat,+212627589104,2024-11-29,paid_ads
+C00726,El Mansouri,Sara,sara.elmansouri49@iam.ma,1979-02-01,female,Meknès,+212616104857,2022-11-11,email_campaign
+C00131,Kadiri,Mehdi,mehdi.kadiri33@hotmail.com,1973-06-28,Homme,TANGER,+212628982195,2023-04-08,marketplace
+C00303,El Idrissi,Imane,imane.elidrissi53@yahoo.fr,1993-09-03,f,Meknès,+212697371655,2022-09-08,paid_ads
+C00977,Hajji,Amina,amina.hajji12@iam.ma,1969-09-06,Femme,Fez,+212670299910,2023-10-22,paid_ads
+C01628,Belkadi,Omar,omar.belkadi43@iam.ma,1991-09-21,m,Tanger,+212655520266,2021-08-09,organic
+C00118,El Mansouri,Layla,layla.elmansouri97@yahoo.fr,1969-12-12,Femme,agadir,+212675314742,2023-10-21,paid_ads
+C00919,Kadiri,Samira,samira.kadiri9@hotmail.com,2003-08-17,0,AGADIR,+212625344634,2024-02-27,referral
+C00046,Chraibi,Salma,salma.chraibi21@outlook.fr,1983-04-03,0,Meknès,+212679967676,2023-07-29,email_campaign
+C00351,El Mansouri,Ahmed,invalide-351,1980-02-04,h,rabat,+212692978636,2022-11-29,paid_ads
+C00133,El Idrissi,Rachid,rachid.elidrissi47@,1979-03-20,Homme,meknes,+212640406092,2022-09-22,social_media
+C00894,Lahlou,Ahmed,ahmed.lahlou24@yahoo.fr,2004-05-03,M,Marrakesh,+212690764593,2023-11-21,referral
+C01253,Belkadi,Imane,imane.belkadi53@menara.ma,1978-10-08,female,MEKNES,+212677084096,2022-10-22,paid_ads
+C01171,Berrada,Mehdi,mehdi.berrada32@outlook.fr,1983-05-23,male,Mrakch,+212612932900,2024-07-31,email_campaign
+C00943,Lahlou,Ahmed,ahmed.lahlou62@hotmail.com,1960-06-13,1,Mrakch,+212626320018,2024-02-27,email_campaign
+C00109,Cherkaoui,Zineb,zineb.cherkaoui84@iam.ma,1979-04-16,F,MARRAKECH,+212665541117,2024-12-23,social_media
+C00552,Hassani,Zineb,zineb.hassani79@yahoo.fr,1969-09-23,0,fes,+212639311339,2024-04-23,referral
+C00953,Lahlou,Salma,salma.lahlou26@,1984-08-14,F,Tnja,+212632969985,2020-09-11,referral
+C00459,Benali,Hajar,hajar.benali35@menara.ma,1987-04-07,f,CASABLANCA,+212623586205,2022-11-29,organic
+C01193,Hassani,Amine,amine.hassani74@iam.ma,1971-08-24,1,Casa,+212622722389,2023-09-12,organic
+C01186,Berrada,Samira,samira.berrada83@iam.ma,1961-06-03,Femme,Agadir,+212616089390,2023-08-18,email_campaign
+C00215,Hassani,Nisrine,nisrine.hassani1@gmail.com,1961-07-02,female,Agadir,+212648478684,2021-07-16,paid_ads
+C00643,Benali,Rachid,rachid.benali63@iam.ma,1967-07-13,Homme,Fès,+212664627534,2021-09-02,organic
+C00975,Filali,Khadija,khadija.filali2@outlook.fr,1989-12-09,female,meknes,+212675009006,2023-09-21,paid_ads
+C01040,El Fassi,Layla,layla.elfassi74@yahoo.fr,1977-10-09,0,MARRAKECH,+212626212004,2020-02-01,social_media
+C00198,Chraibi,Rachid,rachid.chraibi84@yahoo.fr,1995-04-06,male,Tanger,+212610466177,2024-01-30,social_media
+C00264,El Idrissi,Amina,amina.elidrissi18@hotmail.com,1982-04-06,female,Fès,+212691549765,2023-05-13,marketplace
+C00506,Hajji,Samir,samir.hajji54@menara.ma,1979-01-18,m,Fez,+212647799296,2021-02-16,marketplace
+C00659,Benkirane,Khalid,khalid.benkirane19@,2000-06-16,1,RABAT,+212696870487,2023-04-08,marketplace
+C00276,Lahlou,Samira,samira.lahlou54@yahoo.fr,1966-12-27,female,RABAT,+212617069536,2020-09-01,paid_ads
+C00158,Bouazza,Rim,rim.bouazza92@yahoo.fr,1975-08-14,Femme,Mrakch,+212636975128,2021-04-04,organic
+C00732,El Amrani,Omar,omar.elamrani88@hotmail.com,1968-01-27,male,Fez,+212639681939,2021-09-12,marketplace
+C00656,Berrada,Soufiane,soufiane.berrada26@outlook.fr,1964-06-19,M,Fès,+212644917786,2022-05-28,paid_ads
+C00481,El Fassi,Samira,samira.elfassi8@hotmail.com,1962-08-23,female,CAS,+212655873760,2021-04-06,social_media
+C00747,Bouazza,Amine,amine.bouazza44@menara.ma,1972-12-21,m,Casa,+212617329266,2022-11-04,paid_ads
+C00759,Tazi,Omar,omar.tazi58@yahoo.fr,1987-06-14,M,Rabat,+212660211839,2023-03-16,social_media
+C00884,Bouazza,Fatima,fatima.bouazza23@yahoo.fr,1976-11-07,f,Tanger,+212642917412,2020-05-27,referral
+C01150,El Fassi,Tariq,tariq.elfassi67@hotmail.com,2003-07-14,h,casablanca,+212674699989,2024-11-18,paid_ads
+C00746,Benali,Karim,karim.benali17@gmail.com,1992-02-04,Homme,FES,+212629545414,2024-12-17,paid_ads
+C00536,Hassani,Tariq,tariq.hassani11@iam.ma,1985-01-25,M,Mrakch,+212691882291,2020-06-09,paid_ads
+C00793,Lahlou,Hassan,hassan.lahlou98@,1985-11-17,m,Casa,+212654462343,2024-09-30,marketplace
+C00819,Hajji,Omar,omar.hajji97@yahoo.fr,1969-06-18,M,AGADIR,+212653822194,2020-02-29,social_media
+C01258,Berrada,Houda,houda.berrada69@hotmail.com,1981-05-27,female,Casa,+212674743230,2023-02-17,social_media
+C01178,Belkadi,Khalid,khalid.belkadi1@hotmail.com,1960-10-06,1,rabat,+212644742654,2022-05-24,social_media
+C01640,El Amrani,Mohammed,mohammed.elamrani85@gmail.com,2002-05-08,Homme,Fès,+212634808805,2020-08-01,referral
+C00394,Filali,Mehdi,mehdi.filali61@outlook.fr,1963-07-31,h,rabat,+212679977486,2020-07-30,marketplace
+C00849,Filali,Soufiane,soufiane.filali32@iam.ma,2001-01-25,1,MARRAKECH,+212677408068,2021-12-25,referral
+C00899,El Idrissi,Samir,samir.elidrissi7@hotmail.com,1966-08-14,M,Meknès,+212614051460,2023-05-01,social_media
+C00990,Lahlou,Imane,imane.lahlou16@gmail.com,1964-10-03,f,CASABLANCA,+212685436973,2022-11-23,social_media
+C00043,Hajji,Karim,karim.hajji4@,1966-07-14,M,marrakech,+212687265240,2024-12-19,marketplace
+C00500,Ait Benhaddou,Fatima,fatima.aitbenhaddou86@gmail.com,1989-09-14,f,TNG,+212633924094,2020-08-11,referral
+C00608,Benkirane,Amina,amina.benkirane28@gmail.com,1976-11-26,female,Fès,+212681416669,2023-11-13,paid_ads
+C00026,El Mansouri,Rim,rim.elmansouri86@yahoo.fr,1995-07-05,0,agadir,+212671367643,2023-08-14,email_campaign
+C00298,El Fassi,Nabil,nabil.elfassi10@hotmail.com,1995-06-28,male,Tnja,+212653299069,2021-11-20,email_campaign
+C01543,Tazi,Amina,amina.tazi61@yahoo.fr,1988-12-14,0,Casablanca,+212637784045,2020-05-22,organic
+C01503,El Amrani,Mohammed,mohammed.elamrani94@menara.ma,1997-04-21,M,Agadir,+212675706438,2022-02-10,referral
+C00463,Tazi,Sara,sara.tazi70@menara.ma,1982-10-17,Femme,MARRAKECH,+212610026256,2022-07-05,referral
+C00503,El Mansouri,Samir,samir.elmansouri68@hotmail.com,1978-10-03,male,TNG,+212694420078,2020-08-11,paid_ads
+C00449,El Mansouri,Youssef,youssef.elmansouri16@menara.ma,1963-10-08,male,MEKNES,+212690022258,2023-11-15,referral
+C00460,Kadiri,Mehdi,mehdi.kadiri25@yahoo.fr,1976-01-19,male,Agadir,+212624161873,2023-02-17,referral
+C01013,El Amrani,Nisrine,nisrine.elamrani62@menara.ma,1971-03-27,F,AGADIR,+212628491234,2022-05-24,paid_ads
+C00054,Hajji,Omar,omar.hajji80@gmail.com,1970-04-06,male,CASABLANCA,+212644392446,2022-08-10,marketplace
+C00561,Sahraoui,Rim,rim.sahraoui32@gmail.com,1975-06-15,f,TNG,+212671228059,2021-09-21,organic
+C00318,Hassani,Salma,salma.hassani88@iam.ma,1972-01-21,Femme,Agadir,+212646160937,2022-06-26,email_campaign
+C01123,El Fassi,Soufiane,soufiane.elfassi59@,1973-03-01,male,Agadir,+212661259494,2023-07-30,organic
+C00504,Sahraoui,Amine,amine.sahraoui37@iam.ma,1983-04-18,male,FES,+212627409802,2023-06-30,email_campaign
+C00084,Ait Benhaddou,Fatima,fatima.aitbenhaddou76@menara.ma,1999-07-02,f,Mrakch,+212629348212,2022-07-24,organic
+C00907,El Mansouri,Omar,omar.elmansouri73@gmail.com,2003-05-28,m,TNG,+212651420243,2021-10-06,organic
+C00461,Bensouda,Nisrine,nisrine.bensouda86@iam.ma,1976-03-08,female,Rabat,+212698252435,2022-10-30,email_campaign
+C00664,Benali,Ibrahim,ibrahim.benali64@yahoo.fr,1992-05-07,M,Casablanca,+212692266282,2024-11-30,email_campaign
+C00169,El Fassi,Amine,amine.elfassi64@outlook.fr,1968-01-29,M,Mrakch,+212638876195,2022-07-25,social_media
+C00602,Hassani,Nisrine,nisrine.hassani84@gmail.com,1976-02-03,F,AGADIR,+212613817499,2023-08-13,social_media
+C01646,Cherkaoui,Samir,samir.cherkaoui15@gmail.com,1967-08-27,male,AGADIR,+212678674708,2022-03-25,marketplace
+C00789,Sahraoui,Zineb,zineb.sahraoui81@hotmail.com,1971-12-04,Femme,casablanca,+212652676804,2023-07-25,marketplace
+C00273,Belkadi,Hassan,hassan.belkadi10@iam.ma,1964-12-21,M,FES,+212631113788,2020-12-07,email_campaign
+C00813,Filali,Amina,amina.filali44@iam.ma,1992-05-28,f,Rabat,+212617682829,2022-02-14,paid_ads
+C00725,Chraibi,Rim,rim.chraibi6@,1985-12-13,f,casablanca,+212674717944,2020-01-02,organic
+C01092,Bensouda,Sara,sara.bensouda23@outlook.fr,1969-04-27,f,RABAT,+212630561048,2020-02-29,paid_ads
+C00697,Benkirane,Houda,houda.benkirane35@gmail.com,1992-05-09,f,agadir,+212681088456,2021-05-17,social_media
+C00299,El Idrissi,Youssef,youssef.elidrissi63@iam.ma,1992-01-05,1,agadir,+212660785855,2023-04-21,social_media
+C00540,Hassani,Hassan,hassan.hassani17@gmail.com,1984-12-04,Homme,Tanger,+212646939015,2023-06-15,email_campaign
+C00829,Belkadi,Hajar,hajar.belkadi91@gmail.com,1972-05-04,F,AGADIR,+212629437798,2022-09-15,email_campaign
+C01182,Bensouda,Soufiane,invalide-1182,1978-09-17,M,TNG,+212663576791,2022-07-04,referral
+C00192,Ait Benhaddou,Omar,omar.aitbenhaddou20@outlook.fr,1993-07-08,M,AGADIR,+212682144402,2023-01-29,referral
+C00407,Lahlou,Samir,samir.lahlou47@outlook.fr,1982-10-03,Homme,fes,+212659075919,2022-05-17,paid_ads
+C00156,Kadiri,Houda,houda.kadiri16@menara.ma,2000-01-14,0,Fès,+212675927774,2021-08-07,marketplace
+C00816,Filali,Rachid,rachid.filali95@gmail.com,2003-06-21,M,Agadir,+212656752592,2023-06-08,organic
+C00365,Cherkaoui,Imane,imane.cherkaoui72@hotmail.com,1997-06-14,f,Agadir,+212648376603,2024-09-19,paid_ads
+C01187,Tazi,Nabil,invalide-1187,2002-02-23,m,TNG,+212698711501,2023-05-06,social_media
+C01147,Filali,Sara,sara.filali38@iam.ma,1987-05-04,F,AGADIR,+212649578072,2022-06-19,marketplace
+C00607,Filali,Nisrine,nisrine.filali69@gmail.com,1961-02-26,0,Mrakch,+212675082045,2021-07-30,email_campaign
+C01148,Ait Benhaddou,Samir,samir.aitbenhaddou78@yahoo.fr,1980-06-12,m,CASABLANCA,+212629912993,2023-04-09,email_campaign
+C01037,Tazi,Ibrahim,ibrahim.tazi30@hotmail.com,1970-05-09,h,Casa,+212665019311,2022-06-30,marketplace
+C00636,Lahlou,Tariq,tariq.lahlou9@hotmail.com,1998-04-26,1,RABAT,+212697447790,2024-06-17,organic
+C00389,Sahraoui,Youssef,youssef.sahraoui36@gmail.com,1977-08-15,Homme,Agadir,+212620262606,2024-12-20,marketplace
+C00229,Cherkaoui,Amine,amine.cherkaoui39@,1994-01-30,Homme,MARRAKECH,+212697380687,2021-11-16,referral
+C00033,Tazi,Rachid,rachid.tazi14@iam.ma,1996-06-16,male,Agadir,+212631810617,2020-11-12,social_media
+C00662,El Fassi,Hassan,hassan.elfassi49@menara.ma,1993-04-10,1,fes,+212634074932,2020-03-25,paid_ads
+C00346,Cherkaoui,Fatima,fatima.cherkaoui6@yahoo.fr,1988-01-20,F,Agadir,+212616159129,2020-08-25,organic
+C00327,Cherkaoui,Khadija,khadija.cherkaoui9@outlook.fr,1989-03-03,Femme,CAS,+212697438349,2023-09-05,marketplace
+C00741,Bensouda,Rachid,rachid.bensouda16@menara.ma,1962-12-28,M,rabat,+212618727939,2024-12-27,marketplace
+C00897,El Amrani,Nabil,nabil.elamrani72@hotmail.com,1969-11-18,m,RABAT,+212649553600,2022-01-09,social_media
+C00691,Hassani,Tariq,tariq.hassani54@gmail.com,1981-01-21,1,fes,+212658155542,2020-04-06,organic
+C00719,El Mansouri,Layla,layla.elmansouri15@gmail.com,1985-08-07,0,casablanca,+212630700047,2021-06-07,organic
+C01252,Berrada,Rim,rim.berrada59@gmail.com,1968-12-20,f,fes,+212645594597,2021-04-04,paid_ads
+C00543,Benkirane,Imane,imane.benkirane74@yahoo.fr,1983-09-20,f,TNG,+212663518621,2020-12-09,referral
+C00415,Chraibi,Imane,imane.chraibi45@menara.ma,1980-04-20,female,CASABLANCA,+212687162674,2022-07-20,referral
+C01396,Ait Benhaddou,Fatima,fatima.aitbenhaddou76@menara.ma,1999-07-02,f,Mrakch,+212629348212,2022-08-20,organic
+C00382,El Amrani,Salma,salma.elamrani21@outlook.fr,1995-01-29,female,Casablanca,+212650004466,2023-07-22,social_media
+C01019,Berrada,Khadija,khadija.berrada18@yahoo.fr,1987-05-11,f,fes,+212659981337,2021-03-07,organic
+C00641,Benkirane,Nisrine,nisrine.benkirane88@hotmail.com,1970-03-10,0,CASABLANCA,+212651680049,2020-02-26,social_media
+C00832,Kadiri,Nadia,nadia.kadiri5@yahoo.fr,1987-02-26,f,Fès,+212660381528,2020-12-19,marketplace
+C00186,Hassani,Hajar,hajar.hassani96@yahoo.fr,1963-05-12,f,Casablanca,+212624401654,2023-03-09,paid_ads
+C00208,Lahlou,Samira,samira.lahlou2@hotmail.com,1970-07-11,f,meknes,+212691121400,2022-09-07,social_media
+C00627,Benali,Fatima,fatima.benali72@yahoo.fr,1974-09-22,F,marrakech,+212662221499,2020-10-02,email_campaign
+C00649,Cherkaoui,Rim,rim.cherkaoui31@menara.ma,1995-04-04,Femme,Casablanca,+212649919426,2020-07-03,social_media
+C00467,Hassani,Nadia,nadia.hassani90@iam.ma,1986-12-13,f,Agadir,+212661210252,2024-07-13,paid_ads
+C01103,Benkirane,Mehdi,mehdi.benkirane18@outlook.fr,1993-11-26,h,FES,+212624040914,2020-03-10,email_campaign
+C00721,Lahlou,Rim,rim.lahlou49@hotmail.com,1964-08-26,0,Casa,+212688655491,2024-03-20,paid_ads
+C00684,Bouazza,Ahmed,ahmed.bouazza19@outlook.fr,2026-07-04,h,AGADIR,+212673282209,2022-06-30,referral
+C00183,Cherkaoui,Nadia,nadia.cherkaoui95@menara.ma,1980-03-30,f,Casa,+212665472370,2020-04-17,organic
+C01024,Benali,Hajar,hajar.benali71@gmail.com,1985-10-14,female,MARRAKECH,+212686276344,2022-05-18,paid_ads
+C00353,Hassani,Mehdi,mehdi.hassani22@outlook.fr,1981-08-11,Homme,CAS,+212639891163,2020-04-13,paid_ads
+C00714,Ait Benhaddou,Karim,karim.aitbenhaddou82@menara.ma,2000-04-15,1,Agadir,+212693855267,2021-10-28,organic
+C00822,Tazi,Hajar,hajar.tazi34@yahoo.fr,1967-12-30,Femme,Agadir,+212625583513,2023-04-27,social_media
+C00660,El Amrani,Zineb,zineb.elamrani18@outlook.fr,1995-09-01,f,CASABLANCA,+212666813149,2023-12-31,referral
+C01121,El Amrani,Layla,layla.elamrani42@outlook.fr,1970-01-07,Femme,Agadir,+212663179019,2020-03-15,paid_ads
+C01144,El Mansouri,Youssef,youssef.elmansouri97@menara.ma,1992-11-16,M,agadir,+212642624124,2021-11-26,social_media
+C00429,Cherkaoui,Meryem,meryem.cherkaoui96@outlook.fr,1983-02-13,Femme,tanger,+212657122567,2022-04-23,organic
+C00329,El Mansouri,Khadija,khadija.elmansouri52@outlook.fr,1977-01-14,Femme,Agadir,+212681757508,2023-12-31,social_media
+C00539,Belkadi,Imane,imane.belkadi8@hotmail.com,1964-08-18,f,Casablanca,+212693794410,2024-07-14,marketplace
+C00939,Tazi,Rachid,rachid.tazi25@hotmail.com,1993-12-02,Homme,agadir,+212621135154,2020-04-15,email_campaign
+C00665,Lahlou,Houda,houda.lahlou22@outlook.fr,1973-07-27,female,agadir,+212617143361,2023-07-27,referral
+C00098,Sahraoui,Fatima,fatima.sahraoui42@menara.ma,1965-09-02,f,Meknès,+212650559278,2022-08-08,marketplace
+C00914,Bensouda,Youssef,youssef.bensouda61@hotmail.com,1999-08-28,h,Tanger,+212675533013,2020-09-10,paid_ads
+C00567,Bouazza,Rachid,rachid.bouazza54hotmail.com,1968-08-01,male,RABAT,+212678120967,2024-11-01,paid_ads
+C00510,Belkadi,Omar,omar.belkadi43@iam.ma,1991-09-21,m,Tanger,+212655520266,2021-07-28,organic
+C00722,El Fassi,Amine,amine.elfassi50@menara.ma,1988-07-23,M,fes,+212674984400,2022-04-13,organic
+C00705,Cherkaoui,Mohammed,mohammed.cherkaoui39@outlook.fr,2026-08-15,h,FES,+212694254420,2023-03-04,marketplace
+C00735,Belkadi,Hassan,hassan.belkadi67@yahoo.fr,1962-01-27,h,agadir,+212643946491,2022-12-27,paid_ads
+C00520,Filali,Sara,sara.filali43@hotmail.com,1967-01-17,F,FES,+212672850928,2020-09-26,organic
+C00936,Lahlou,Rim,rim.lahlou21@menara.ma,1971-05-02,female,Tnja,+212662614983,2023-07-17,paid_ads
+C00059,Chraibi,Sara,sara.chraibi60@outlook.fr,1984-01-29,Femme,Casa,+212647437115,2024-08-28,organic
+C00845,Lahlou,Ibrahim,ibrahim.lahlou19@hotmail.com,1960-11-19,m,Rabat,+212624093227,2021-03-31,referral
+C00599,Hajji,Youssef,youssef.hajji61@hotmail.com,1990-02-02,m,FES,+212621871327,2024-03-28,referral
+C00203,Ait Benhaddou,Hassan,hassan.aitbenhaddou67@iam.ma,1965-06-20,male,FES,+212633505978,2024-12-06,marketplace
+C00674,Cherkaoui,Ibrahim,ibrahim.cherkaoui66@hotmail.com,1994-10-25,M,CAS,+212666783572,2023-02-27,paid_ads
+C00050,Chraibi,Houda,houda.chraibi29@menara.ma,2003-07-27,f,Rabat,+212664266464,2021-11-19,marketplace
+C00371,El Fassi,Youssef,youssef.elfassi49@,1971-09-02,1,FES,+212610757677,2024-09-28,email_campaign
+C01162,Tazi,Karim,karim.tazi40@yahoo.fr,2002-05-02,m,agadir,+212638224904,2021-09-06,paid_ads
+C00443,Sahraoui,Khadija,khadija.sahraoui25@outlook.fr,1961-12-26,0,Tnja,+212626782477,2021-07-31,email_campaign
+C00053,El Amrani,Amine,amine.elamrani70@iam.ma,1980-02-12,h,TANGER,+212615403355,2024-05-18,marketplace
+C00885,Kadiri,Rim,rim.kadiri93@gmail.com,1961-01-21,female,Tnja,+212612780443,2022-02-12,referral
+C00817,Hassani,Rim,rim.hassani90@iam.ma,1986-05-13,female,CASABLANCA,+212679800523,2023-12-29,social_media
+C00077,Cherkaoui,Amina,amina.cherkaoui66@outlook.fr,1894-07-02,0,Mrakch,+212676906611,2022-01-10,paid_ads
+C01071,Belkadi,Samira,samira.belkadi51@gmail.com,2002-10-10,female,Tnja,+212654618734,2023-08-09,email_campaign
+C01175,Lahlou,Mehdi,mehdi.lahlou63@menara.ma,1966-01-08,h,TANGER,+212684932501,2023-03-03,organic
+C00944,El Amrani,Tariq,tariq.elamrani3@menara.ma,1979-05-28,Homme,Tnja,+212653961638,2021-03-20,organic
+C00902,Benkirane,Tariq,tariq.benkirane21@,2000-10-03,male,AGADIR,+212686781282,2024-08-25,email_campaign
+C00712,Ait Benhaddou,Fatima,fatima.aitbenhaddou76@yahoo.fr,1987-05-18,Femme,CASABLANCA,+212675604774,2021-01-09,marketplace
+C00082,Chraibi,Amina,amina.chraibi49@menara.ma,1976-12-03,f,Casa,+212641348220,2023-03-17,referral
+C00807,Belkadi,Rachid,rachid.belkadi19@hotmail.com,1995-09-14,h,Casablanca,+212675997979,2020-01-14,social_media
+C00864,Bouazza,Khadija,khadija.bouazza11@outlook.fr,1973-09-05,f,Mrakch,+212647733815,2021-01-17,social_media
+C01189,Cherkaoui,Rim,rim.cherkaoui4@yahoo.fr,1993-06-24,Femme,Fès,+212613466848,2021-10-19,organic
+C00739,Bouazza,Ibrahim,ibrahim.bouazza81@gmail.com,2026-04-29,male,MEKNES,+212643609390,2023-07-06,email_campaign
+C00489,Hajji,Samir,samir.hajji9@yahoo.fr,1999-05-30,male,Marrakesh,+212671410640,2023-11-09,email_campaign
+C00241,Sahraoui,Samir,samir.sahraoui58@yahoo.fr,1979-04-09,1,CAS,+212618397164,2024-03-20,marketplace
+C00195,El Fassi,Zineb,zineb.elfassi8@outlook.fr,2000-12-24,female,TNG,+212651361818,2023-02-18,referral
+C01179,Lahlou,Tariq,tariq.lahlou59@menara.ma,1991-10-26,h,FES,+212629902315,2020-11-08,social_media
+C00202,El Fassi,Youssef,youssef.elfassi30@hotmail.com,1988-08-10,male,Fès,+212653038943,2024-05-01,marketplace
+C01549,Tazi,Khalid,khalid.tazi27@hotmail.com,2000-05-08,Homme,TANGER,+212635566010,2023-01-07,marketplace
+C00221,Chraibi,Nisrine,nisrine.chraibi50@hotmail.com,1967-01-13,female,Agadir,+212623111164,2021-12-09,organic
+C01684,Filali,Nadia,nadia.filali58@hotmail.com,1967-06-11,female,casablanca,+212636156080,2022-04-16,paid_ads
+C00087,Benkirane,Amine,amine.benkirane39@iam.ma,1965-01-12,Homme,RABAT,+212629538047,2022-02-06,referral
+C00784,Kadiri,Mohammed,mohammed.kadiri32@yahoo.fr,1968-03-13,m,marrakech,+212655247029,2020-02-27,organic
+C01063,Chraibi,Tariq,tariq.chraibi93@,1989-11-25,Homme,meknes,+212618518098,2024-04-17,paid_ads
+C01468,Bensouda,Nisrine,nisrine.bensouda86@iam.ma,1976-03-08,female,Rabat,+212698252435,2022-11-03,email_campaign
+C00770,Hassani,Samira,samira.hassani43@gmail.com,1987-05-01,f,casablanca,+212684209891,2020-08-01,marketplace
+C01159,Benkirane,Meryem,meryem.benkirane65@hotmail.com,1986-11-18,Femme,fes,+212646948576,2021-05-24,email_campaign
+C01649,Benali,Hajar,hajar.benali83@iam.ma,1986-07-13,F,Rabat,+212684304333,2024-12-28,marketplace
+C01149,Filali,Hassan,hassan.filali66@iam.ma,1996-05-29,M,Fès,+212696416288,2020-12-14,email_campaign
+C01000,Lahlou,Nadia,nadia.lahlou75@menara.ma,1996-03-22,f,TNG,+212631364734,2020-03-01,marketplace
+C00213,Chraibi,Soufiane,soufiane.chraibi8@iam.ma,1966-09-01,h,TNG,+212665350347,2024-04-14,organic
+C00545,Bensouda,Hassan,hassan.bensouda87@outlook.fr,1963-09-06,m,fes,+212667953319,2023-07-29,email_campaign
+C00889,El Amrani,Nadia,nadia.elamrani4@yahoo.fr,1991-09-12,f,Casablanca,+212661639439,2021-04-07,marketplace
+C01632,Sahraoui,Hassan,hassan.sahraoui67@gmail.com,1960-08-03,Homme,Casa,+212612912708,2021-04-14,email_campaign
+C00454,Filali,Houda,houda.filali1@outlook.fr,1976-08-23,f,Fès,+212693241474,2024-10-20,email_campaign
+C01014,Cherkaoui,Amine,amine.cherkaoui48@menara.ma,1965-03-13,1,Casa,+212611348841,2020-07-07,paid_ads
+C01200,Filali,Nadia,nadia.filali58@hotmail.com,1967-06-11,female,casablanca,+212636156080,2022-03-25,paid_ads
+C00498,Bensouda,Fatima,fatima.bensouda64@outlook.fr,1887-04-19,f,Marrakesh,+212669307507,2022-07-18,referral
+C00995,Hassani,Amine,amine.hassani38@hotmail.com,2004-03-23,Homme,agadir,+212661783989,2021-07-17,referral
