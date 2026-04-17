@@ -1,0 +1,143 @@
+2026-04-17 12:57:46 | INFO     | Logger initialisé → C:\Users\LENOVO\Downloads\mexora_etl_projet_v2\mexora_etl_final\logs\etl_20260417_125746.log
+2026-04-17 12:57:47 | INFO     | ======================================================================
+2026-04-17 12:57:47 | INFO     |   DÉMARRAGE PIPELINE ETL MEXORA ANALYTICS
+2026-04-17 12:57:47 | INFO     | ======================================================================
+2026-04-17 12:57:47 | INFO     | Mode : COMPLET
+2026-04-17 12:57:47 | INFO     | Phase cible : all
+2026-04-17 12:57:47 | INFO     | ======================================================================
+2026-04-17 12:57:47 | INFO     |   PHASE 1 — EXTRACT
+2026-04-17 12:57:47 | INFO     | ======================================================================
+2026-04-17 12:57:47 | INFO     | [EXTRACT]   commandes_mexora.csv           |   5150 lignes extraites depuis C:\Users\LENOVO\Downloads\mexora_etl_projet_v2\mexora_etl_final\data\commandes_mexora.csv
+2026-04-17 12:57:47 | DEBUG    | [EXTRACT] Colonnes commandes : ['id_commande', 'id_client', 'id_produit', 'date_commande', 'quantite', 'prix_unitaire', 'statut', 'ville_livraison', 'mode_paiement', 'id_livreur', 'date_livraison']
+2026-04-17 12:57:47 | INFO     | [EXTRACT]   produits_mexora.json           |     32 lignes extraites depuis C:\Users\LENOVO\Downloads\mexora_etl_projet_v2\mexora_etl_final\data\produits_mexora.json
+2026-04-17 12:57:47 | DEBUG    | [EXTRACT] Colonnes produits : ['id_produit', 'nom', 'categorie', 'sous_categorie', 'marque', 'fournisseur', 'prix_catalogue', 'origine_pays', 'date_creation', 'actif']
+2026-04-17 12:57:47 | INFO     | [EXTRACT]   clients_mexora.csv             |   1260 lignes extraites depuis C:\Users\LENOVO\Downloads\mexora_etl_projet_v2\mexora_etl_final\data\clients_mexora.csv
+2026-04-17 12:57:47 | DEBUG    | [EXTRACT] Colonnes clients : ['id_client', 'nom', 'prenom', 'email', 'date_naissance', 'sexe', 'ville', 'telephone', 'date_inscription', 'canal_acquisition']
+2026-04-17 12:57:47 | INFO     | [EXTRACT]   regions_maroc.csv              |     20 lignes extraites depuis C:\Users\LENOVO\Downloads\mexora_etl_projet_v2\mexora_etl_final\data\regions_maroc.csv
+2026-04-17 12:57:47 | INFO     | [EXTRACT] Résumé : {'commandes': 5150, 'produits': 32, 'clients': 1260, 'regions': 20}
+2026-04-17 12:57:47 | INFO     | ======================================================================
+2026-04-17 12:57:47 | INFO     |   PHASE 2 — TRANSFORM
+2026-04-17 12:57:47 | INFO     | ======================================================================
+2026-04-17 12:57:47 | INFO     | [TRANSFORM] Référentiel villes : 35 entrées
+2026-04-17 12:57:47 | INFO     | ======================================================================
+2026-04-17 12:57:47 | INFO     |   TRANSFORM — Commandes
+2026-04-17 12:57:47 | INFO     | ======================================================================
+2026-04-17 12:57:47 | INFO     | [TRANSFORM] Début nettoyage commandes : 5150 lignes en entrée
+2026-04-17 12:57:47 | INFO     | [TRANSFORM] R1 — Doublons id_commande      | commandes       |   5150 →   5000 lignes (+150, 2.9%) | 150 doublons supprimés
+2026-04-17 12:57:48 | INFO     | [TRANSFORM] R2 — Standardisation dates     | commandes       |   5000 →   5000 lignes (+0, 0.0%) | 0 dates_commande invalides supprimées
+2026-04-17 12:57:48 | INFO     | [TRANSFORM] R3 — Harmonisation villes      | commandes       | 5000 valeurs remplacées (0 villes non trouvées dans le référentiel)
+2026-04-17 12:57:48 | INFO     | [TRANSFORM] R4 — Standardisation statuts   | commandes       | 2520 valeurs remplacées (0 statuts → 'inconnu')
+2026-04-17 12:57:48 | INFO     | [TRANSFORM] R5 — Quantités invalides (<=0) | commandes       |   5000 →   4951 lignes (+49, 1.0%) | 49 lignes supprimées
+2026-04-17 12:57:48 | INFO     | [TRANSFORM] R6 — Prix nuls (commandes test) | commandes       |   4951 →   4908 lignes (+43, 0.9%) | 43 commandes test supprimées
+2026-04-17 12:57:48 | INFO     | [TRANSFORM] R7 — Livreurs manquants        | commandes       | 355 valeurs remplacées (355 valeurs remplacées par '-1')
+2026-04-17 12:57:48 | INFO     | [TRANSFORM] R8 — Montants HT/TTC calculés | CA TTC total brut : 138,110,522.93 MAD
+2026-04-17 12:57:48 | WARNING  | [TRANSFORM] R9 — 675 délais négatifs neutralisés
+2026-04-17 12:57:48 | INFO     | [TRANSFORM] R9 — Délai moyen livraison : 36.2 jours
+2026-04-17 12:57:48 | INFO     | [TRANSFORM] Commandes terminé : 5150 → 4908 lignes (242 supprimées, 4.7%)
+2026-04-17 12:57:48 | INFO     | ======================================================================
+2026-04-17 12:57:48 | INFO     |   TRANSFORM — Clients
+2026-04-17 12:57:48 | INFO     | ======================================================================
+2026-04-17 12:57:48 | INFO     | [TRANSFORM] Début nettoyage clients : 1260 lignes en entrée
+2026-04-17 12:57:48 | INFO     | [TRANSFORM] R1 — Doublons email            | clients         |   1260 →   1197 lignes (+63, 5.0%) | 63 doublons supprimés
+2026-04-17 12:57:48 | INFO     | [TRANSFORM] R2 — Standardisation sexe      | clients         | 1197 valeurs remplacées (0 valeurs → 'inconnu')
+2026-04-17 12:57:48 | INFO     | [TRANSFORM] R3 — Ages invalides (<16 ou >100) | clients         | 26 valeurs remplacées (26 dates de naissance invalidées)
+2026-04-17 12:57:48 | INFO     | [TRANSFORM] R4 — Répartition tranches d'âge :
+             {'55-64': 267, '25-34': 263, '45-54': 258, '35-44': 245, '18-24': 102, '65+': 36}
+2026-04-17 12:57:48 | INFO     | [TRANSFORM] R5 — Emails invalides          | clients         | 55 valeurs remplacées (55 emails invalidés (NULL))
+2026-04-17 12:57:48 | INFO     | [TRANSFORM] R6 — Harmonisation villes clients | clients         | 1197 valeurs remplacées (0 villes non trouvées dans le référentiel)
+2026-04-17 12:57:48 | INFO     | [TRANSFORM] R7 — Champ nom_complet créé
+2026-04-17 12:57:48 | INFO     | [TRANSFORM] Clients terminé : 1260 → 1197 lignes (63 supprimées, 5.0%)
+2026-04-17 12:57:48 | INFO     | ======================================================================
+2026-04-17 12:57:48 | INFO     |   TRANSFORM — Produits
+2026-04-17 12:57:48 | INFO     | ======================================================================
+2026-04-17 12:57:48 | INFO     | [TRANSFORM] Début nettoyage produits : 32 lignes en entrée
+2026-04-17 12:57:48 | INFO     | [TRANSFORM] R1 — Normalisation catégories  | produits        | 6 valeurs remplacées (Distribution avant : {'Electronique': 10, 'Mode': 5, 'electronique': 4, 'ELECTRONIQUE': 3, 'mode': 3, 'MODE': 2, 'Alimentation': 2, 'alimentation': 2, 'ALIMENTATION': 1})
+2026-04-17 12:57:48 | WARNING  | [TRANSFORM] R2 — 2 produits avec prix_catalogue NULL : ['P031', 'P032'] → remplacés par 0.01
+2026-04-17 12:57:48 | INFO     | [TRANSFORM] R2 — Prix catalogue null       | produits        | 2 valeurs remplacées (Produits discontinués : 2)
+2026-04-17 12:57:48 | INFO     | [TRANSFORM] R3 — Champs texte nettoyés (strip + espaces)
+2026-04-17 12:57:48 | INFO     | [TRANSFORM] R4 — Colonnes SCD Type 2       | produits        | 32 valeurs remplacées (3 produits marqués actif=False (à gérer en SCD))
+2026-04-17 12:57:48 | INFO     | [TRANSFORM] Produits terminé : 32 → 32 lignes (aucune suppression)
+2026-04-17 12:57:48 | INFO     | ======================================================================
+2026-04-17 12:57:48 | INFO     |   BUILD — DIM_TEMPS
+2026-04-17 12:57:48 | INFO     | ======================================================================
+2026-04-17 12:57:48 | INFO     | [EXTRACT]   DIM_TEMPS construite           |   2557 lignes extraites
+2026-04-17 12:57:48 | INFO     | [BUILD] DIM_TEMPS : 2020-01-01 → 2026-12-31 | 35 fériés | 213 jours Ramadan
+2026-04-17 12:57:48 | INFO     | ======================================================================
+2026-04-17 12:57:48 | INFO     |   BUILD — DIM_PRODUIT
+2026-04-17 12:57:48 | INFO     | ======================================================================
+2026-04-17 12:57:48 | INFO     | [EXTRACT]   DIM_PRODUIT construite         |     32 lignes extraites
+2026-04-17 12:57:48 | INFO     | ======================================================================
+2026-04-17 12:57:48 | INFO     |   BUILD — DIM_CLIENT
+2026-04-17 12:57:48 | INFO     | ======================================================================
+2026-04-17 12:57:48 | INFO     | [TRANSFORM] Segmentation clients : {'Gold': 266, 'Bronze': 151, 'Silver': 147}
+2026-04-17 12:57:48 | INFO     | [EXTRACT]   DIM_CLIENT construite          |   1197 lignes extraites
+2026-04-17 12:57:48 | INFO     | [BUILD] DIM_CLIENT segments : {'Bronze': 801, 'Gold': 253, 'Silver': 143}
+2026-04-17 12:57:48 | INFO     | ======================================================================
+2026-04-17 12:57:48 | INFO     |   BUILD — DIM_REGION
+2026-04-17 12:57:48 | INFO     | ======================================================================
+2026-04-17 12:57:48 | INFO     | [EXTRACT]   DIM_REGION construite          |     21 lignes extraites
+2026-04-17 12:57:48 | INFO     | ======================================================================
+2026-04-17 12:57:48 | INFO     |   BUILD — DIM_LIVREUR
+2026-04-17 12:57:48 | INFO     | ======================================================================
+2026-04-17 12:57:48 | INFO     | [EXTRACT]   DIM_LIVREUR construite         |     31 lignes extraites
+2026-04-17 12:57:48 | INFO     | ======================================================================
+2026-04-17 12:57:48 | INFO     |   BUILD — FAIT_VENTES
+2026-04-17 12:57:48 | INFO     | ======================================================================
+2026-04-17 12:57:48 | WARNING  | [BUILD] 233 clients non trouvés dans DIM_CLIENT
+2026-04-17 12:57:48 | INFO     | [TRANSFORM] BUILD — FAIT_VENTES            | faits           |   4908 →   4675 lignes (+233, 4.7%) | CA TTC total : 130,191,381.21 MAD
+2026-04-17 12:57:48 | INFO     | [TRANSFORM] Résumé : {'commandes_clean': 4908, 'clients_clean': 1197, 'produits_clean': 32, 'dim_temps': 2557, 'dim_produit': 32, 'dim_client': 1197, 'dim_region': 21, 'dim_livreur': 31, 'fait_ventes': 4675, 'ca_ttc_total': np.float64(130191381.21)}
+2026-04-17 12:57:48 | INFO     | ======================================================================
+2026-04-17 12:57:48 | INFO     |   PHASE 3 — LOAD
+2026-04-17 12:57:48 | INFO     | ======================================================================
+2026-04-17 12:57:48 | INFO     | [LOAD] Connexion PostgreSQL établie → localhost:5432/mexora_dwh
+2026-04-17 12:57:48 | INFO     | [LOAD] Schémas vérifiés/créés : ['staging_mexora', 'dwh_mexora', 'reporting_mexora']
+2026-04-17 12:57:48 | ERROR    | [LOAD] Échec chargement dwh_mexora.dim_temps : (psycopg2.errors.InsufficientPrivilege) ERREUR:  doit être le propriétaire de la séquence fait_ventes_id_vente_seq
+
+[SQL: TRUNCATE TABLE dwh_mexora.dim_temps RESTART IDENTITY CASCADE]
+(Background on this error at: https://sqlalche.me/e/20/f405)
+2026-04-17 12:57:48 | ERROR    | ERREUR PIPELINE : (psycopg2.errors.InsufficientPrivilege) ERREUR:  doit être le propriétaire de la séquence fait_ventes_id_vente_seq
+
+[SQL: TRUNCATE TABLE dwh_mexora.dim_temps RESTART IDENTITY CASCADE]
+(Background on this error at: https://sqlalche.me/e/20/f405)
+2026-04-17 12:57:48 | ERROR    | Traceback (most recent call last):
+  File "C:\Users\LENOVO\Downloads\mexora_etl_projet_v2\mexora_etl_final\.venv\Lib\site-packages\sqlalchemy\engine\base.py", line 1967, in _exec_single_context
+    self.dialect.do_execute(
+  File "C:\Users\LENOVO\Downloads\mexora_etl_projet_v2\mexora_etl_final\.venv\Lib\site-packages\sqlalchemy\engine\default.py", line 952, in do_execute
+    cursor.execute(statement, parameters)
+psycopg2.errors.InsufficientPrivilege: ERREUR:  doit être le propriétaire de la séquence fait_ventes_id_vente_seq
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\LENOVO\Downloads\mexora_etl_projet_v2\mexora_etl_final\main.py", line 154, in run_pipeline
+    charger_dimension(dim_temps,   "dim_temps",   engine)
+  File "C:\Users\LENOVO\Downloads\mexora_etl_projet_v2\mexora_etl_final\load\loader.py", line 146, in charger_dimension
+    _truncate_table(conn, table_name, schema)
+  File "C:\Users\LENOVO\Downloads\mexora_etl_projet_v2\mexora_etl_final\load\loader.py", line 82, in _truncate_table
+    conn.execute(text(
+  File "C:\Users\LENOVO\Downloads\mexora_etl_projet_v2\mexora_etl_final\.venv\Lib\site-packages\sqlalchemy\engine\base.py", line 1419, in execute
+    return meth(
+           ^^^^^
+  File "C:\Users\LENOVO\Downloads\mexora_etl_projet_v2\mexora_etl_final\.venv\Lib\site-packages\sqlalchemy\sql\elements.py", line 527, in _execute_on_connection
+    return connection._execute_clauseelement(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LENOVO\Downloads\mexora_etl_projet_v2\mexora_etl_final\.venv\Lib\site-packages\sqlalchemy\engine\base.py", line 1641, in _execute_clauseelement
+    ret = self._execute_context(
+          ^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LENOVO\Downloads\mexora_etl_projet_v2\mexora_etl_final\.venv\Lib\site-packages\sqlalchemy\engine\base.py", line 1846, in _execute_context
+    return self._exec_single_context(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LENOVO\Downloads\mexora_etl_projet_v2\mexora_etl_final\.venv\Lib\site-packages\sqlalchemy\engine\base.py", line 1986, in _exec_single_context
+    self._handle_dbapi_exception(
+  File "C:\Users\LENOVO\Downloads\mexora_etl_projet_v2\mexora_etl_final\.venv\Lib\site-packages\sqlalchemy\engine\base.py", line 2363, in _handle_dbapi_exception
+    raise sqlalchemy_exception.with_traceback(exc_info[2]) from e
+  File "C:\Users\LENOVO\Downloads\mexora_etl_projet_v2\mexora_etl_final\.venv\Lib\site-packages\sqlalchemy\engine\base.py", line 1967, in _exec_single_context
+    self.dialect.do_execute(
+  File "C:\Users\LENOVO\Downloads\mexora_etl_projet_v2\mexora_etl_final\.venv\Lib\site-packages\sqlalchemy\engine\default.py", line 952, in do_execute
+    cursor.execute(statement, parameters)
+sqlalchemy.exc.ProgrammingError: (psycopg2.errors.InsufficientPrivilege) ERREUR:  doit être le propriétaire de la séquence fait_ventes_id_vente_seq
+
+[SQL: TRUNCATE TABLE dwh_mexora.dim_temps RESTART IDENTITY CASCADE]
+(Background on this error at: https://sqlalche.me/e/20/f405)
+
