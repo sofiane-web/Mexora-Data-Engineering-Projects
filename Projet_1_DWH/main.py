@@ -1,193 +1,255 @@
-import os
-import logging
+"""
+main.py — Orchestration du pipeline ETL Mexora Analytics
+Point d'entrée unique du pipeline. Lance les phases Extract → Transform → Load.
+
+Usage :
+    python main.py                    # pipeline complet
+    python main.py --dry-run          # sans chargement PostgreSQL
+    python main.py --phase extract    # extraction seule
+    python main.py --phase transform  # extraction + transformation
+"""
+
+import sys
+import argparse
+import traceback
 from datetime import datetime
-import sqlalchemy
-import pandas as pd
+from pathlib import Path
 
-# =====================================================================
-# IMPORTS DES MODULES DU PROJET
-# =====================================================================
+# Ajout du répertoire racine au PYTHONPATH
+sys.path.insert(0, str(Path(__file__).parent))
 
-from extract.extractor import extract_commandes, extract_produits, extract_clients, extract_regions
+from config.settings import BASE_DIR
+from utils.logger import etl_logger as log
+
+from extract.extractor import (
+    extract_commandes,
+    extract_produits,
+    extract_clients,
+    extract_regions,
+    charger_referentiel_villes,
+)
 from transform.clean_commandes import transform_commandes
-from transform.clean_clients import transform_clients
-from transform.clean_produits import transform_produits
-from transform.build_dimensions import build_dim_temps, build_dim_client, build_dim_produit, build_dim_region, build_dim_livreur
-from transform.build_faits import build_fait_ventes
-from load.loader import charger_dimension, charger_faits
-# =====================================================================
-# CONFIGURATION et demarage du pipeline
-print(">>> LE SCRIPT DÉMARRE ENFIN...")
-# =====================================================================
-# 1. Création du dossier logs s'il n'existe pas (Sécurité)
-os.makedirs('logs', exist_ok=True)
-
-# 2. Configuration du Logger
-logging.basicConfig(
-    level=logging.INFO,
-    format='%(asctime)s - %(levelname)s - %(message)s',
-    handlers=[
-        logging.FileHandler(f'logs/etl_{datetime.now().strftime("%Y%m%d_%H%M%S")}.log', encoding='utf-8'),
-        logging.StreamHandler()
-    ]
+from transform.clean_clients   import transform_clients
+from transform.clean_produits  import transform_produits
+from transform.build_dimensions import (
+    build_dim_temps,
+    build_dim_produit,
+    build_dim_client,
+    build_dim_region,
+    build_dim_livreur,
+    build_fait_ventes,
 )
 
-# 3. Paramètres de connexion 
-DB_URI = "postgresql://postgres:Admin123@localhost/mexora_dwh"
 
-def run_pipeline():
+# ─────────────────────────────────────────────────────────────────────────────
+# Pipeline complet
+# ─────────────────────────────────────────────────────────────────────────────
+
+def run_pipeline(dry_run: bool = False, phase: str = "all") -> dict:
+    """
+    Exécute le pipeline ETL complet.
+
+    Parameters
+    ----------
+    dry_run : bool — si True, skip la phase Load (PostgreSQL)
+    phase   : str  — 'extract' | 'transform' | 'all'
+
+    Returns
+    -------
+    dict — métriques d'exécution du pipeline
+    """
     start = datetime.now()
-    logging.info("=" * 60)
-    logging.info("DÉMARRAGE PIPELINE ETL MEXORA")
-    logging.info("=" * 60)
+    metrics = {"statut": "en_cours", "start": start.isoformat()}
+
+    log.section("DÉMARRAGE PIPELINE ETL MEXORA ANALYTICS")
+    log.info(f"Mode : {'DRY-RUN (sans PostgreSQL)' if dry_run else 'COMPLET'}")
+    log.info(f"Phase cible : {phase}")
 
     try:
-        # --- 1. EXTRACT ---
-        logging.info("--- PHASE EXTRACT ---")
-        df_commandes_raw = extract_commandes('data/commandes_mexora.csv')
-        df_produits_raw  = extract_produits('data/produits_mexora.json')
-        df_clients_raw   = extract_clients('data/clients_mexora.csv')
-        df_regions       = extract_regions('data/regions_maroc.csv')
+        # ── PHASE EXTRACT ────────────────────────────────────────────────────
+        log.section("PHASE 1 — EXTRACT")
 
-        # --- 2. TRANSFORM ---
-        logging.info("--- PHASE TRANSFORM ---")
-        df_commandes = transform_commandes(df_commandes_raw)
-        df_clients   = transform_clients(df_clients_raw)
+        df_commandes_raw = extract_commandes()
+        df_produits_raw  = extract_produits()
+        df_clients_raw   = extract_clients()
+        df_regions       = extract_regions()
+
+        metrics["extract"] = {
+            "commandes": len(df_commandes_raw),
+            "produits":  len(df_produits_raw),
+            "clients":   len(df_clients_raw),
+            "regions":   len(df_regions),
+        }
+        log.info(f"[EXTRACT] Résumé : {metrics['extract']}")
+
+        if phase == "extract":
+            log.info("Phase 'extract' uniquement — arrêt.")
+            metrics["statut"] = "partiel"
+            return metrics
+
+        # ── PHASE TRANSFORM ──────────────────────────────────────────────────
+        log.section("PHASE 2 — TRANSFORM")
+
+        # Référentiel villes (nécessaire pour commandes ET clients)
+        mapping_villes = charger_referentiel_villes(df_regions)
+        log.info(f"[TRANSFORM] Référentiel villes : {len(mapping_villes)} entrées")
+
+        # Nettoyage des entités sources
+        df_commandes = transform_commandes(df_commandes_raw, mapping_villes)
+        df_clients   = transform_clients(df_clients_raw, mapping_villes)
         df_produits  = transform_produits(df_produits_raw)
 
-        dim_temps    = build_dim_temps('2020-01-01', '2025-12-31')
-        dim_client   = build_dim_client(df_clients, df_commandes)
-        dim_produit  = build_dim_produit(df_produits) 
-        dim_region   = build_dim_region(df_regions) 
-        dim_livreur  = build_dim_livreur(df_commandes) 
-        fait_ventes  = build_fait_ventes(df_commandes, dim_temps, dim_client, dim_produit, dim_region, dim_livreur) 
+        # Construction des dimensions
+        dim_temps   = build_dim_temps()
+        dim_produit = build_dim_produit(df_produits)
+        dim_client  = build_dim_client(df_clients, df_commandes)
+        dim_region  = build_dim_region(df_regions)
+        dim_livreur = build_dim_livreur(df_commandes)
 
-        df_clients = df_clients.rename(columns={'id_client': 'id_client_nk', 'ville': 'ville_residence'})
-        df_produits = df_produits.rename(columns={'id_produit': 'id_produit_nk', 'nom': 'nom_produit'})
-        fait_ventes = fait_ventes.rename(columns={'id_commande': 'id_vente', 'quantite': 'quantite_vendue'})
-        # --- 2.5 NETTOYAGE DES NOMS ET COLONNES ---
-        
-        # On renomme quantité et statut, MAIS on ne touche pas à id_commande ici
-        fait_ventes = fait_ventes.rename(columns={'quantite': 'quantite_vendue', 'statut': 'statut_commande'})
+        # Construction de la table de faits
+        fait_ventes = build_fait_ventes(
+            df_commandes, dim_temps, dim_client,
+            dim_produit, dim_region, dim_livreur
+        )
 
-        # --- 3. LOAD ---
-        logging.info("--- PHASE LOAD ---")
-        engine = sqlalchemy.create_engine(DB_URI)
+        metrics["transform"] = {
+            "commandes_clean":   len(df_commandes),
+            "clients_clean":     len(df_clients),
+            "produits_clean":    len(df_produits),
+            "dim_temps":         len(dim_temps),
+            "dim_produit":       len(dim_produit),
+            "dim_client":        len(dim_client),
+            "dim_region":        len(dim_region),
+            "dim_livreur":       len(dim_livreur),
+            "fait_ventes":       len(fait_ventes),
+            "ca_ttc_total":      round(fait_ventes["montant_ttc"].sum(), 2),
+        }
+        log.info(f"[TRANSFORM] Résumé : {metrics['transform']}")
 
-        charger_dimension(dim_temps,   'dim_temps',   engine)
-        charger_dimension(dim_client,  'dim_client',  engine)
-        charger_dimension(dim_produit, 'dim_produit', engine) 
-        charger_dimension(dim_region,  'dim_region',  engine) 
-        charger_dimension(dim_livreur, 'dim_livreur', engine) 
+        if phase == "transform":
+            log.info("Phase 'transform' uniquement — arrêt avant Load.")
+            metrics["statut"] = "partiel"
+            return metrics
 
-        # --- 4. ÉTAPE DE TRADUCTION DES CLÉS (LOOKUPS BLINDÉS) ---
-        logging.info("--- LOOKUPS DES FAITS ---")
+        # ── PHASE LOAD ───────────────────────────────────────────────────────
+        log.section("PHASE 3 — LOAD")
 
-        # 1. Lookup Produits
-        dim_prod = pd.read_sql("SELECT id_produit_sk, id_produit_nk FROM dwh_mexora.dim_produit", engine)
-        fait_ventes = fait_ventes.merge(dim_prod, left_on='id_produit', right_on='id_produit_nk', how='left')
+        if dry_run:
+            log.info("[LOAD] DRY-RUN activé — chargement PostgreSQL ignoré")
+            _sauvegarder_parquet(
+                dim_temps, dim_produit, dim_client,
+                dim_region, dim_livreur, fait_ventes
+            )
+        else:
+            from load.loader import (
+                creer_engine, creer_schemas,
+                charger_dimension, charger_faits,
+                rafraichir_vues_materialisees, verifier_integrite,
+            )
 
-        # 2. Lookup Clients
-        dim_client = pd.read_sql("SELECT id_client_sk, id_client_nk FROM dwh_mexora.dim_client", engine)
-        fait_ventes = fait_ventes.merge(dim_client, left_on='id_client', right_on='id_client_nk', how='left')
+            engine = creer_engine()
+            creer_schemas(engine)
 
-        # 3. Lookup Livreurs
-        dim_livreur = pd.read_sql("SELECT id_livreur_sk, id_livreur_nk FROM dwh_mexora.dim_livreur", engine)
-        fait_ventes = fait_ventes.merge(dim_livreur, left_on='id_livreur', right_on='id_livreur_nk', how='left')
+            # Chargement dans l'ordre FK : dimensions d'abord, faits ensuite
+            charger_dimension(dim_temps,   "dim_temps",   engine)
+            charger_dimension(dim_produit, "dim_produit", engine)
+            charger_dimension(dim_client,  "dim_client",  engine)
+            charger_dimension(dim_region,  "dim_region",  engine)
+            charger_dimension(dim_livreur, "dim_livreur", engine)
+            charger_faits(fait_ventes, engine)
 
-        # 4. Lookup Région
-        dim_region = pd.read_sql("SELECT id_region_sk, ville FROM dwh_mexora.dim_region", engine)
-        fait_ventes = fait_ventes.merge(dim_region, left_on='ville_livraison', right_on='ville', how='left')
+            # Rafraîchir les vues matérialisées après chargement
+            log.info("--- RAFRAÎCHISSEMENT DES VUES MATÉRIALISÉES ---")
+            rafraichir_vues_materialisees(engine)
 
-        # Remplacement par Inconnu (-1) et formatage
-        fait_ventes['id_produit'] = fait_ventes['id_produit_sk'].fillna(-1).astype(int)
-        fait_ventes['id_client']  = fait_ventes['id_client_sk'].fillna(-1).astype(int)
-        fait_ventes['id_livreur'] = fait_ventes['id_livreur_sk'].fillna(-1).astype(int)
-        fait_ventes['id_region']  = fait_ventes['id_region_sk'].fillna(-1).astype(int)
+            metrics["integrity"] = verifier_integrite(engine)
 
-        # 5. La transformation de la Date (format YYYYMMDD en Entier)
-        fait_ventes['id_date'] = pd.to_datetime(fait_ventes['date_commande']).dt.strftime('%Y%m%d').astype(int)
+        # ── RAPPORT ──────────────────────────────────────────────────────────
+        rapport_path = BASE_DIR / "rapport_transformations.md"
+        log.generer_rapport(str(rapport_path))
 
-        # --- 5. LE COUP DE BALAI FINAL (CRUCIAL) ---
-        # On supprime toutes les colonnes "textes" brutes pour ne garder que les entiers attendus par DBeaver
-        cols_to_drop = [
-            'id_commande', 'date_commande', 'ville_livraison', # Les données brutes d'origine
-            'id_produit_sk', 'id_produit_nk', 
-            'id_client_sk', 'id_client_nk', 
-            'id_livreur_sk', 'id_livreur_nk',
-            'id_region_sk', 'ville'
-        ]
-        fait_ventes = fait_ventes.drop(columns=[c for c in cols_to_drop if c in fait_ventes.columns])
+        duree = (datetime.now() - start).total_seconds()
+        metrics["statut"]     = "succès"
+        metrics["duree_sec"]  = round(duree, 2)
 
-        # --- 6. CHARGEMENT FINAL ---
-        logging.info(">>> LOOKUP TERMINÉ : Insertion dans fait_ventes en cours...")
-        charger_faits(fait_ventes, engine)
+        log.section("PIPELINE TERMINÉ AVEC SUCCÈS")
+        log.info(f"Durée totale : {duree:.1f} secondes")
+        log.info(f"Rapport      : {rapport_path}")
 
-        # --- 3. LOAD ---
-        logging.info("--- PHASE LOAD ---")
-        engine = sqlalchemy.create_engine(DB_URI)
-
-        charger_dimension(dim_temps,   'dim_temps',   engine)
-        charger_dimension(dim_client,  'dim_client',  engine)
-        charger_dimension(dim_produit, 'dim_produit', engine) 
-        charger_dimension(dim_region,  'dim_region',  engine) 
-        charger_dimension(dim_livreur, 'dim_livreur', engine) 
-
-
-        # --- ÉTAPE DE TRADUCTION DES CLÉS (VERSION BLINDÉE) ---
-
-        # 1. Lookup Produits
-        dim_prod = pd.read_sql("SELECT id_produit_sk, id_produit_nk FROM dwh_mexora.dim_produit", engine)
-        fait_ventes = fait_ventes.merge(dim_prod, left_on='id_produit', right_on='id_produit_nk', how='left')
-
-        # 2. Lookup Clients
-        dim_client = pd.read_sql("SELECT id_client_sk, id_client_nk FROM dwh_mexora.dim_client", engine)
-        fait_ventes = fait_ventes.merge(dim_client, left_on='id_client', right_on='id_client_nk', how='left')
-
-        # 3. Lookup Livreurs
-        dim_livreur = pd.read_sql("SELECT id_livreur_sk, id_livreur_nk FROM dwh_mexora.dim_livreur", engine)
-        fait_ventes = fait_ventes.merge(dim_livreur, left_on='id_livreur', right_on='id_livreur_nk', how='left')
-
-        # --- NETTOYAGE CRUCIAL POUR POSTGRESQL ---
-
-        # Remplacer les IDs non trouvés par notre fameux -1 (Inconnu)
-        fait_ventes['id_produit_sk'] = fait_ventes['id_produit_sk'].fillna(-1)
-        fait_ventes['id_client_sk'] = fait_ventes['id_client_sk'].fillna(-1)
-        fait_ventes['id_livreur_sk'] = fait_ventes['id_livreur_sk'].fillna(-1)
-
-        # FORCER le type Entier (Pour éviter le bug du 10.0)
-        fait_ventes['id_produit'] = fait_ventes['id_produit_sk'].astype(int)
-        fait_ventes['id_client'] = fait_ventes['id_client_sk'].astype(int)
-        fait_ventes['id_livreur'] = fait_ventes['id_livreur_sk'].astype(int)
-        # --- 4. Le Lookup oublié : La Région ---
-        dim_region = pd.read_sql("SELECT id_region_sk, ville FROM dwh_mexora.dim_region", engine)
-        # On suppose que ta colonne s'appelle 'ville_livraison' dans tes ventes
-        fait_ventes = fait_ventes.merge(dim_region, left_on='ville_livraison', right_on='ville', how='left')
-
-        # On remplace les villes inconnues par -1 et on force l'entier
-        fait_ventes['id_region_sk'] = fait_ventes['id_region_sk'].fillna(-1).astype(int)
-        fait_ventes['id_region'] = fait_ventes['id_region_sk']
-
-
-        # --- 5. La transformation de la Date (format YYYYMMDD en Entier) ---
-        # On s'assure que la date devient un nombre comme 20240516
-        fait_ventes['id_date'] = pd.to_datetime(fait_ventes['date_commande']).dt.strftime('%Y%m%d').astype(int)
-
-
-        # (N'oublie pas d'ajouter 'id_region_sk' et 'ville' dans la liste cols_to_drop pour nettoyer)
-                # Nettoyage final des colonnes de jointure
-        cols_to_drop = ['id_produit_sk', 'id_produit_nk', 'id_client_sk', 'id_client_nk', 'id_livreur_sk', 'id_livreur_nk']
-        fait_ventes = fait_ventes.drop(columns=[c for c in cols_to_drop if c in fait_ventes.columns])
-
-        print(">>> LOOKUP TERMINÉ : Données prêtes pour PostgreSQL !")
-
-        charger_faits(fait_ventes, engine)
-
-        duree = (datetime.now() - start).seconds
-        logging.info(f"PIPELINE TERMINÉ AVEC SUCCÈS EN {duree} SECONDES")
-
-    except Exception as e:
-        logging.error(f"ERREUR CRITIQUE PIPELINE : {e}", exc_info=True)
+    except FileNotFoundError as exc:
+        log.error(f"Fichier source manquant : {exc}")
+        log.error("Exécutez d'abord : python generate_dataset.py")
+        metrics["statut"] = "erreur"
+        metrics["erreur"] = str(exc)
         raise
+
+    except Exception as exc:
+        log.error(f"ERREUR PIPELINE : {exc}")
+        log.error(traceback.format_exc())
+        metrics["statut"] = "erreur"
+        metrics["erreur"] = str(exc)
+        raise
+
+    return metrics
+
+
+# ─────────────────────────────────────────────────────────────────────────────
+# Mode dry-run : sauvegarde Parquet (sans PostgreSQL)
+# ─────────────────────────────────────────────────────────────────────────────
+
+def _sauvegarder_parquet(*dfs_and_names) -> None:
+    """
+    En mode dry-run, sauvegarde les DataFrames en Parquet pour vérification.
+    """
+    output_dir = BASE_DIR / "output_parquet"
+    output_dir.mkdir(exist_ok=True)
+
+    noms = [
+        "dim_temps", "dim_produit", "dim_client",
+        "dim_region", "dim_livreur", "fait_ventes"
+    ]
+
+    for nom, df in zip(noms, dfs_and_names):
+        path = output_dir / f"{nom}.parquet"
+        try:
+            df.to_parquet(path, index=False)
+            log.info(f"[DRY-RUN] {nom} → {path} ({len(df)} lignes)")
+        except Exception as exc:
+            log.warning(f"[DRY-RUN] Parquet {nom} impossible ({exc}) — CSV fallback")
+            df.to_csv(output_dir / f"{nom}.csv", index=False, encoding="utf-8")
+
+
+# ─────────────────────────────────────────────────────────────────────────────
+# CLI
+# ─────────────────────────────────────────────────────────────────────────────
+
+def _parse_args() -> argparse.Namespace:
+    parser = argparse.ArgumentParser(
+        description="Pipeline ETL Mexora Analytics",
+        formatter_class=argparse.RawDescriptionHelpFormatter,
+        epilog="""
+Exemples :
+  python main.py                          # pipeline complet avec PostgreSQL
+  python main.py --dry-run                # pipeline sans PostgreSQL (→ Parquet)
+  python main.py --phase extract          # extraction seule
+  python main.py --phase transform        # extraction + transformation
+        """,
+    )
+    parser.add_argument(
+        "--dry-run", action="store_true",
+        help="Exécuter sans charger dans PostgreSQL (sortie Parquet)"
+    )
+    parser.add_argument(
+        "--phase", choices=["extract", "transform", "all"], default="all",
+        help="Phase à exécuter (défaut : all)"
+    )
+    return parser.parse_args()
+
+
 if __name__ == "__main__":
-    run_pipeline()
+    args = _parse_args()
+    metrics = run_pipeline(dry_run=args.dry_run, phase=args.phase)
+    print("\n=== MÉTRIQUES FINALES ===")
+    for k, v in metrics.items():
+        print(f"  {k}: {v}")
+    sys.exit(0 if metrics.get("statut") in ("succès", "partiel") else 1)
