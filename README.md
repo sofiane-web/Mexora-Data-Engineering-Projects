@@ -2,12 +2,8 @@
 
 Ce dépôt contient le travail de fin de module DATA ENGINEERING  sur la mise en place d'un **Data Warehouse** et **DataLake** pour la gestion des ventes de Mexora.
 
-## 🏗️ Architecture du Projet
-Le projet est divisé en deux modules principaux :
-* **Projet_1_DWH** (Moad AFYLAL) : Pipeline ETL complet, modélisation en étoile (Star Schema) et stockage PostgreSQL.
-* **Projet_2_DataLake** (Sofyane) : [Description du projet de ton ami].
 
-🚀 Projet 1 : DataWarehouse  & Pipeline Analytique 
+ **Projet 1 : DataWarehouse  & Pipeline Analytique**
 ## 🛠️ Stack Technique
 * **Langage :** Python 3.x
 * **Librairies :** Pandas, SQLAlchemy, Psycopg2.
