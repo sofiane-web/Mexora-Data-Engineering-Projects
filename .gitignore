@@ -1,5 +1,38 @@
+# --- Environnement Virtuel (Indispensable) ---
+# Ignore le dossier venv pour ne pas uploader des milliers de fichiers de bibliothèques
 .venv/
+venv/
+env/
+
+# --- Python & Cache ---
 __pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# --- Fichiers de données (Lourd) ---
+# Ignore les fichiers CSV et Excel qui sont dans /data ou à la racine
+data/
+*.csv
+*.xlsx
+*.xls
+*.json
+# Sauf si tu as des petits fichiers de config JSON nécessaires
+!rapport_transformations.md
+
+# --- Sécurité & Identifiants (CRITIQUE) ---
+# Ignore les fichiers contenant tes mots de passe PostgreSQL ou clés API
+.env
+config.ini
+secrets.py
+
+# --- Logs & Debug ---
 *.log
 logs/
+
+# --- IDE & Système ---
+.vscode/
+.idea/
 .DS_Store
+Thumbs.db
+desktop.ini
