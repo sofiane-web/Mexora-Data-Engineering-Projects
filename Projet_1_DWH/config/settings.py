@@ -4,12 +4,13 @@ config/settings.py — Configuration centralisée du pipeline ETL Mexora
 
 import os
 from pathlib import Path
+from dotenv import load_dotenv
 
 # ─── Chemins du projet ───────────────────────────────────────────────────────
 BASE_DIR  = Path(__file__).resolve().parent.parent
 DATA_DIR  = BASE_DIR / "data"
 LOGS_DIR  = BASE_DIR / "logs"
-
+load_dotenv(dotenv_path=BASE_DIR / ".env")
 # Fichiers source
 COMMANDES_FILE = DATA_DIR / "commandes_mexora.csv"
 PRODUITS_FILE  = DATA_DIR / "produits_mexora.json"
@@ -17,11 +18,11 @@ CLIENTS_FILE   = DATA_DIR / "clients_mexora.csv"
 REGIONS_FILE   = DATA_DIR / "regions_maroc.csv"
 
 DB_CONFIG = {
-    "host":     "localhost",
-    "port":     5432,
-    "database": "mexora_dwh",
-    "user":     "postgres",       # ← utilisateur par défaut PostgreSQL
-    "password": "Admin123",       # ← le mot de passe que vous avez mis à l'installation
+    "host":     os.getenv("PG_HOST", "localhost"),
+    "port":     int(os.getenv("PG_PORT", 5432)), 
+    "database": os.getenv("PG_DB", "mexora_dwh"),
+    "user":     os.getenv("PG_USER", "postgres"),
+    "password": os.getenv("PG_PASSWORD", "")
 }
 
 DATABASE_URL = (

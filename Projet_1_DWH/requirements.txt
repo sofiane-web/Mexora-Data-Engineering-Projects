@@ -1,19 +1,6 @@
-# requirements.txt — Pipeline ETL Mexora Analytics
-# Python 3.11+
+pandas>=2.1.0          
+numpy>=1.26.0           
+sqlalchemy>=2.0.0      
+psycopg2-binary>=2.9.9  
+pyarrow>=14.0.0         
 
-# ─── Traitement de données ────────────────────────────────────────────────────
-pandas>=2.1.0           # Transformation des données (support format='mixed')
-numpy>=1.26.0           # Calculs numériques
-
-# ─── Base de données ──────────────────────────────────────────────────────────
-sqlalchemy>=2.0.0       # ORM et connexion PostgreSQL
-psycopg2-binary>=2.9.9  # Driver PostgreSQL (binary = pas de compilation)
-
-# ─── Sérialisation / Formats ──────────────────────────────────────────────────
-pyarrow>=14.0.0         # Parquet (mode dry-run)
-
-# ─── Qualité de code (optionnel — recommandé) ─────────────────────────────────
-# black>=23.0            # Formateur de code
-# ruff>=0.1.0            # Linter rapide
-# pytest>=7.4.0          # Tests unitaires
-# pytest-cov>=4.0.0      # Couverture de tests

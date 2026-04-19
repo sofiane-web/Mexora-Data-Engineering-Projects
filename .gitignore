@@ -1,15 +1,13 @@
-# --- Environnement Virtuel (Indispensable) ---
 .venv/
 venv/
 env/
 
-# --- Python & Cache ---
+
 __pycache__/
 *.pyc
 *.pyo
 *.pyd
 
-# --- Fichiers de données (Lourd) ---
 data/
 *.csv
 *.xlsx
@@ -17,8 +15,6 @@ data/
 *.json
 !rapport_transformations.md
 
-# --- Sécurité & Identifiants (CRITIQUE) ---
-# Ignore les fichiers contenant tes mots de passe PostgreSQL ou clés API
 .env
 config.ini
 secrets.py
