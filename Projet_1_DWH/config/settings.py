@@ -20,8 +20,8 @@ DB_CONFIG = {
     "host":     "localhost",
     "port":     5432,
     "database": "mexora_dwh",
-    "user":     "postgres",       # ← utilisateur par défaut PostgreSQL
-    "password": "Admin123",       # ← le mot de passe que vous avez mis à l'installation
+    "user":     "postgres",       
+    "password": "Admin123",       
 }
 
 DATABASE_URL = (
