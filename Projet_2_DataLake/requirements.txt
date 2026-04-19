@@ -1,0 +1,15 @@
+# Scraping & Ingestion (Zone Bronze)
+requests==2.31.0
+beautifulsoup4==4.12.3
+
+# Manipulation de données & NLP (Zone Silver)
+pandas==2.2.0
+pyarrow==15.0.0
+
+# Agrégation & Data Science (Zone Gold)
+duckdb==0.10.0
+
+# Visualisation & Notebooks (Analyse)
+jupyter==1.0.0
+matplotlib==3.8.2
+seaborn==0.13.2
